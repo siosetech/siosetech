@@ -1,4 +1,8 @@
-## Hi there 👋
+### ☁️ Cloud Sertifikalarım
+
+Tüm Google Cloud başarımlarımı ve rozetlerimi incelemek için profilime göz atın:
+
+[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-Tüm_Rozetlerimi_Gör-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
 
 <!--
 **siosetech/siosetech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
