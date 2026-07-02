@@ -33,7 +33,7 @@ You can view my in-depth hands-on work on the Google Cloud platform and the 15+ 
 
 I maintain a strong foundational understanding of the Azure ecosystem, particularly in data processing and cloud security. You can view my Microsoft Learn transcript detailing my Fundamentals certifications (including Azure, Data, and Security/Identity) below:
 
-[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/tr-tr/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab)
+[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab)
 
 <br>
 
