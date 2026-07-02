@@ -4,7 +4,7 @@
 
 Welcome to my GitHub portfolio. I specialize in designing scalable, secure, and multi-tenant cloud architectures. I prefer letting my code, infrastructure designs, and continuous learning speak for my professional journey. Currently, my focus is on architecting robust multi-tenant solutions integrating modern cloud-native stacks (including Keycloak, Grafana, Vault, and Redis).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fatih-%C5%9Fahin-579b9a419/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sioseforge/)
 
 ---
 
