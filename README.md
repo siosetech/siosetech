@@ -11,15 +11,15 @@
 
 ## ☁️ Google Cloud Skill Badges
 
-Google Cloud platformu üzerindeki derinlemesine çalışmalarım ve kazandığım 15+ yetenek rozetine aşağıdan ulaşabilirsiniz:
+You can view my in-depth hands-on work on the Google Cloud platform and the 15+ skill badges I have earned below:
 
-[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-Tüm_Rozetlerimi_Gör-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
+[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-View_All_My_Badges-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
 
 <br>
 
 ## ⏳ In Progress / Upcoming Certifications
 
-Sürekli gelişim vizyonum doğrultusunda şu anda hazırlandığım hedefler:
+In line with my continuous development vision, here are the current goals I am preparing for:
 
-* ☁️ **Google Associate Cloud Engineer** *(Temmuz 2026)*
-* 🔐 **Microsoft SC-300: Identity and Access Administrator** *(Ağustos 2026)*
+* ☁️ **Google Associate Cloud Engineer** *(July 2026)*
+* 🔐 **Microsoft SC-300: Identity and Access Administrator** *(August 2026)*
