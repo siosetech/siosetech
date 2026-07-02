@@ -27,9 +27,21 @@ You can view my in-depth hands-on work on the Google Cloud platform and the 15+ 
 
 <br>
 
+<br>
+
+## ☁️ Microsoft Learn & Cloud Fundamentals
+
+I maintain a strong foundational understanding of the Azure ecosystem, particularly in data processing and cloud security. You can view my Microsoft Learn transcript detailing my Fundamentals certifications (including Azure, Data, and Security/Identity) below:
+
+[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](BURAYA_MICROSOFT_TRANSCRIPT_LINKINI_YAPISTIR)
+
+<br>
+
 ## ⏳ In Progress / Upcoming Certifications
 
 In line with my continuous development vision, here are the current goals I am preparing for:
 
 * ☁️ **Google Associate Cloud Engineer** *(July 20, 2026)*
 * 🔐 **Microsoft SC-300: Identity and Access Administrator** *(August 2026)*
+
+
