@@ -35,13 +35,3 @@ I maintain a strong foundational understanding of the Azure ecosystem, particula
 
 [![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab)
 
-<br>
-
-## ⏳ In Progress / Upcoming Certifications
-
-In line with my continuous development vision, here are the current goals I am preparing for:
-
-* ☁️ **Google Associate Cloud Engineer** *(July 20, 2026)*
-* 🔐 **Microsoft SC-300: Identity and Access Administrator** *(August 2026)*
-
-
