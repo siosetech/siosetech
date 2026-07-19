@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Fatih Şahin — Software Architect | Cloud-Native Systems | 15+ Years Experience. Portfolio showcasing expertise in Java, Kubernetes, OpenTelemetry, Datadog, and cloud-native architecture."/>
+  <meta name="keywords" content="Software Architect, Cloud-Native, Kubernetes, OpenTelemetry, Datadog, Spring Boot, Quarkus, Java, Terraform, DevOps"/>
+  <meta name="author" content="Fatih Şahin"/>
+  <meta property="og:title" content="Fatih Şahin — Software Architect Portfolio"/>
+  <meta property="og:description" content="15+ years building scalable, observable cloud-native distributed systems."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://siosetech.github.io/siosetech/"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <title>Fatih Şahin — Software Architect | Cloud-Native Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/responsive.css"/>
+  <script src="assets/js/theme-toggle.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-dot"></span>
+      Fatih Şahin
+    </a>
+    <ul class="nav-menu" role="list">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+      <li><a href="skills.html" class="nav-link">Skills</a></li>
+      <li><a href="experience.html" class="nav-link">Experience</a></li>
+      <li><a href="contributions.html" class="nav-link">Contributions</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+      <a href="mailto:fatih@siosetech.com" class="btn btn-nav">Get in Touch</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Open to collaborations &amp; consulting
+        </div>
+        <h1 id="hero-heading">
+          Hi, I'm <span class="highlight">Fatih Şahin</span>
+        </h1>
+        <p class="hero-subtitle">Software Architect · Cloud-Native Systems · 15+ Years Experience</p>
+        <p class="hero-description">
+          Designing scalable, secure, and observable distributed systems — from architecture blueprints to production-ready deployments. Specialising in Java ecosystems, Kubernetes, OpenTelemetry, and platform engineering.
+        </p>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Years Exp.</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Cloud Badges</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Services Traced</div>
+          </div>
+        </div>
+        <div class="cert-badges">
+          <span class="cert-badge">🏆 KCNA</span>
+          <span class="cert-badge">🔐 KCSA</span>
+          <span class="cert-badge">🏗️ Terraform Associate</span>
+          <span class="cert-badge">🔑 Vault Associate</span>
+          <span class="cert-badge">☁️ 15+ GCP Badges</span>
+        </div>
+        <div class="hero-actions" style="margin-top:2rem">
+          <a href="portfolio.html" class="btn btn-primary">View Portfolio</a>
+          <a href="mailto:fatih@siosetech.com" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-avatar" aria-hidden="true">👨‍💻</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator" aria-hidden="true">
+    <span>Scroll</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section class="section" id="projects" aria-labelledby="projects-heading">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="projects-heading">🚀 Featured Projects</h2>
+      <div class="section-divider"></div>
+      <p>Hands-on labs and open-source work showcasing real-world cloud-native patterns</p>
+    </div>
+    <div class="card-grid">
+
+      <article class="project-card" data-category="observability">
+        <div class="project-card-header">
+          <div class="project-icon spring">🍃</div>
+          <span class="project-status status-active">✅ Active</span>
+        </div>
+        <div class="project-card-body">
+          <h3>spring-datadog-lab</h3>
+          <p>Full APM integration: Spring Boot 3 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors, dashboards, and SLOs.</p>
+          <div class="tech-tags">
+            <span class="tag">Spring Boot 3</span>
+            <span class="tag">OpenTelemetry</span>
+            <span class="tag">Datadog</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">Java 21</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div class="project-achievements">
+            <ul>
+              <li>OTel Java agent auto-instrumentation</li>
+              <li>Virtual threads (Project Loom) trace context</li>
+              <li>OTLP Collector sidecar pipeline</li>
+              <li>Terraform-managed Datadog monitors &amp; SLOs</li>
+              <li>10,000+ line certification study series</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card-footer">
+          <a href="https://github.com/siosetech/spring-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="observability">
+        <div class="project-card-header">
+          <div class="project-icon quarkus">⚡</div>
+          <span class="project-status status-active">✅ Active</span>
+        </div>
+        <div class="project-card-body">
+          <h3>quarkus-datadog-lab</h3>
+          <p>Quarkus-native observability: native compilation, OTLP Collector, Datadog APM — direct A/B comparison with Spring Boot lab.</p>
+          <div class="tech-tags">
+            <span class="tag">Quarkus 3</span>
+            <span class="tag">OpenTelemetry</span>
+            <span class="tag">Datadog</span>
+            <span class="tag">GraalVM</span>
+            <span class="tag">Java 21</span>
+            <span class="tag">Reactive</span>
+          </div>
+          <div class="project-achievements">
+            <ul>
+              <li>Quarkus OTel extension auto-instrumentation</li>
+              <li>GraalVM native image with OTel compatibility</li>
+              <li>Reactive Mutiny pipeline trace context</li>
+              <li>Performance benchmarks (JVM vs native)</li>
+              <li>HashiCorp Vault secrets integration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card-footer">
+          <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="portfolio">
+        <div class="project-card-header">
+          <div class="project-icon portfolio">📋</div>
+          <span class="project-status status-wip">🏗️ This Repo</span>
+        </div>
+        <div class="project-card-body">
+          <h3>siosetech (Portfolio)</h3>
+          <p>Professional GitHub portfolio — 15+ years of software architecture experience, certifications, and hands-on cloud-native expertise.</p>
+          <div class="tech-tags">
+            <span class="tag">GitHub Pages</span>
+            <span class="tag">HTML/CSS/JS</span>
+            <span class="tag">GitHub Actions</span>
+          </div>
+          <div class="project-achievements">
+            <ul>
+              <li>Responsive portfolio website</li>
+              <li>Dark / light mode toggle</li>
+              <li>Auto-deployed via GitHub Actions</li>
+              <li>WCAG 2.1 AA accessible</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card-footer">
+          <a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+        </div>
+      </article>
+
+    </div>
+    <div class="text-center" style="margin-top:2.5rem">
+      <a href="portfolio.html" class="btn btn-primary">View All Projects →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Overview -->
+<section class="section section-alt" id="skills-overview" aria-labelledby="skills-heading">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="skills-heading">🛠️ Core Expertise</h2>
+      <div class="section-divider"></div>
+      <p>Deep expertise across the full cloud-native stack</p>
+    </div>
+    <div class="skills-overview-grid">
+      <div class="skill-badge-card">
+        <div class="icon">☕</div>
+        <div class="name">Java / JVM</div>
+        <div class="level">Expert · 15+ yrs</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">☸️</div>
+        <div class="name">Kubernetes</div>
+        <div class="level">KCNA Certified</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🔭</div>
+        <div class="name">OpenTelemetry</div>
+        <div class="level">Advanced</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🐕</div>
+        <div class="name">Datadog APM</div>
+        <div class="level">Advanced</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🏗️</div>
+        <div class="name">Terraform</div>
+        <div class="level">Associate Certified</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🔑</div>
+        <div class="name">HashiCorp Vault</div>
+        <div class="level">Associate Certified</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">☁️</div>
+        <div class="name">Google Cloud</div>
+        <div class="level">15+ Skill Badges</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🍃</div>
+        <div class="name">Spring Boot</div>
+        <div class="level">Expert · 10+ yrs</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">⚡</div>
+        <div class="name">Quarkus</div>
+        <div class="level">Advanced</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">📊</div>
+        <div class="name">Prometheus/Grafana</div>
+        <div class="level">Expert</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🐘</div>
+        <div class="name">PostgreSQL</div>
+        <div class="level">Expert · 12+ yrs</div>
+      </div>
+      <div class="skill-badge-card">
+        <div class="icon">🔐</div>
+        <div class="name">Keycloak / OIDC</div>
+        <div class="level">Expert</div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:2.5rem">
+      <a href="skills.html" class="btn btn-primary">Full Skills Matrix →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section class="section" id="certifications" aria-labelledby="certs-heading">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="certs-heading">🏆 Certifications</h2>
+      <div class="section-divider"></div>
+      <p>Verified expertise backed by industry certifications</p>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card">
+        <div class="cert-card-icon">☸️</div>
+        <div class="cert-card-content">
+          <h4>Kubernetes and Cloud Native Associate (KCNA)</h4>
+          <p class="issuer">The Linux Foundation / CNCF</p>
+          <a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">🔐</div>
+        <div class="cert-card-content">
+          <h4>Kubernetes and Cloud Native Security Associate (KCSA)</h4>
+          <p class="issuer">The Linux Foundation / CNCF</p>
+          <a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">🏗️</div>
+        <div class="cert-card-content">
+          <h4>HashiCorp Certified: Terraform Associate</h4>
+          <p class="issuer">HashiCorp</p>
+          <a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">🔑</div>
+        <div class="cert-card-content">
+          <h4>HashiCorp Certified: Vault Associate</h4>
+          <p class="issuer">HashiCorp</p>
+          <a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">🔭</div>
+        <div class="cert-card-content">
+          <h4>OpenTelemetry Associate (OTEA)</h4>
+          <p class="issuer">CNCF</p>
+          <span class="cert-status cert-progress">🟡 In Progress</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">🐕</div>
+        <div class="cert-card-content">
+          <h4>Datadog APM Associate</h4>
+          <p class="issuer">Datadog</p>
+          <span class="cert-status cert-progress">🟡 In Progress</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">☁️</div>
+        <div class="cert-card-content">
+          <h4>Google Cloud Skill Badges (15+)</h4>
+          <p class="issuer">Google Cloud</p>
+          <a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ View Profile</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-card-icon">🪟</div>
+        <div class="cert-card-content">
+          <h4>Microsoft Azure Fundamentals (AZ-900, DP-900, SC-900)</h4>
+          <p class="issuer">Microsoft</p>
+          <a href="https://learn.microsoft.com/en-us/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ View Transcript</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Row -->
+<section class="section section-alt" aria-label="Key statistics">
+  <div class="container">
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-num">15+</div>
+        <div class="stat-lbl">Years Engineering</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">20+</div>
+        <div class="stat-lbl">Services Traced</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">10+</div>
+        <div class="stat-lbl">Engineers Mentored</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">10K+</div>
+        <div class="stat-lbl">Lines of Docs Written</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">40%+</div>
+        <div class="stat-lbl">Throughput Gain (Loom)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section" aria-labelledby="cta-heading">
+  <div class="container">
+    <h2 id="cta-heading">Let's Build Something Together</h2>
+    <p>Open to collaborations, consulting engagements, architecture reviews, and speaking opportunities.</p>
+    <div class="cta-actions">
+      <a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
+      <a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
+      <a href="portfolio.html" class="btn btn-secondary">📂 View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Fatih Şahin</h3>
+        <p>Software Architect · Cloud-Native Systems · 15+ Years Experience</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sioseforge/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">💼</a>
+          <a href="https://github.com/siosetech" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">🐙</a>
+          <a href="mailto:fatih@siosetech.com" class="social-link" aria-label="Email">📧</a>
+          <a href="https://www.credly.com/users/fatih-sahin" class="social-link" target="_blank" rel="noopener" aria-label="Credly Badges">🏅</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Pages</h4>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="contributions.html">Contributions</a>
+        </nav>
+      </div>
+      <div class="footer-section">
+        <h4>Certifications</h4>
+        <div class="footer-links">
+          <a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" target="_blank" rel="noopener">KCNA ↗</a>
+          <a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" target="_blank" rel="noopener">KCSA ↗</a>
+          <a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" target="_blank" rel="noopener">Terraform Associate ↗</a>
+          <a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" target="_blank" rel="noopener">Vault Associate ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024–2026 Fatih Şahin. Built with ❤️ and deployed via GitHub Pages.</p>
+      <p>Last updated: July 2026</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to top -->
+<button class="scroll-top" aria-label="Scroll to top">▲</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
