@@ -12,7 +12,7 @@
 
 ## 👨‍💻 About Me
 
-Software Architect with **15+ years** of hands-on experience building production-grade distributed systems and cloud-native architectures. I specialize in **Java ecosystems** (Spring Boot, Quarkus), **cloud platforms** (GCP, Azure, AWS), and **observability engineering** (OpenTelemetry, Datadog).
+Software Architect with **15+ years** of hands-on experience building production-grade distributed systems and cloud-native architectures. I specialize in **Java ecosystems** (Spring Boot, Quarkus), **Kubernetes orchestration**, and **observability platforms** (OpenTelemetry, Datadog). My work spans from architecture design to production deployments with deep expertise in security, scalability, and cloud-native best practices.
 
 Currently focused on:
 - 🔭 **Observability & APM** — OpenTelemetry instrumentation, Datadog APM, distributed tracing
@@ -26,11 +26,23 @@ Currently focused on:
 
 | Project | Description | Stack | Status |
 | :--- | :--- | :--- | :---: |
-| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 3 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot 3, OTel, Datadog, Terraform | ✅ Active |
-| [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus 3, OTel, Datadog, GraalVM | ✅ Active |
-| [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — professional showcase of 15+ years of architecture experience | Markdown, GitHub | 🏗️ This repo |
+| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 3 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
+| [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus, OTel, Datadog | 🚀 Active |
+| [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — professional showcase of 15+ years of architecture experience | HTML, CSS, JS, GitHub Pages | 🏗️ Live |
 
 > 📂 See [**PORTFOLIO.md**](./PORTFOLIO.md) for detailed project breakdowns, tech stacks, and key learnings.
+
+---
+
+## 🌐 Portfolio Website
+
+Explore my comprehensive portfolio website featuring:
+- 📂 **[Portfolio Projects](https://siosetech.github.io/siosetech/portfolio.html)** — Featured projects showcase (spring-datadog-lab, quarkus-datadog-lab, Terraform IaC)
+- 🛠️ **[Technical Skills](https://siosetech.github.io/siosetech/skills.html)** — Full skills matrix across 8 categories (Java, Kubernetes, OTel, Datadog, etc.)
+- 📅 **[Career Experience](https://siosetech.github.io/siosetech/experience.html)** — 15+ years timeline with achievements and industry sectors
+- ✍️ **[Contributions](https://siosetech.github.io/siosetech/contributions.html)** — Documentation series, OSS projects, mentoring, certifications
+
+**[→ Visit Full Website](https://siosetech.github.io/siosetech/)**
 
 ---
 
@@ -88,10 +100,10 @@ Currently focused on:
 
 | Credential | Issuer | Badge |
 | :--- | :--- | :---: |
-| **Kubernetes and Cloud Native Associate (KCNA)** | The Linux Foundation | [![KCNA](https://img.shields.io/badge/KCNA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url) |
-| **Kubernetes and Cloud Native Security Associate (KCSA)** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) |
-| **HashiCorp Certified: Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) |
-| **HashiCorp Certified: Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=for-the-badge&logo=vault&logoColor=white)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
+| **Kubernetes and Cloud Native Associate (KCNA)** | The Linux Foundation | [![KCNA](https://img.shields.io/badge/KCNA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
+| **Kubernetes and Cloud Native Security Associate (KCSA)** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
+| **HashiCorp Certified: Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
+| **HashiCorp Certified: Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=for-the-badge&logo=vault&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
 
 ### 🎯 In Progress
 
@@ -104,13 +116,13 @@ Currently focused on:
 
 Hands-on expertise across GCP services — compute, networking, data, security, and AI/ML:
 
-[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-View_All_My_Badges-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
+[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-View_All_My_Badges-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profile/5f0dc15d-4ac2-40ed-9b2e-edd89aa97a65)
 
 ### ☁️ Microsoft Learn & Azure Fundamentals
 
 Azure ecosystem expertise in data processing and cloud security:
 
-[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab)
+[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/fatihahin/transcript/vtzq0g2qz57oxqm?tab=summary)
 
 ---
 
@@ -158,4 +170,3 @@ I'm open to **collaborations**, **consulting engagements**, **architecture revie
 <p align="center">
   <i>⭐ If you find something useful, feel free to star a repository or reach out!</i>
 </p>
-
