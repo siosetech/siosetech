@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siosetech.github.io/siosetech/sitemap.xml
