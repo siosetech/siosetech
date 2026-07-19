@@ -15,7 +15,7 @@
 | **Bash / Shell** | ⭐⭐⭐⭐ Advanced | 10+ years | CI/CD scripts, automation, DevOps pipelines |
 | **HCL (Terraform)** | ⭐⭐⭐⭐ Advanced | 4 years | IaC, modules, provider development |
 | **YAML / Helm** | ⭐⭐⭐⭐ Advanced | 5 years | Kubernetes manifests, Helm charts, Kustomize |
-| **SQL** | ⭐⭐⭐⭐ Advanced | 12+ years | PostgreSQL, query optimisation, data modelling |
+| **SQL** | ⭐⭐⭐⭐ Advanced | 12+ years | PostgreSQL, query optimization, data modeling |
 
 ---
 

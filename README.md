@@ -12,7 +12,7 @@
 
 ## 👨‍💻 About Me
 
-Software Architect with **15+ years** of hands-on experience building production-grade distributed systems and cloud-native architectures. I specialise in **Java ecosystems** (Spring Boot, Quarkus), **cloud platforms** (GCP, Azure, AWS), and **observability engineering** (OpenTelemetry, Datadog).
+Software Architect with **15+ years** of hands-on experience building production-grade distributed systems and cloud-native architectures. I specialize in **Java ecosystems** (Spring Boot, Quarkus), **cloud platforms** (GCP, Azure, AWS), and **observability engineering** (OpenTelemetry, Datadog).
 
 Currently focused on:
 - 🔭 **Observability & APM** — OpenTelemetry instrumentation, Datadog APM, distributed tracing
