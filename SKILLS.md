@@ -8,7 +8,7 @@
 
 | Language | Level | Experience | Notes |
 | :--- | :---: | :---: | :--- |
-| **Java** | ⭐⭐⭐⭐⭐ Expert | 15+ years | Spring Boot 3, Quarkus 3, virtual threads, reactive |
+| **Java** | ⭐⭐⭐⭐⭐ Expert | 15+ years | Spring Boot 4, Quarkus 3, virtual threads, reactive |
 | **Go** | ⭐⭐⭐ Intermediate | 3 years | CLI tools, microservices, k8s operators |
 | **Python** | ⭐⭐⭐ Intermediate | 4 years | Automation, scripting, data pipelines |
 | **TypeScript** | ⭐⭐ Working | 2 years | Frontend tooling, Node.js backends |

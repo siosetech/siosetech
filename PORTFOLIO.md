@@ -8,26 +8,26 @@
 
 ### 1. spring-datadog-lab
 
-> **Full-stack observability with Spring Boot 3, OpenTelemetry, and Datadog APM — including Terraform IaC for monitors and dashboards.**
+> **Full-stack observability with Spring Boot 4, OpenTelemetry, and Datadog APM — including Terraform IaC for monitors and dashboards.**
 
 [![Repository](https://img.shields.io/badge/GitHub-spring--datadog--lab-181717?style=for-the-badge&logo=github)](https://github.com/siosetech/spring-datadog-lab)
 
 **Description**
 
-A production-realistic lab that demonstrates end-to-end APM integration for a Spring Boot 3 microservice. The project goes beyond "hello world" instrumentation — it covers agent configuration, custom span attributes, Micrometer metrics, structured logging with MDC trace correlation, and full Terraform IaC for Datadog monitors and dashboards.
+A production-realistic lab that demonstrates end-to-end APM integration for a Spring Boot 4 microservice. The project goes beyond "hello world" instrumentation — it covers agent configuration, custom span attributes, Micrometer metrics, structured logging with MDC trace correlation, and full Terraform IaC for Datadog monitors and dashboards.
 
 **Tech Stack**
 
 | Layer | Technology |
 | :--- | :--- |
-| Framework | Spring Boot 3.x, Spring Web MVC |
+| Framework | Spring Boot 4.x, Spring Web MVC |
 | Observability | OpenTelemetry Java Agent, Datadog Agent |
 | Metrics | Micrometer + Prometheus + Datadog |
 | Logging | Logback + JSON structured logs + MDC |
 | Infrastructure | Docker, Docker Compose |
 | IaC | Terraform (Datadog provider) |
 | Secrets | HashiCorp Vault |
-| Language | Java 21 (virtual threads) |
+| Language | Java 25 (virtual threads) |
 
 **Key Achievements**
 
@@ -44,7 +44,7 @@ A production-realistic lab that demonstrates end-to-end APM integration for a Sp
 - Deep understanding of the OTel SDK vs Agent instrumentation trade-offs
 - Production patterns for trace context propagation across service boundaries
 - Terraform-managed Datadog resources (monitors, dashboards, SLOs)
-- Spring Boot 3 virtual thread observability considerations
+- Spring Boot 4 virtual thread observability considerations
 
 ---
 
@@ -70,7 +70,7 @@ A companion lab to `spring-datadog-lab` focused on the Quarkus ecosystem. Demons
 | Infrastructure | Docker, Docker Compose |
 | IaC | Terraform (Datadog provider) |
 | Secrets | HashiCorp Vault extension |
-| Language | Java 21, Reactive (Mutiny) |
+| Language | Java 25, Reactive (Mutiny) |
 
 **Key Achievements**
 

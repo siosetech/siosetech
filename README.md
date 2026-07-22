@@ -17,7 +17,7 @@ Software Architect with **15+ years** of hands-on experience building production
 Currently focused on:
 - 🔭 **Observability & APM** — OpenTelemetry instrumentation, Datadog APM, distributed tracing
 - ☁️ **Cloud-Native Architecture** — Kubernetes, Terraform IaC, multi-tenant systems
-- 🚀 **Modern Java** — Spring Boot 3.x / Quarkus 3.x with virtual threads and reactive patterns
+- 🚀 **Modern Java** — Spring Boot 4.x / Quarkus 3.x with virtual threads and reactive patterns
 - 🔐 **Platform Engineering** — HashiCorp Vault, Keycloak, service mesh security
 
 ---
@@ -26,7 +26,7 @@ Currently focused on:
 
 | Project | Description | Stack | Status |
 | :--- | :--- | :--- | :---: |
-| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 3 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
+| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus, OTel, Datadog | 🚀 Active |
 | [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — professional showcase of 15+ years of architecture experience | HTML, CSS, JS, GitHub Pages | 🏗️ Live |
 
@@ -42,7 +42,7 @@ Explore my comprehensive portfolio website featuring:
 - 📅 **[Career Experience](https://siosetech.github.io/siosetech/experience.html)** — 15+ years timeline with achievements and industry sectors
 - ✍️ **[Contributions](https://siosetech.github.io/siosetech/contributions.html)** — Documentation series, OSS projects, mentoring, certifications
 
-**[→ Visit Full Website](https://siosetech.github.io/siosetech/)**
+**[→ Visit Full Website](https://siosetech.github.io/siosetech/index.html)**
 
 ---
 
