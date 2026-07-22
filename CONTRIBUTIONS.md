@@ -40,6 +40,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 | :--- | :--- | :---: |
 | [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Spring Boot 4 + OTel + Datadog APM hands-on lab | ⭐ |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus 3 + OTel + Datadog APM hands-on lab | ⭐ |
+| [**azure-dev-labs**](https://github.com/siosetech/azure-dev-labs) | Azure-focused cloud-native labs and reference implementations | 🔒 |
 | [**siosetech**](https://github.com/siosetech/siosetech) | Professional GitHub portfolio | ⭐ |
 
 ---
