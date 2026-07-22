@@ -24,7 +24,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 - OpenTelemetry SDK, Agent, and Collector architecture
 - Datadog APM integration patterns (Agent vs Agentless / OTLP)
 - W3C Trace Context and baggage propagation
-- Spring Boot 3 vs Quarkus 3 OTel instrumentation differences
+- Spring Boot 4 vs Quarkus 3 OTel instrumentation differences
 - Virtual threads (Project Loom) observability considerations
 - Reactive Mutiny pipeline trace context preservation
 - SLI / SLO monitoring with Terraform Datadog provider
@@ -38,7 +38,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 
 | Repository | Description | Stars |
 | :--- | :--- | :---: |
-| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Spring Boot 3 + OTel + Datadog APM hands-on lab | ⭐ |
+| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Spring Boot 4 + OTel + Datadog APM hands-on lab | ⭐ |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus 3 + OTel + Datadog APM hands-on lab | ⭐ |
 | [**siosetech**](https://github.com/siosetech/siosetech) | Professional GitHub portfolio | ⭐ |
 
@@ -117,7 +117,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 - 🎤 **Speaking** — Share certification preparation journey and hands-on lab insights
 - 🔧 **Open Source** — Contribute to OpenTelemetry Java SDK and Collector
 - 📚 **More Labs** — Explore OTel with Golang, Python, and polyglot service scenarios
-- 🌍 **GitHub Pages** — Launch a portfolio site at `siosetech.github.io`
+- 🌍 **GitHub Pages** — Launch a portfolio site at `https://siosetech.github.io/siosetech/index.html`
 
 ---
 

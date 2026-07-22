@@ -85,7 +85,7 @@
 - Earned 15+ Google Cloud Skill Badges (hands-on GCP expertise)
 - Pursuing OpenTelemetry Associate (OTEA) and Datadog APM Associate certifications
 
-**Key Technologies:** Quarkus 3, Spring Boot 3, OpenTelemetry, Datadog, Kubernetes KCNA/KCSA, Keycloak, Vault, Terraform, GCP, ArgoCD
+**Key Technologies:** Quarkus 3, Spring Boot 4, OpenTelemetry, Datadog, Kubernetes KCNA/KCSA, Keycloak, Vault, Terraform, GCP, ArgoCD
 
 **Certifications Earned:**
 - 🏆 Kubernetes and Cloud Native Associate (KCNA)
