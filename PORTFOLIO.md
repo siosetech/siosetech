@@ -90,9 +90,28 @@ A companion lab to `spring-datadog-lab` focused on the Quarkus ecosystem. Demons
 
 ---
 
+### 3. azure-dev-labs
+
+> **Azure-focused cloud-native labs and reference implementations across platform, DevOps, and infrastructure patterns.**
+
+[![Repository](https://img.shields.io/badge/GitHub-azure--dev--labs-181717?style=for-the-badge&logo=github)](https://github.com/siosetech/azure-dev-labs)
+
+**Description**
+
+A dedicated repository for Azure-centric experiments and implementation guides, including Kubernetes operations, infrastructure automation, and platform engineering scenarios. The repository is currently private and planned to be opened publicly.
+
+**Focus Areas**
+
+- Azure cloud-native architecture patterns
+- AKS and Kubernetes operational scenarios
+- Terraform-based infrastructure provisioning
+- DevOps workflows and deployment automation
+
+---
+
 ## 🏗️ Architecture & Platform Projects
 
-### 3. Multi-Tenant Platform (Enterprise)
+### 4. Multi-Tenant Platform (Enterprise)
 
 **Description**
 
@@ -121,7 +140,7 @@ Designed and implemented a multi-tenant SaaS platform serving multiple enterpris
 
 ---
 
-### 4. Infrastructure as Code (IaC) Library
+### 5. Infrastructure as Code (IaC) Library
 
 **Description**
 
@@ -146,7 +165,7 @@ Reusable Terraform modules and Helm charts for cloud-native deployments across G
 
 ---
 
-### 5. Observability Stack Bootstrap
+### 6. Observability Stack Bootstrap
 
 **Description**
 
