@@ -28,6 +28,7 @@ Currently focused on:
 | :--- | :--- | :--- | :---: |
 | [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus, OTel, Datadog | 🚀 Active |
+| [**fleet-forge**](https://github.com/siosetech/fleet-forge) | End-to-end multi-tenant logistics platform with event-driven microservices, GitOps, Vault, Keycloak, and full observability stack | Spring Boot, Kafka, PostgreSQL, Redis, ClickHouse, Kubernetes, ArgoCD, Vault | 🚧 Active (public hardening) |
 | [**azure-dev-labs**](https://github.com/siosetech/azure-dev-labs) | Azure-focused cloud-native labs and reference implementations | Azure, Kubernetes, Terraform, DevOps | 🔒 Private (opening soon) |
 | [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — professional showcase of 15+ years of architecture experience | HTML, CSS, JS, GitHub Pages | 🏗️ Live |
 
@@ -38,7 +39,7 @@ Currently focused on:
 ## 🌐 Portfolio Website
 
 Explore my comprehensive portfolio website featuring:
-- 📂 **[Portfolio Projects](https://siosetech.github.io/siosetech/portfolio.html)** — Featured projects showcase (spring-datadog-lab, quarkus-datadog-lab, azure-dev-labs, Terraform IaC)
+- 📂 **[Portfolio Projects](https://siosetech.github.io/siosetech/portfolio.html)** — Featured projects showcase (spring-datadog-lab, quarkus-datadog-lab, fleet-forge, azure-dev-labs, Terraform IaC)
 - 🛠️ **[Technical Skills](https://siosetech.github.io/siosetech/skills.html)** — Full skills matrix across 8 categories (Java, Kubernetes, OTel, Datadog, etc.)
 - 📅 **[Career Experience](https://siosetech.github.io/siosetech/experience.html)** — 15+ years timeline with achievements and industry sectors
 - ✍️ **[Contributions](https://siosetech.github.io/siosetech/contributions.html)** — Documentation series, OSS projects, mentoring, certifications

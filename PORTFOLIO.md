@@ -109,9 +109,43 @@ A dedicated repository for Azure-centric experiments and implementation guides, 
 
 ---
 
+### 4. fleet-forge
+
+> **Multi-tenant logistics and delivery platform with event-driven microservices, Vault/Keycloak security, and GitOps deployment model.**
+
+[![Repository](https://img.shields.io/badge/GitHub-fleet--forge-181717?style=for-the-badge&logo=github)](https://github.com/siosetech/fleet-forge)
+
+**Description**
+
+`fleet-forge` is an end-to-end platform engineering project that combines business-domain microservices (orders, routing, location, reporting, identity, integration) with production-minded infrastructure. It demonstrates tenant isolation, outbox + CDC eventing, centralized secrets with Vault, OIDC/RBAC with Keycloak, and observable runtime behavior via OpenTelemetry, Prometheus, Grafana, and Jaeger.
+
+**Tech Stack**
+
+| Layer | Technology |
+| :--- | :--- |
+| Runtime | Spring Boot microservices (Java 25) |
+| Data | PostgreSQL, Redis GEO, ClickHouse |
+| Messaging | Kafka + Debezium (outbox CDC) |
+| Identity | Keycloak (OIDC, roles, tenant claims) |
+| Secrets | HashiCorp Vault + AppRole |
+| Platform | Kubernetes, Helm, ArgoCD GitOps |
+| Observability | OpenTelemetry, Prometheus, Grafana, Jaeger |
+| Delivery | Docker, GitHub Actions |
+
+**Key Achievements**
+
+- ✅ Multi-tenant access model with tenant-scoped flows
+- ✅ Outbox + Debezium CDC pipeline for reliable event propagation
+- ✅ Vault/AppRole secret delivery pattern for app services
+- ✅ GitOps packaging with separate infra and app charts
+- ✅ Trace + metric visibility across services and infrastructure
+- ✅ Public-readiness hardening (secret hygiene + leak scanning)
+
+---
+
 ## 🏗️ Architecture & Platform Projects
 
-### 4. Multi-Tenant Platform (Enterprise)
+### 5. Multi-Tenant Platform (Enterprise)
 
 **Description**
 
@@ -140,7 +174,7 @@ Designed and implemented a multi-tenant SaaS platform serving multiple enterpris
 
 ---
 
-### 5. Infrastructure as Code (IaC) Library
+### 6. Infrastructure as Code (IaC) Library
 
 **Description**
 
@@ -165,7 +199,7 @@ Reusable Terraform modules and Helm charts for cloud-native deployments across G
 
 ---
 
-### 6. Observability Stack Bootstrap
+### 7. Observability Stack Bootstrap
 
 **Description**
 

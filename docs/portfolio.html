@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Project portfolio of Fatih Şahin — spring-datadog-lab, quarkus-datadog-lab, and more cloud-native engineering work."/>
+  <meta name="description" content="Project portfolio of Fatih Şahin — spring-datadog-lab, quarkus-datadog-lab, fleet-forge, and more cloud-native engineering work."/>
   <meta name="author" content="Fatih Şahin"/>
   <title>Portfolio — Fatih Şahin</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -189,6 +189,47 @@
           </ul>
           <div style="display:flex;gap:0.75rem">
             <a href="https://github.com/siosetech/azure-dev-labs" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- fleet-forge -->
+    <article class="card" style="margin-bottom:2rem" data-category="infrastructure">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9;flex-shrink:0">🚚</div>
+            <div>
+              <h3 style="margin:0">fleet-forge</h3>
+              <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">🚧 Active (public hardening)</span>
+            </div>
+          </div>
+          <p>An end-to-end multi-tenant logistics platform combining business microservices with platform engineering practices. It demonstrates tenant-aware APIs, event-driven architecture, secure secret delivery, and GitOps-ready deployment.</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Java 25</span>
+            <span class="tag">Kafka</span>
+            <span class="tag">Debezium CDC</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Redis GEO</span>
+            <span class="tag">ClickHouse</span>
+            <span class="tag">Vault</span>
+            <span class="tag">Keycloak</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">ArgoCD</span>
+            <span class="tag">OpenTelemetry</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Key Achievements</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Tenant-scoped domain and reporting flows</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Outbox + Debezium CDC pipeline to Kafka topics</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Vault AppRole secret distribution and Keycloak OIDC RBAC</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Helm charts split for infra/apps with ArgoCD GitOps path</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Unified observability via OTel, Prometheus, Grafana, and Jaeger</li>
+          </ul>
+          <div style="display:flex;gap:0.75rem">
+            <a href="https://github.com/siosetech/fleet-forge" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
       </div>
