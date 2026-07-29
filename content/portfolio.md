@@ -1,0 +1,281 @@
+---
+title: "Portfolio"
+---
+
+<!-- Page Hero -->
+<section class="page-hero" aria-labelledby="portfolio-heading">
+  <div class="container">
+    <h1 id="portfolio-heading">📂 Project Portfolio</h1>
+    <p>Hands-on labs, open-source work, and architecture showcases built over 15+ years of software engineering.</p>
+  </div>
+</section>
+
+<!-- Filter Bar -->
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="filter-bar" role="group" aria-label="Filter projects by category">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="observability">Observability</button>
+      <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+      <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" style="padding-top:1.5rem" aria-labelledby="projects-section-heading">
+  <div class="container">
+    <h2 id="projects-section-heading" class="sr-only">Projects</h2>
+
+    <!-- spring-datadog-lab -->
+    <article class="card" style="margin-bottom:2rem" data-category="observability">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon spring" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0">🍃</div>
+            <div>
+              <h3 style="margin:0">spring-datadog-lab</h3>
+              <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">✅ Active</span>
+            </div>
+          </div>
+          <p>A production-realistic APM integration lab — Spring Boot 4 fully instrumented with OpenTelemetry, forwarding traces and metrics to Datadog via the OTLP Collector. Infrastructure managed entirely via Terraform (monitors, SLOs, dashboards as code).</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">Spring Boot 4</span>
+            <span class="tag">Java 25</span>
+            <span class="tag">OpenTelemetry</span>
+            <span class="tag">Datadog APM</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">Docker Compose</span>
+            <span class="tag">HashiCorp Vault</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Key Achievements</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> OTel Java agent auto-instrumentation with custom span enrichment</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Virtual threads (Project Loom) trace context preservation</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> OTLP Collector sidecar pipeline (receive → process → export)</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Terraform-managed Datadog monitors, SLOs, and dashboards</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> HashiCorp Vault dynamic secrets integration</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> 10,000+ line certification study documentation series</li>
+          </ul>
+          <div style="display:flex;gap:0.75rem">
+            <a href="https://github.com/siosetech/spring-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div style="min-width:200px;flex-shrink:0">
+          <div style="background:var(--bg-secondary);border:1px solid var(--border-color);border-radius:10px;padding:1.25rem">
+            <h4 style="font-size:0.85rem;margin-bottom:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">Documentation Series</h4>
+            <ul style="font-size:0.82rem;color:var(--text-secondary)">
+              <li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">📄 OPENTELEMETRY_FUNDAMENTALS.md <span style="color:var(--text-muted)">~2,000 lines</span></li>
+              <li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">📄 DATADOG_INTEGRATION.md <span style="color:var(--text-muted)">~900 lines</span></li>
+              <li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">📄 SPRING_vs_QUARKUS_OTEL.md <span style="color:var(--text-muted)">~1,800 lines</span></li>
+              <li style="padding:0.3rem 0">📄 TEST_SCENARIOS.md <span style="color:var(--text-muted)">~2,764 lines</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- quarkus-datadog-lab -->
+    <article class="card" style="margin-bottom:2rem" data-category="observability">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon quarkus" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0">⚡</div>
+            <div>
+              <h3 style="margin:0">quarkus-datadog-lab</h3>
+              <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">✅ Active</span>
+            </div>
+          </div>
+          <p>Quarkus-native observability lab extending the Spring Boot lab concepts — featuring GraalVM native compilation, reactive Mutiny pipelines, and direct A/B performance comparison with the Spring counterpart.</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">Quarkus 3</span>
+            <span class="tag">Java 25</span>
+            <span class="tag">GraalVM Native</span>
+            <span class="tag">OpenTelemetry</span>
+            <span class="tag">Datadog APM</span>
+            <span class="tag">Mutiny Reactive</span>
+            <span class="tag">HashiCorp Vault</span>
+            <span class="tag">Terraform</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Key Achievements</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Quarkus OTel extension auto-instrumentation</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> GraalVM native image build with OTel agent compatibility</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Reactive Mutiny pipeline trace context preservation</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Sub-100ms cold start with GraalVM native</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Performance benchmarks: JVM vs native startup &amp; memory</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Quarkus Vault extension for secrets management</li>
+          </ul>
+          <div style="display:flex;gap:0.75rem">
+            <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div style="min-width:200px;flex-shrink:0">
+          <div style="background:var(--bg-secondary);border:1px solid var(--border-color);border-radius:10px;padding:1.25rem">
+            <h4 style="font-size:0.85rem;margin-bottom:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">Performance Highlights</h4>
+            <ul style="font-size:0.82rem;color:var(--text-secondary)">
+              <li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">⚡ &lt;100ms native cold start</li>
+              <li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">💾 Lower memory footprint vs JVM</li>
+              <li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">🔄 Reactive &amp; imperative modes</li>
+              <li style="padding:0.3rem 0">📊 Direct Spring A/B comparison</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- azure-dev-labs -->
+    <article class="card" style="margin-bottom:2rem" data-category="infrastructure">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:linear-gradient(135deg,#0078d422,#0078d444);color:#0078d4;flex-shrink:0">☁️</div>
+            <div>
+              <h3 style="margin:0">azure-dev-labs</h3>
+              <span class="project-status status-wip" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">🔒 Private (opening soon)</span>
+            </div>
+          </div>
+          <p>Azure-focused cloud-native labs and reference implementations covering AKS operations, Terraform-based infrastructure automation, and DevOps delivery patterns.</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">Azure</span>
+            <span class="tag">AKS</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">DevOps</span>
+            <span class="tag">Cloud-Native</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Focus Areas</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Azure architecture and platform patterns</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> AKS operational runbooks and scenarios</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Terraform modules and environment automation</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> CI/CD and deployment workflow references</li>
+          </ul>
+          <div style="display:flex;gap:0.75rem">
+            <a href="https://github.com/siosetech/azure-dev-labs" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- fleet-forge -->
+    <article class="card" style="margin-bottom:2rem" data-category="infrastructure">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9;flex-shrink:0">🚚</div>
+            <div>
+              <h3 style="margin:0">fleet-forge</h3>
+              <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">🚧 Active (public hardening)</span>
+            </div>
+          </div>
+          <p>An end-to-end multi-tenant logistics platform combining business microservices with platform engineering practices. It demonstrates tenant-aware APIs, event-driven architecture, secure secret delivery, and GitOps-ready deployment.</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Java 25</span>
+            <span class="tag">Kafka</span>
+            <span class="tag">Debezium CDC</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Redis GEO</span>
+            <span class="tag">ClickHouse</span>
+            <span class="tag">Vault</span>
+            <span class="tag">Keycloak</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">ArgoCD</span>
+            <span class="tag">OpenTelemetry</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Key Achievements</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Tenant-scoped domain and reporting flows</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Outbox + Debezium CDC pipeline to Kafka topics</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Vault AppRole secret distribution and Keycloak OIDC RBAC</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Helm charts split for infra/apps with ArgoCD GitOps path</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Unified observability via OTel, Prometheus, Grafana, and Jaeger</li>
+          </ul>
+          <div style="display:flex;gap:0.75rem">
+            <a href="https://github.com/siosetech/fleet-forge" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- siosetech portfolio -->
+    <article class="card" style="margin-bottom:2rem" data-category="portfolio">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon portfolio" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0">📋</div>
+            <div>
+              <h3 style="margin:0">siosetech (This Portfolio)</h3>
+              <span class="project-status status-wip" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">🏗️ This Repo</span>
+            </div>
+          </div>
+          <p>A professional GitHub portfolio site built with plain HTML, CSS, and JavaScript — deployed automatically via GitHub Actions to GitHub Pages. Features dark/light mode, responsive design, and WCAG 2.1 AA accessibility.</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Vanilla JS</span>
+            <span class="tag">GitHub Pages</span>
+            <span class="tag">GitHub Actions</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Features</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> 5-page responsive portfolio website</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Dark / light mode with OS preference detection</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Auto-deploy on push to main branch</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> No build tools — pure HTML/CSS/JS</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> SEO meta tags and sitemap</li>
+          </ul>
+          <div style="display:flex;gap:0.75rem">
+            <a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="index.html" class="btn btn-secondary btn-sm">Live Site</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Infrastructure / Terraform Modules -->
+    <article class="card" data-category="infrastructure">
+      <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.75rem">
+            <div class="project-icon" style="width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:linear-gradient(135deg,#844fba22,#844fba44);color:#844fba;flex-shrink:0">🏗️</div>
+            <div>
+              <h3 style="margin:0">Terraform Datadog IaC</h3>
+              <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">✅ Active</span>
+            </div>
+          </div>
+          <p>Reusable Terraform modules for Datadog observability infrastructure — monitors, SLOs, dashboards, and alerting policies managed as code alongside application deployments.</p>
+          <div class="tech-tags" style="margin-bottom:1.25rem">
+            <span class="tag">Terraform</span>
+            <span class="tag">Datadog Provider</span>
+            <span class="tag">HCL</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">IaC</span>
+          </div>
+          <h4 style="margin-bottom:0.75rem">Capabilities</h4>
+          <ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Datadog monitors with composite alerting</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Error-budget SLOs (availability &amp; latency)</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Template-variable dashboards as JSON</li>
+            <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Environment-specific configurations (dev/staging/prod)</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" aria-labelledby="portfolio-cta">
+  <div class="container">
+    <h2 id="portfolio-cta">Interested in Collaborating?</h2>
+    <p>I'm always open to interesting architecture challenges, consulting work, and technical discussions.</p>
+    <div class="cta-actions">
+      <a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
+      <a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
+    </div>
+  </div>
+</section>
+
