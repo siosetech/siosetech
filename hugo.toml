@@ -1,0 +1,13 @@
+baseURL = "https://siosetech.github.io/siosetech/"
+languageCode = "tr-tr"
+title = "Fatih Şahin — Software Architect Portfolio"
+publishDir = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Fatih Şahin"
+  description = "Fatih Şahin — Software Architect | Cloud-Native Systems | 15+ Years Experience."

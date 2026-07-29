@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
+	<meta name="generator" content="Hugo 0.164.0">
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Fatih Şahin — Software Architect | Cloud-Native Systems | 15+ Years Experience. Portfolio showcasing expertise in Java, Kubernetes, OpenTelemetry, Datadog, and cloud-native architecture."/>
@@ -15,25 +16,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="assets/css/style.css"/>
-  <link rel="stylesheet" href="assets/css/responsive.css"/>
-  <script src="assets/js/theme-toggle.js"></script>
+  <link rel="stylesheet" href="https://siosetech.github.io/siosetech/assets/css/style.css"/>
+  <link rel="stylesheet" href="https://siosetech.github.io/siosetech/assets/css/responsive.css"/>
+  <link rel="stylesheet" href="https://siosetech.github.io/siosetech/assets/css/blog.css"/>
+  <script src="https://siosetech.github.io/siosetech/assets/js/theme-toggle.js"></script>
 </head>
 <body>
 
-<!-- Navigation -->
+
 <nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="index.html" class="nav-brand">
+    <a href="https://siosetech.github.io/siosetech/" class="nav-brand">
       <span class="brand-dot"></span>
       Fatih Şahin
     </a>
     <ul class="nav-menu" role="list">
-      <li><a href="index.html" class="nav-link">Home</a></li>
-      <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-      <li><a href="skills.html" class="nav-link">Skills</a></li>
-      <li><a href="experience.html" class="nav-link">Experience</a></li>
-      <li><a href="contributions.html" class="nav-link">Contributions</a></li>
+      <li><a href="https://siosetech.github.io/siosetech/" class="nav-link">Home</a></li>
+      <li><a href="https://siosetech.github.io/siosetech/portfolio/" class="nav-link">Portfolio</a></li>
+      <li><a href="https://siosetech.github.io/siosetech/skills/" class="nav-link">Skills</a></li>
+      <li><a href="https://siosetech.github.io/siosetech/experience/" class="nav-link">Experience</a></li>
+      <li><a href="https://siosetech.github.io/siosetech/contributions/" class="nav-link">Contributions</a></li>
+      <li><a href="https://siosetech.github.io/siosetech/blog/" class="nav-link">Blog</a></li>
     </ul>
     <div class="nav-actions">
       <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
@@ -45,7 +48,9 @@
   </div>
 </nav>
 
-<!-- Hero Section -->
+
+
+  <!-- Hero Section -->
 <section class="hero" aria-labelledby="hero-heading">
   <div class="container">
     <div class="hero-content">
@@ -103,7 +108,6 @@
     </svg>
   </div>
 </section>
-
 <!-- Featured Projects Section -->
 <section class="section" id="projects" aria-labelledby="projects-heading">
   <div class="container">
@@ -113,166 +117,165 @@
       <p>Hands-on labs and open-source work showcasing real-world cloud-native patterns</p>
     </div>
     <div class="card-grid">
+<pre><code>  &lt;article class=&quot;project-card&quot; data-category=&quot;observability&quot;&gt;
+    &lt;div class=&quot;project-card-header&quot;&gt;
+      &lt;div class=&quot;project-icon spring&quot;&gt;🍃&lt;/div&gt;
+      &lt;span class=&quot;project-status status-active&quot;&gt;✅ Active&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-body&quot;&gt;
+      &lt;h3&gt;spring-datadog-lab&lt;/h3&gt;
+      &lt;p&gt;Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors, dashboards, and SLOs.&lt;/p&gt;
+      &lt;div class=&quot;tech-tags&quot;&gt;
+        &lt;span class=&quot;tag&quot;&gt;Spring Boot 4&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;OpenTelemetry&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Datadog&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Terraform&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Java 25&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Docker&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;project-achievements&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;OTel Java agent auto-instrumentation&lt;/li&gt;
+          &lt;li&gt;Virtual threads (Project Loom) trace context&lt;/li&gt;
+          &lt;li&gt;OTLP Collector sidecar pipeline&lt;/li&gt;
+          &lt;li&gt;Terraform-managed Datadog monitors &amp;amp; SLOs&lt;/li&gt;
+          &lt;li&gt;10,000+ line certification study series&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-footer&quot;&gt;
+      &lt;a href=&quot;https://github.com/siosetech/spring-datadog-lab&quot; class=&quot;btn btn-outline btn-sm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub ↗&lt;/a&gt;
+      &lt;a href=&quot;portfolio.html&quot; class=&quot;btn btn-secondary btn-sm&quot;&gt;Details&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
 
-      <article class="project-card" data-category="observability">
-        <div class="project-card-header">
-          <div class="project-icon spring">🍃</div>
-          <span class="project-status status-active">✅ Active</span>
-        </div>
-        <div class="project-card-body">
-          <h3>spring-datadog-lab</h3>
-          <p>Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors, dashboards, and SLOs.</p>
-          <div class="tech-tags">
-            <span class="tag">Spring Boot 4</span>
-            <span class="tag">OpenTelemetry</span>
-            <span class="tag">Datadog</span>
-            <span class="tag">Terraform</span>
-            <span class="tag">Java 25</span>
-            <span class="tag">Docker</span>
-          </div>
-          <div class="project-achievements">
-            <ul>
-              <li>OTel Java agent auto-instrumentation</li>
-              <li>Virtual threads (Project Loom) trace context</li>
-              <li>OTLP Collector sidecar pipeline</li>
-              <li>Terraform-managed Datadog monitors &amp; SLOs</li>
-              <li>10,000+ line certification study series</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card-footer">
-          <a href="https://github.com/siosetech/spring-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
-        </div>
-      </article>
+  &lt;article class=&quot;project-card&quot; data-category=&quot;observability&quot;&gt;
+    &lt;div class=&quot;project-card-header&quot;&gt;
+      &lt;div class=&quot;project-icon quarkus&quot;&gt;⚡&lt;/div&gt;
+      &lt;span class=&quot;project-status status-active&quot;&gt;✅ Active&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-body&quot;&gt;
+      &lt;h3&gt;quarkus-datadog-lab&lt;/h3&gt;
+      &lt;p&gt;Quarkus-native observability: native compilation, OTLP Collector, Datadog APM — direct A/B comparison with Spring Boot lab.&lt;/p&gt;
+      &lt;div class=&quot;tech-tags&quot;&gt;
+        &lt;span class=&quot;tag&quot;&gt;Quarkus 3&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;OpenTelemetry&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Datadog&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;GraalVM&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Java 25&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Reactive&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;project-achievements&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Quarkus OTel extension auto-instrumentation&lt;/li&gt;
+          &lt;li&gt;GraalVM native image with OTel compatibility&lt;/li&gt;
+          &lt;li&gt;Reactive Mutiny pipeline trace context&lt;/li&gt;
+          &lt;li&gt;Performance benchmarks (JVM vs native)&lt;/li&gt;
+          &lt;li&gt;HashiCorp Vault secrets integration&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-footer&quot;&gt;
+      &lt;a href=&quot;https://github.com/siosetech/quarkus-datadog-lab&quot; class=&quot;btn btn-outline btn-sm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub ↗&lt;/a&gt;
+      &lt;a href=&quot;portfolio.html&quot; class=&quot;btn btn-secondary btn-sm&quot;&gt;Details&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
 
-      <article class="project-card" data-category="observability">
-        <div class="project-card-header">
-          <div class="project-icon quarkus">⚡</div>
-          <span class="project-status status-active">✅ Active</span>
-        </div>
-        <div class="project-card-body">
-          <h3>quarkus-datadog-lab</h3>
-          <p>Quarkus-native observability: native compilation, OTLP Collector, Datadog APM — direct A/B comparison with Spring Boot lab.</p>
-          <div class="tech-tags">
-            <span class="tag">Quarkus 3</span>
-            <span class="tag">OpenTelemetry</span>
-            <span class="tag">Datadog</span>
-            <span class="tag">GraalVM</span>
-            <span class="tag">Java 25</span>
-            <span class="tag">Reactive</span>
-          </div>
-          <div class="project-achievements">
-            <ul>
-              <li>Quarkus OTel extension auto-instrumentation</li>
-              <li>GraalVM native image with OTel compatibility</li>
-              <li>Reactive Mutiny pipeline trace context</li>
-              <li>Performance benchmarks (JVM vs native)</li>
-              <li>HashiCorp Vault secrets integration</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card-footer">
-          <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
-        </div>
-      </article>
+  &lt;article class=&quot;project-card&quot; data-category=&quot;infrastructure&quot;&gt;
+    &lt;div class=&quot;project-card-header&quot;&gt;
+      &lt;div class=&quot;project-icon&quot; style=&quot;background:linear-gradient(135deg,#0078d422,#0078d444);color:#0078d4&quot;&gt;☁️&lt;/div&gt;
+      &lt;span class=&quot;project-status status-wip&quot;&gt;🔒 Private&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-body&quot;&gt;
+      &lt;h3&gt;azure-dev-labs&lt;/h3&gt;
+      &lt;p&gt;Azure-focused cloud-native labs and reference implementations covering AKS, Terraform, and DevOps delivery patterns.&lt;/p&gt;
+      &lt;div class=&quot;tech-tags&quot;&gt;
+        &lt;span class=&quot;tag&quot;&gt;Azure&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;AKS&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Terraform&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;DevOps&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;project-achievements&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Azure architecture and platform patterns&lt;/li&gt;
+          &lt;li&gt;Infrastructure automation scenarios&lt;/li&gt;
+          &lt;li&gt;Operational AKS labs and references&lt;/li&gt;
+          &lt;li&gt;Planned public release&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-footer&quot;&gt;
+      &lt;a href=&quot;https://github.com/siosetech/azure-dev-labs&quot; class=&quot;btn btn-outline btn-sm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub ↗&lt;/a&gt;
+      &lt;a href=&quot;portfolio.html&quot; class=&quot;btn btn-secondary btn-sm&quot;&gt;Details&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
 
-      <article class="project-card" data-category="infrastructure">
-        <div class="project-card-header">
-          <div class="project-icon" style="background:linear-gradient(135deg,#0078d422,#0078d444);color:#0078d4">☁️</div>
-          <span class="project-status status-wip">🔒 Private</span>
-        </div>
-        <div class="project-card-body">
-          <h3>azure-dev-labs</h3>
-          <p>Azure-focused cloud-native labs and reference implementations covering AKS, Terraform, and DevOps delivery patterns.</p>
-          <div class="tech-tags">
-            <span class="tag">Azure</span>
-            <span class="tag">AKS</span>
-            <span class="tag">Terraform</span>
-            <span class="tag">DevOps</span>
-          </div>
-          <div class="project-achievements">
-            <ul>
-              <li>Azure architecture and platform patterns</li>
-              <li>Infrastructure automation scenarios</li>
-              <li>Operational AKS labs and references</li>
-              <li>Planned public release</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card-footer">
-          <a href="https://github.com/siosetech/azure-dev-labs" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
-        </div>
-      </article>
+  &lt;article class=&quot;project-card&quot; data-category=&quot;infrastructure&quot;&gt;
+    &lt;div class=&quot;project-card-header&quot;&gt;
+      &lt;div class=&quot;project-icon&quot; style=&quot;background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9&quot;&gt;🚚&lt;/div&gt;
+      &lt;span class=&quot;project-status status-active&quot;&gt;🚧 Active&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-body&quot;&gt;
+      &lt;h3&gt;fleet-forge&lt;/h3&gt;
+      &lt;p&gt;Multi-tenant logistics platform with event-driven microservices, outbox/CDC pipelines, Vault + Keycloak security, and GitOps-ready operations.&lt;/p&gt;
+      &lt;div class=&quot;tech-tags&quot;&gt;
+        &lt;span class=&quot;tag&quot;&gt;Spring Boot&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Kafka&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;PostgreSQL&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Redis GEO&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;ClickHouse&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;Kubernetes&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;project-achievements&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;End-to-end tenant-aware domain flows&lt;/li&gt;
+          &lt;li&gt;Outbox + Debezium CDC eventing model&lt;/li&gt;
+          &lt;li&gt;Vault AppRole + Keycloak OIDC integration&lt;/li&gt;
+          &lt;li&gt;Helm + ArgoCD GitOps deployment path&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-footer&quot;&gt;
+      &lt;a href=&quot;https://github.com/siosetech/fleet-forge&quot; class=&quot;btn btn-outline btn-sm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub ↗&lt;/a&gt;
+      &lt;a href=&quot;portfolio.html&quot; class=&quot;btn btn-secondary btn-sm&quot;&gt;Details&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
 
-      <article class="project-card" data-category="infrastructure">
-        <div class="project-card-header">
-          <div class="project-icon" style="background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9">🚚</div>
-          <span class="project-status status-active">🚧 Active</span>
-        </div>
-        <div class="project-card-body">
-          <h3>fleet-forge</h3>
-          <p>Multi-tenant logistics platform with event-driven microservices, outbox/CDC pipelines, Vault + Keycloak security, and GitOps-ready operations.</p>
-          <div class="tech-tags">
-            <span class="tag">Spring Boot</span>
-            <span class="tag">Kafka</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">Redis GEO</span>
-            <span class="tag">ClickHouse</span>
-            <span class="tag">Kubernetes</span>
-          </div>
-          <div class="project-achievements">
-            <ul>
-              <li>End-to-end tenant-aware domain flows</li>
-              <li>Outbox + Debezium CDC eventing model</li>
-              <li>Vault AppRole + Keycloak OIDC integration</li>
-              <li>Helm + ArgoCD GitOps deployment path</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card-footer">
-          <a href="https://github.com/siosetech/fleet-forge" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
-        </div>
-      </article>
+  &lt;article class=&quot;project-card&quot; data-category=&quot;portfolio&quot;&gt;
+    &lt;div class=&quot;project-card-header&quot;&gt;
+      &lt;div class=&quot;project-icon portfolio&quot;&gt;📋&lt;/div&gt;
+      &lt;span class=&quot;project-status status-wip&quot;&gt;🏗️ This Repo&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-body&quot;&gt;
+      &lt;h3&gt;siosetech (Portfolio)&lt;/h3&gt;
+      &lt;p&gt;Professional GitHub portfolio — 15+ years of software architecture experience, certifications, and hands-on cloud-native expertise.&lt;/p&gt;
+      &lt;div class=&quot;tech-tags&quot;&gt;
+        &lt;span class=&quot;tag&quot;&gt;GitHub Pages&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;HTML/CSS/JS&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;GitHub Actions&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;project-achievements&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Responsive portfolio website&lt;/li&gt;
+          &lt;li&gt;Dark / light mode toggle&lt;/li&gt;
+          &lt;li&gt;Auto-deployed via GitHub Actions&lt;/li&gt;
+          &lt;li&gt;WCAG 2.1 AA accessible&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;project-card-footer&quot;&gt;
+      &lt;a href=&quot;https://github.com/siosetech/siosetech&quot; class=&quot;btn btn-outline btn-sm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub ↗&lt;/a&gt;
+      &lt;a href=&quot;portfolio.html&quot; class=&quot;btn btn-secondary btn-sm&quot;&gt;Details&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
 
-      <article class="project-card" data-category="portfolio">
-        <div class="project-card-header">
-          <div class="project-icon portfolio">📋</div>
-          <span class="project-status status-wip">🏗️ This Repo</span>
-        </div>
-        <div class="project-card-body">
-          <h3>siosetech (Portfolio)</h3>
-          <p>Professional GitHub portfolio — 15+ years of software architecture experience, certifications, and hands-on cloud-native expertise.</p>
-          <div class="tech-tags">
-            <span class="tag">GitHub Pages</span>
-            <span class="tag">HTML/CSS/JS</span>
-            <span class="tag">GitHub Actions</span>
-          </div>
-          <div class="project-achievements">
-            <ul>
-              <li>Responsive portfolio website</li>
-              <li>Dark / light mode toggle</li>
-              <li>Auto-deployed via GitHub Actions</li>
-              <li>WCAG 2.1 AA accessible</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card-footer">
-          <a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
-        </div>
-      </article>
-
-    </div>
-    <div class="text-center" style="margin-top:2.5rem">
-      <a href="portfolio.html" class="btn btn-primary">View All Projects →</a>
-    </div>
+&lt;/div&gt;
+&lt;div class=&quot;text-center&quot; style=&quot;margin-top:2.5rem&quot;&gt;
+  &lt;a href=&quot;portfolio.html&quot; class=&quot;btn btn-primary&quot;&gt;View All Projects →&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
   </div>
 </section>
-
 <!-- Skills Overview -->
 <section class="section section-alt" id="skills-overview" aria-labelledby="skills-heading">
   <div class="container">
@@ -348,7 +351,6 @@
     </div>
   </div>
 </section>
-
 <!-- Certifications Section -->
 <section class="section" id="certifications" aria-labelledby="certs-heading">
   <div class="container">
@@ -425,7 +427,6 @@
     </div>
   </div>
 </section>
-
 <!-- Stats Row -->
 <section class="section section-alt" aria-label="Key statistics">
   <div class="container">
@@ -453,7 +454,6 @@
     </div>
   </div>
 </section>
-
 <!-- CTA Section -->
 <section class="cta-section" aria-labelledby="cta-heading">
   <div class="container">
@@ -467,7 +467,8 @@
   </div>
 </section>
 
-<!-- Footer -->
+
+
 <footer class="footer" role="contentinfo">
   <div class="container">
     <div class="footer-grid">
@@ -484,11 +485,11 @@
       <div class="footer-section">
         <h4>Pages</h4>
         <nav class="footer-links" aria-label="Footer navigation">
-          <a href="index.html">Home</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="skills.html">Skills</a>
-          <a href="experience.html">Experience</a>
-          <a href="contributions.html">Contributions</a>
+          <a href="https://siosetech.github.io/siosetech/">Home</a>
+          <a href="https://siosetech.github.io/siosetech/portfolio/">Portfolio</a>
+          <a href="https://siosetech.github.io/siosetech/skills/">Skills</a>
+          <a href="https://siosetech.github.io/siosetech/experience/">Experience</a>
+          <a href="https://siosetech.github.io/siosetech/contributions/">Contributions</a>
         </nav>
       </div>
       <div class="footer-section">
@@ -508,9 +509,9 @@
   </div>
 </footer>
 
-<!-- Scroll to top -->
+
 <button class="scroll-top" aria-label="Scroll to top">▲</button>
 
-<script src="assets/js/main.js"></script>
+<script src="https://siosetech.github.io/siosetech/assets/js/main.js"></script>
 </body>
 </html>

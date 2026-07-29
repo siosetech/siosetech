@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="blog-hero">
+  <h1>Journal & Thoughts</h1>
+  <p>Engineered for the role you were hired to become. Deep dives into cloud-native architectures, platform engineering, and observability.</p>
+</div>
+
+<div class="blog-grid">
+  {{ range .Pages }}
+  <a href="{{ .Permalink }}" class="blog-card">
+    <div class="blog-date">{{ .Date.Format "January 2, 2006" }}</div>
+    <h2 class="blog-title">{{ .Title }}</h2>
+    <div class="blog-summary">{{ .Summary | truncate 150 }}</div>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

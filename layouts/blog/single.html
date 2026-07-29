@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="container" style="max-width: 800px; padding: 6rem 2rem; margin: 0 auto;">
+  <header style="margin-bottom: 3rem; text-align: center;">
+    <p class="blog-date" style="color: #888; text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem;">{{ .Date.Format "January 2, 2006" }}</p>
+    <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #1a1a1a; line-height: 1.2; margin-top: 1rem;">{{ .Title }}</h1>
+  </header>
+  <div class="content" style="font-family: 'Inter', sans-serif; font-size: 1.15rem; color: #444; line-height: 1.8;">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
