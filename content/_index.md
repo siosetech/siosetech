@@ -44,7 +44,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <span class="cert-badge">☁️ 15+ GCP Badges</span>
 </div>
 <div class="hero-actions" style="margin-top:2rem">
-<a href="portfolio.html" class="btn btn-primary">View Portfolio</a>
+<a href="/siosetech/portfolio/" class="btn btn-primary">View Portfolio</a>
 <a href="mailto:fatih@siosetech.com" class="btn btn-secondary">Get in Touch</a>
 </div>
 </div>
@@ -99,7 +99,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/spring-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
@@ -131,7 +131,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
@@ -160,7 +160,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/azure-dev-labs" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
@@ -191,7 +191,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/fleet-forge" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
@@ -219,13 +219,13 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="portfolio.html" class="btn btn-secondary btn-sm">Details</a>
+<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
 </div>
 <div class="text-center" style="margin-top:2.5rem">
-<a href="portfolio.html" class="btn btn-primary">View All Projects →</a>
+<a href="/siosetech/portfolio/" class="btn btn-primary">View All Projects →</a>
 </div>
 </div>
 </section>
@@ -301,7 +301,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="text-center" style="margin-top:2.5rem">
-<a href="skills.html" class="btn btn-primary">Full Skills Matrix →</a>
+<a href="/siosetech/skills/" class="btn btn-primary">Full Skills Matrix →</a>
 </div>
 </div>
 </section>
@@ -419,7 +419,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
 <a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
-<a href="portfolio.html" class="btn btn-secondary">📂 View Portfolio</a>
+<a href="/siosetech/portfolio/" class="btn btn-secondary">📂 View Portfolio</a>
 </div>
 </div>
 </section>

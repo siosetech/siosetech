@@ -269,7 +269,7 @@ title: "Experience"
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
 <a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
-<a href="skills.html" class="btn btn-secondary">📊 View Skills</a>
+<a href="/siosetech/skills/" class="btn btn-secondary">📊 View Skills</a>
 </div>
 </div>
 </section>

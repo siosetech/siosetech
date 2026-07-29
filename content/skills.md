@@ -617,7 +617,7 @@ title: "Skills"
 <p>Let's discuss how these skills can add value to your project or organisation.</p>
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
-<a href="experience.html" class="btn btn-secondary">📅 View Experience</a>
+<a href="/siosetech/experience/" class="btn btn-secondary">📅 View Experience</a>
 </div>
 </div>
 </section>

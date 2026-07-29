@@ -228,7 +228,7 @@ title: "Portfolio"
 </ul>
 <div style="display:flex;gap:0.75rem">
 <a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="index.html" class="btn btn-secondary btn-sm">Live Site</a>
+<a href="/siosetech/" class="btn btn-secondary btn-sm">Live Site</a>
 </div>
 </div>
 </div>
