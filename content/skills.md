@@ -68,8 +68,8 @@ title: "Skills"
 </div>
 <div class="skill-item">
 <span class="skill-name">YAML / Helm</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="80%"></div></div>
-<span class="skill-level">Advanced · 5 yrs</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="45%"></div></div>
+<span class="skill-level">Working · 2 yrs</span>
 </div>
 </div>
 </div>
