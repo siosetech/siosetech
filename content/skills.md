@@ -40,8 +40,8 @@ title: "Skills"
 </div>
 <div class="skill-item">
 <span class="skill-name">HCL (Terraform)</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="80%"></div></div>
-<span class="skill-level">Advanced · 4 yrs</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate · 2 yrs</span>
 </div>
 </div>
 </div>
@@ -54,7 +54,7 @@ title: "Skills"
 <div class="skill-item">
 <span class="skill-name">Go</span>
 <div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
-<span class="skill-level">Intermediate · 3 yrs</span>
+<span class="skill-level">Intermediate · 2 yrs</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Python</span>
