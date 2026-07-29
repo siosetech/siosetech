@@ -102,10 +102,10 @@ Explore my comprehensive portfolio website featuring:
 
 | Credential | Issuer | Badge |
 | :--- | :--- | :---: |
-| **Kubernetes and Cloud Native Associate (KCNA)** | The Linux Foundation | [![KCNA](https://img.shields.io/badge/KCNA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
-| **Kubernetes and Cloud Native Security Associate (KCSA)** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
-| **HashiCorp Certified: Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
-| **HashiCorp Certified: Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=for-the-badge&logo=vault&logoColor=white)](https://www.credly.com/users/sioseforge/badges) |
+| **Kubernetes and Cloud Native Associate (KCNA)** | The Linux Foundation | [![KCNA](https://img.shields.io/badge/KCNA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url) |
+| **Kubernetes and Cloud Native Security Associate (KCSA)** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) |
+| **HashiCorp Certified: Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) |
+| **HashiCorp Certified: Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=for-the-badge&logo=vault&logoColor=white)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
 
 ### 🎯 In Progress
 
@@ -124,7 +124,7 @@ Hands-on expertise across GCP services — compute, networking, data, security, 
 
 Azure ecosystem expertise in data processing and cloud security:
 
-[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)]([https://learn.microsoft.com/en-us/users/fatihahin/transcript/vtzq0g2qz57oxqm?tab=summary](https://learn.microsoft.com/en-us/users/sioseforge/transcript/vnolcy590ro4zr7))
+[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
 
 ---
 

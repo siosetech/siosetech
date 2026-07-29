@@ -36,7 +36,7 @@
 
 ### Microsoft Azure
 
-[![View Transcript](https://img.shields.io/badge/Azure-Fundamentals-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/en-us/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab)
+[![View Transcript](https://img.shields.io/badge/Azure-Fundamentals-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
 
 | Service Area | Services | Level |
 | :--- | :--- | :---: |

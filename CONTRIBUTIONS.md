@@ -107,8 +107,8 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 | **LinkedIn** | [linkedin.com/in/sioseforge](https://www.linkedin.com/in/sioseforge/) |
 | **GitHub** | [github.com/siosetech](https://github.com/siosetech) |
 | **Google Cloud Skills** | [View Profile](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) |
-| **Microsoft Learn** | [View Transcript](https://learn.microsoft.com/en-us/users/fatihfetihsahin/transcript/d9eyag45np2mly7?tab=credentials-tab) |
-| **Credly** | [View Badges](https://www.credly.com/users/fatih-sahin) |
+| **Microsoft Learn** | [View Transcript](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7) |
+| **Credly** | [View Badges](https://www.credly.com/users/siosetech.ffs) |
 
 ---
 
