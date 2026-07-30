@@ -146,7 +146,7 @@ Public `github-readme-stats` hosting is currently paused upstream, so dynamic ca
 - 📖 **Google Cloud Associate Cloud Engineer (ACE)** — exam scheduled
 - 📖 **OpenTelemetry Associate Certification** — collectors, processors, and exporters
 - 📖 **Datadog APM Associate Certification** — APM architecture, SLOs, IaC with Terraform provider
-- 🔬 **Hands-on Labs** — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab) and [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab)
+- 🔬 **Hands-on Labs** — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab) and [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab); KodeKloud Engineer labs / hands-on practice
 - 📚 **Next focus** — Helm + Kustomization on the GitOps path
 
 ---

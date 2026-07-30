@@ -243,7 +243,7 @@ title: "Contributions"
 <li>Participant in cloud-native and Kubernetes community meetups</li>
 <li>Active follower and contributor to CNCF working group discussions</li>
 <li>Engaged in HashiCorp community forums (Terraform, Vault)</li>
-<li>Learning in public via GitHub repositories and documentation</li>
+<li>Learning in public via GitHub repositories and documentation; KodeKloud Engineer labs / hands-on practice</li>
 </ul>
 </div>
 </div>
@@ -374,6 +374,21 @@ title: "Contributions"
 <p>Learning transcript and cloud fundamentals coursework.</p>
 <span class="badge badge-blue">View Microsoft Transcript ↗</span>
 </a>
+<a href="https://app.pluralsight.com/profile/sioseforge" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+<div class="contrib-card-header">
+<div class="contrib-card-icon">🎓</div>
+<h4>Pluralsight</h4>
+</div>
+<p>Public skill profile — observability, GitOps, and Kubernetes learning paths.</p>
+<span class="badge badge-blue">View Pluralsight Profile ↗</span>
+</a>
+<div class="contrib-card">
+<div class="contrib-card-header">
+<h4>KodeKloud Engineer</h4>
+</div>
+<p>KodeKloud Engineer labs / hands-on practice — real-world Linux, Kubernetes, and DevOps scenarios on live systems.</p>
+<span class="badge badge-blue">Hands-on practice</span>
+</div>
 </div>
 </div>
 </section>
