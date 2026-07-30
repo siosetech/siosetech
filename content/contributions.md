@@ -21,8 +21,7 @@ title: "Contributions"
 
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">🔭</div>
-<h4>OPENTELEMETRY_FUNDAMENTALS.md</h4>
+<h4>OpenTelemetry Fundamentals</h4>
 </div>
 <p>Core OTel concepts, SDK architecture, Collector pipeline configuration, context propagation, and instrumentation strategies for Java services.</p>
 <div class="tech-tags">
@@ -31,8 +30,8 @@ title: "Contributions"
 <span class="tag">OTel Collector</span>
 </div>
 <div class="contrib-stats">
-<div class="contrib-stat"><strong>~2,000</strong><span>lines</span></div>
-<div class="contrib-stat"><strong>Certification</strong><span>OTEA prep</span></div>
+<div class="contrib-stat"><strong>OTEA</strong><span>cert prep</span></div>
+<div class="contrib-stat"><strong>Java</strong><span>instrumentation</span></div>
 </div>
 <div style="margin-top:1rem">
 <a href="https://github.com/siosetech/spring-datadog-lab/blob/main/docs/OPENTELEMETRY_FUNDAMENTALS.md" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Read on GitHub ↗</a>
@@ -41,18 +40,17 @@ title: "Contributions"
 
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">🐕</div>
-<h4>DATADOG_INTEGRATION.md</h4>
+<h4>Datadog Integration</h4>
 </div>
-<p>Comprehensive Datadog APM integration guide — APM architecture, DogStatsD, OTLP, Terraform IaC for monitors and SLOs, log correlation.</p>
+<p>Datadog APM integration guide — APM architecture, DogStatsD, OTLP, Terraform IaC for monitors and SLOs, log correlation.</p>
 <div class="tech-tags">
 <span class="tag">Datadog APM</span>
 <span class="tag">Terraform</span>
 <span class="tag">SLOs</span>
 </div>
 <div class="contrib-stats">
-<div class="contrib-stat"><strong>~900</strong><span>lines</span></div>
-<div class="contrib-stat"><strong>Certification</strong><span>Datadog APM</span></div>
+<div class="contrib-stat"><strong>APM</strong><span>cert prep</span></div>
+<div class="contrib-stat"><strong>IaC</strong><span>monitors &amp; SLOs</span></div>
 </div>
 <div style="margin-top:1rem">
 <a href="https://github.com/siosetech/spring-datadog-lab/blob/main/docs/DATADOG_INTEGRATION.md" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Read on GitHub ↗</a>
@@ -61,8 +59,7 @@ title: "Contributions"
 
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">⚖️</div>
-<h4>SPRING_vs_QUARKUS_OTEL.md</h4>
+<h4>Spring vs Quarkus OTel</h4>
 </div>
 <p>Side-by-side framework comparison — OTel instrumentation differences, virtual threads vs Mutiny reactive, performance benchmarks, migration strategies.</p>
 <div class="tech-tags">
@@ -71,8 +68,8 @@ title: "Contributions"
 <span class="tag">Comparison</span>
 </div>
 <div class="contrib-stats">
-<div class="contrib-stat"><strong>~1,800</strong><span>lines</span></div>
-<div class="contrib-stat"><strong>Code</strong><span>150+ examples</span></div>
+<div class="contrib-stat"><strong>A/B</strong><span>frameworks</span></div>
+<div class="contrib-stat"><strong>150+</strong><span>code examples</span></div>
 </div>
 <div style="margin-top:1rem">
 <a href="https://github.com/siosetech/spring-datadog-lab/blob/main/docs/SPRING_vs_QUARKUS_OTEL.md" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Read on GitHub ↗</a>
@@ -81,10 +78,9 @@ title: "Contributions"
 
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">🧪</div>
-<h4>TEST_SCENARIOS_AND_VALIDATION.md</h4>
+<h4>Test Scenarios &amp; Validation</h4>
 </div>
-<p>Comprehensive test strategy guide — unit, integration, and performance tests for distributed traces. Includes Testcontainers setup, k6 scripts, and 7 exam practice scenarios.</p>
+<p>Test strategy for distributed traces — unit, integration, and performance coverage with Testcontainers, k6, and exam practice scenarios.</p>
 <div class="tech-tags">
 <span class="tag">Testing</span>
 <span class="tag">Testcontainers</span>
@@ -92,8 +88,8 @@ title: "Contributions"
 <span class="tag">CI/CD</span>
 </div>
 <div class="contrib-stats">
-<div class="contrib-stat"><strong>~2,764</strong><span>lines</span></div>
-<div class="contrib-stat"><strong>Scenarios</strong><span>7 exam preps</span></div>
+<div class="contrib-stat"><strong>7</strong><span>exam scenarios</span></div>
+<div class="contrib-stat"><strong>e2e</strong><span>trace validation</span></div>
 </div>
 <div style="margin-top:1rem">
 <a href="https://github.com/siosetech/spring-datadog-lab/blob/main/docs/TEST_SCENARIOS_AND_VALIDATION.md" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Read on GitHub ↗</a>
@@ -106,20 +102,22 @@ title: "Contributions"
 <div class="card" style="margin-top:2rem">
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1.5rem;text-align:center">
 <div>
-<div style="font-size:2rem;font-weight:800;color:var(--accent)">~7,464</div>
-<div style="font-size:0.82rem;color:var(--text-muted)">Total Lines</div>
+<div style="font-size:2rem;font-weight:800;color:var(--accent)">4</div>
+<div style="font-size:0.82rem;color:var(--text-muted)">Study guides</div>
 </div>
 <div>
 <div style="font-size:2rem;font-weight:800;color:var(--accent)">150+</div>
-<div style="font-size:0.82rem;color:var(--text-muted)">Code Examples</div>
+<div style="font-size:0.82rem;color:var(--text-muted)">Code examples</div>
 </div>
 <div>
-<div style="font-size:2rem;font-weight:800;color:var(--accent)">4</div>
-<div style="font-size:0.82rem;color:var(--text-muted)">Documents</div>
+<div style="font-size:2rem;font-weight:800;color:var(--accent)">2</div>
+<div style="font-size:0.82rem;color:var(--text-muted)">Public labs</div>
 </div>
 <div>
-<div style="font-size:2rem;font-weight:800;color:var(--accent)">7</div>
-<div style="font-size:0.82rem;color:var(--text-muted)">Exam Scenarios</div>
+<div style="font-size:1rem;font-weight:600;margin-top:0.5rem">
+<a href="{{< rel "blog/spring-otel-datadog-case-study/" >}}">Read the case study →</a>
+</div>
+<div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.35rem">Blog write-up</div>
 </div>
 </div>
 </div>
@@ -136,7 +134,6 @@ title: "Contributions"
 <div class="contrib-grid">
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">🍃</div>
 <h4>spring-datadog-lab</h4>
 </div>
 <p>Spring Boot 4 + OpenTelemetry + Datadog APM hands-on lab. Production-realistic APM integration with Terraform IaC.</p>
@@ -151,7 +148,6 @@ title: "Contributions"
 </div>
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">⚡</div>
 <h4>quarkus-datadog-lab</h4>
 </div>
 <p>Quarkus 3 + OpenTelemetry + Datadog APM hands-on lab. Native image, reactive Mutiny pipelines, A/B Spring comparison.</p>
@@ -166,7 +162,6 @@ title: "Contributions"
 </div>
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">☁️</div>
 <h4>azure-dev-labs</h4>
 </div>
 <p>Azure-focused cloud-native labs and reference implementations. Public release planned.</p>
@@ -178,7 +173,6 @@ title: "Contributions"
 </div>
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">CG</div>
 <h4>cgoa-labs</h4>
 </div>
 <p>CGOA exam labs — Flux GitOps, GitLab CI, Minikube. Coming soon.</p>
@@ -190,7 +184,6 @@ title: "Contributions"
 </div>
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">CA</div>
 <h4>capa-labs</h4>
 </div>
 <p>CAPA exam labs — Argo CD, Workflows, Rollouts, Events. Coming soon.</p>
@@ -202,7 +195,6 @@ title: "Contributions"
 </div>
 <div class="contrib-card">
 <div class="contrib-card-header">
-<div class="contrib-card-icon">📋</div>
 <h4>siosetech (Portfolio)</h4>
 </div>
 <p>This site — Hugo static site, GitHub Pages, dark/light mode, deployed via GitHub Actions.</p>
@@ -228,17 +220,15 @@ title: "Contributions"
 </div>
 <div class="achievements-grid">
 <div class="achievement-card">
-<div class="icon">🎓</div>
 <h4>Team Mentoring</h4>
 <ul>
 <li>Mentored 10+ engineers on cloud-native patterns (Kubernetes, Terraform, observability)</li>
 <li>Conducted internal architecture workshops on microservices and event-driven design</li>
-<li>Led hands-on sessions on distributed tracing and OpenTelemetry instrumentation</li>
+<li>Facilitated hands-on sessions on distributed tracing and OpenTelemetry instrumentation</li>
 <li>Code reviews focused on architecture: coupling, scalability, and operability</li>
 </ul>
 </div>
 <div class="achievement-card">
-<div class="icon">📝</div>
 <h4>Knowledge Sharing Practices</h4>
 <ul>
 <li>Authored Architecture Decision Records (ADRs) to document and communicate design choices</li>
@@ -248,7 +238,6 @@ title: "Contributions"
 </ul>
 </div>
 <div class="achievement-card">
-<div class="icon">🌐</div>
 <h4>Community Involvement</h4>
 <ul>
 <li>Participant in cloud-native and Kubernetes community meetups</li>

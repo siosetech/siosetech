@@ -79,14 +79,20 @@
   padding: 2rem 1rem;
 }
 
-/* Single post — same horizontal rhythm as the rest of the site */
+/* Single post — centered reading column inside site container */
 .blog-post-section {
   padding-top: 6.5rem;
 }
 
+.blog-post-section .container {
+  display: flex;
+  justify-content: center;
+}
+
 .blog-post {
-  max-width: 720px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 48rem;
+  margin-inline: auto;
   padding: 0;
 }
 
