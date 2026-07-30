@@ -169,14 +169,11 @@ title: "Contributions"
 <div class="contrib-card-icon">☁️</div>
 <h4>azure-dev-labs</h4>
 </div>
-<p>Azure-focused cloud-native labs and reference implementations. Repository is private for now and planned to be opened publicly.</p>
+<p>Azure-focused cloud-native labs and reference implementations. Public release planned.</p>
 <div class="tech-tags">
 <span class="tag">Azure</span>
 <span class="tag">AKS</span>
 <span class="tag">Terraform</span>
-</div>
-<div style="margin-top:1rem">
-<a href="https://github.com/siosetech/azure-dev-labs" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
 </div>
 </div>
 <div class="contrib-card">
@@ -184,10 +181,11 @@ title: "Contributions"
 <div class="contrib-card-icon">📋</div>
 <h4>siosetech (Portfolio)</h4>
 </div>
-<p>Professional GitHub portfolio site — this very website. GitHub Pages, responsive design, dark/light mode, auto-deploy.</p>
+<p>This site — Hugo static site, GitHub Pages, dark/light mode, deployed via GitHub Actions.</p>
 <div class="tech-tags">
+<span class="tag">Hugo</span>
 <span class="tag">GitHub Pages</span>
-<span class="tag">HTML/CSS/JS</span>
+<span class="tag">GitHub Actions</span>
 </div>
 <div style="margin-top:1rem">
 <a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
@@ -252,7 +250,7 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>KCNA</h4>
 <p class="issuer">CNCF / Linux Foundation · 2024</p>
-<a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Verified</a>
+<a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -260,7 +258,7 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>KCSA</h4>
 <p class="issuer">CNCF / Linux Foundation · 2024</p>
-<a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Verified</a>
+<a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -268,7 +266,7 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>Terraform Associate</h4>
 <p class="issuer">HashiCorp · 2023</p>
-<a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Verified</a>
+<a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -276,15 +274,7 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>Vault Associate</h4>
 <p class="issuer">HashiCorp · 2023</p>
-<a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Verified</a>
-</div>
-</div>
-<div class="cert-card">
-<div class="cert-card-icon">🪟</div>
-<div class="cert-card-content">
-<h4>Azure Fundamentals (AZ-900, DP-900, SC-900)</h4>
-<p class="issuer">Microsoft · 2023</p>
-<a href="https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ View Transcript</a>
+<a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -292,7 +282,15 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>15+ Google Cloud Skill Badges</h4>
 <p class="issuer">Google Cloud · 2022–2024</p>
-<a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ View Profile</a>
+<a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="cert-status cert-achieved" target="_blank" rel="noopener">View Profile</a>
+</div>
+</div>
+<div class="cert-card">
+<div class="cert-card-icon">☁️</div>
+<div class="cert-card-content">
+<h4>Google Cloud Associate Cloud Engineer (ACE)</h4>
+<p class="issuer">Google Cloud · In Progress</p>
+<span class="cert-status cert-progress">Exam scheduled</span>
 </div>
 </div>
 <div class="cert-card">
@@ -300,7 +298,7 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>OpenTelemetry Associate (OTEA)</h4>
 <p class="issuer">CNCF · In Progress</p>
-<span class="cert-status cert-progress">🟡 Preparing</span>
+<span class="cert-status cert-progress">Preparing</span>
 </div>
 </div>
 <div class="cert-card">
@@ -308,7 +306,7 @@ title: "Contributions"
 <div class="cert-card-content">
 <h4>Datadog APM Associate</h4>
 <p class="issuer">Datadog · In Progress</p>
-<span class="cert-status cert-progress">🟡 Preparing</span>
+<span class="cert-status cert-progress">Preparing</span>
 </div>
 </div>
 </div>
@@ -360,7 +358,7 @@ title: "Contributions"
 <div class="contrib-card-icon">🪟</div>
 <h4>Microsoft Learn</h4>
 </div>
-<p>Azure Fundamentals transcript — AZ-900, DP-900, SC-900 certifications.</p>
+<p>Learning transcript and cloud fundamentals coursework.</p>
 <span class="badge badge-blue">View Microsoft Transcript ↗</span>
 </a>
 </div>
@@ -388,7 +386,11 @@ title: "Contributions"
 <p>Explore OTel with Golang, Python, and polyglot service scenarios. Build cross-language distributed tracing examples.</p>
 </div>
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">🎤 Speaking</h3>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">GitOps Path</h3>
+<p>Deepen Helm + Kustomization workflows for multi-environment delivery after cloud certification milestones.</p>
+</div>
+<div class="card">
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Speaking</h3>
 <p>Share certification preparation journey and hands-on lab insights at cloud-native and observability-focused events.</p>
 </div>
 </div>
@@ -400,9 +402,9 @@ title: "Contributions"
 <h2 id="contrib-cta">Want to Collaborate or Connect?</h2>
 <p>I'm open to interesting technical discussions, mentoring, consulting, and community contributions.</p>
 <div class="cta-actions">
-<a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
-<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
-<a href="https://github.com/siosetech" class="btn btn-secondary" target="_blank" rel="noopener">🐙 GitHub</a>
+<a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
+<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://github.com/siosetech" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
 </div>
 </div>
 </section>

@@ -1,2 +1,5 @@
 .idea/
 .junie/
+/public/
+/docs/
+.hugo_build.lock

@@ -1,7 +1,7 @@
 baseURL = "https://siosetech.github.io/siosetech/"
-languageCode = "tr-tr"
 title = "Fatih Şahin — Software Architect Portfolio"
-publishDir = "docs"
+publishDir = "public"
+defaultContentLanguage = "en"
 
 [markup]
   [markup.goldmark]
@@ -11,3 +11,5 @@ publishDir = "docs"
 [params]
   author = "Fatih Şahin"
   description = "Fatih Şahin — Software Architect | Cloud-Native Systems | 15+ Years Experience."
+  gcp_skills_url = "https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060"
+  microsoft_transcript_url = "https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7"

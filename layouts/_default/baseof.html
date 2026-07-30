@@ -9,16 +9,16 @@
   <meta property="og:title" content="Fatih Şahin — Software Architect Portfolio"/>
   <meta property="og:description" content="15+ years building scalable, observable cloud-native distributed systems."/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://siosetech.github.io/siosetech/index.html"/>
+  <meta property="og:url" content="{{ "" | absURL }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
-  <title>Fatih Şahin — Software Architect | Cloud-Native Systems</title>
+  <title>{{ if .Title }}{{ .Title }} · {{ end }}Fatih Şahin — Software Architect</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="{{ "" | absURL }}assets/css/style.css"/>
   <link rel="stylesheet" href="{{ "" | absURL }}assets/css/responsive.css"/>
   <link rel="stylesheet" href="{{ "" | absURL }}assets/css/blog.css"/>
-  <link rel="icon" type="image/png" href="{{ "" | absURL }}assets/img/favicon.png"/>
+  <link rel="icon" type="image/svg+xml" href="{{ "" | absURL }}assets/img/favicon.svg"/>
   <script src="{{ "" | absURL }}assets/js/theme-toggle.js"></script>
 </head>
 <body>
@@ -75,21 +75,23 @@
           <a href="{{ "" | absURL }}skills/">Skills</a>
           <a href="{{ "" | absURL }}experience/">Experience</a>
           <a href="{{ "" | absURL }}contributions/">Contributions</a>
+          <a href="{{ "" | absURL }}blog/">Blog</a>
         </nav>
       </div>
       <div class="footer-section">
-        <h4>Certifications</h4>
+        <h4>Credentials</h4>
         <div class="footer-links">
           <a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" target="_blank" rel="noopener">KCNA ↗</a>
           <a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" target="_blank" rel="noopener">KCSA ↗</a>
           <a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" target="_blank" rel="noopener">Terraform Associate ↗</a>
           <a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" target="_blank" rel="noopener">Vault Associate ↗</a>
-          <a href="https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7" target="_blank" rel="noopener">Microsoft Azure Transcript ↗</a>
+          <a href="{{ .Site.Params.gcp_skills_url }}" target="_blank" rel="noopener">Google Cloud Skills ↗</a>
+          <a href="{{ .Site.Params.microsoft_transcript_url }}" target="_blank" rel="noopener">Microsoft Learn Transcript ↗</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2024–2026 Fatih Şahin. Built with ❤️ and deployed via GitHub Pages.</p>
+      <p>© 2024–2026 Fatih Şahin. Built with Hugo · deployed on GitHub Pages.</p>
       <p>Last updated: July 2026</p>
     </div>
   </div>

@@ -29,8 +29,8 @@ Currently focused on:
 | [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus, OTel, Datadog | 🚀 Active |
 | [**fleet-forge**](https://github.com/siosetech/fleet-forge) | End-to-end multi-tenant logistics platform with event-driven microservices, GitOps, Vault, Keycloak, and full observability stack | Spring Boot, Kafka, PostgreSQL, Redis, ClickHouse, Kubernetes, ArgoCD, Vault | 🚧 Active (public hardening) |
-| [**azure-dev-labs**](https://github.com/siosetech/azure-dev-labs) | Azure-focused cloud-native labs and reference implementations | Azure, Kubernetes, Terraform, DevOps | 🔒 Private (opening soon) |
-| [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — professional showcase of 15+ years of architecture experience | HTML, CSS, JS, GitHub Pages | 🏗️ Live |
+| [**azure-dev-labs**](https://github.com/siosetech/azure-dev-labs) | Azure-focused cloud-native labs and reference implementations | Azure, Kubernetes, Terraform, DevOps | 🔒 Coming soon |
+| [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — Hugo site on GitHub Pages | Hugo, CSS, JS, GitHub Actions | 🏗️ Live |
 
 > 📂 See [**PORTFOLIO.md**](./PORTFOLIO.md) for detailed project breakdowns, tech stacks, and key learnings.
 
@@ -38,13 +38,14 @@ Currently focused on:
 
 ## 🌐 Portfolio Website
 
-Explore my comprehensive portfolio website featuring:
-- 📂 **[Portfolio Projects](https://siosetech.github.io/siosetech/portfolio.html)** — Featured projects showcase (spring-datadog-lab, quarkus-datadog-lab, fleet-forge, azure-dev-labs, Terraform IaC)
-- 🛠️ **[Technical Skills](https://siosetech.github.io/siosetech/skills.html)** — Full skills matrix across 8 categories (Java, Kubernetes, OTel, Datadog, etc.)
-- 📅 **[Career Experience](https://siosetech.github.io/siosetech/experience.html)** — 15+ years timeline with achievements and industry sectors
-- ✍️ **[Contributions](https://siosetech.github.io/siosetech/contributions.html)** — Documentation series, OSS projects, mentoring, certifications
+Explore the portfolio site (Hugo + GitHub Pages):
+- **[Portfolio Projects](https://siosetech.github.io/siosetech/portfolio/)** — Featured projects showcase
+- **[Technical Skills](https://siosetech.github.io/siosetech/skills/)** — Skills matrix across the cloud-native stack
+- **[Career Experience](https://siosetech.github.io/siosetech/experience/)** — 15+ years timeline
+- **[Contributions](https://siosetech.github.io/siosetech/contributions/)** — Documentation, OSS, mentoring, certifications
+- **[Blog](https://siosetech.github.io/siosetech/blog/)** — Notes on cloud-native architecture
 
-**[→ Visit Full Website](https://siosetech.github.io/siosetech/index.html)**
+**[→ Visit Full Website](https://siosetech.github.io/siosetech/)**
 
 ---
 
@@ -111,6 +112,7 @@ Explore my comprehensive portfolio website featuring:
 
 | Credential | Issuer | Target |
 | :--- | :--- | :---: |
+| **Google Cloud Associate Cloud Engineer (ACE)** | Google Cloud | ![In Progress](https://img.shields.io/badge/Status-Exam_Scheduled-yellow?style=for-the-badge) |
 | **OpenTelemetry Associate (OTEA)** | CNCF | ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge) |
 | **Datadog APM Associate** | Datadog | ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge) |
 
@@ -118,11 +120,11 @@ Explore my comprehensive portfolio website featuring:
 
 Hands-on expertise across GCP services — compute, networking, data, security, and AI/ML:
 
-[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-View_All_My_Badges-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profile/5f0dc15d-4ac2-40ed-9b2e-edd89aa97a65)
+[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-View_All_My_Badges-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
 
-### ☁️ Microsoft Learn & Azure Fundamentals
+### ☁️ Microsoft Learn
 
-Azure ecosystem expertise in data processing and cloud security:
+Azure and cloud fundamentals coursework:
 
 [![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
 
@@ -139,10 +141,11 @@ Azure ecosystem expertise in data processing and cloud security:
 
 ## 🌱 Current Learning Journey
 
-- 📖 **OpenTelemetry Associate Certification** — deep-dive into collectors, processors, and exporters
+- 📖 **Google Cloud Associate Cloud Engineer (ACE)** — exam scheduled
+- 📖 **OpenTelemetry Associate Certification** — collectors, processors, and exporters
 - 📖 **Datadog APM Associate Certification** — APM architecture, SLOs, IaC with Terraform provider
-- 🔬 **Hands-on Labs** — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab) and [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab) are live and evolving
-- 📚 **Documentation Series** — OpenTelemetry Fundamentals, Datadog Integration, Spring vs Quarkus comparison, Test Scenarios & Validation
+- 🔬 **Hands-on Labs** — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab) and [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab)
+- 📚 **Next focus** — Helm + Kustomization on the GitOps path
 
 ---
 

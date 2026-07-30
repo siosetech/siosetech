@@ -37,19 +37,21 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="cert-badges">
-<span class="cert-badge">🏆 KCNA</span>
-<span class="cert-badge">🔐 KCSA</span>
-<span class="cert-badge">🏗️ Terraform Associate</span>
-<span class="cert-badge">🔑 Vault Associate</span>
-<span class="cert-badge">☁️ 15+ GCP Badges</span>
+<span class="cert-badge">KCNA</span>
+<span class="cert-badge">KCSA</span>
+<span class="cert-badge">Terraform Associate</span>
+<span class="cert-badge">Vault Associate</span>
+<span class="cert-badge">15+ GCP Badges</span>
 </div>
 <div class="hero-actions" style="margin-top:2rem">
-<a href="/siosetech/portfolio/" class="btn btn-primary">View Portfolio</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-primary">View Portfolio</a>
 <a href="mailto:fatih@siosetech.com" class="btn btn-secondary">Get in Touch</a>
 </div>
 </div>
 <div class="hero-visual">
-<div class="hero-avatar" aria-hidden="true">👨‍💻</div>
+<div class="hero-avatar" aria-hidden="true">
+<span class="hero-monogram">FS</span>
+</div>
 </div>
 </div>
 </div>
@@ -65,7 +67,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <section class="section" id="projects" aria-labelledby="projects-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="projects-heading">🚀 Featured Projects</h2>
+<h2 id="projects-heading">Featured Projects</h2>
 <div class="section-divider"></div>
 <p>Hands-on labs and open-source work showcasing real-world cloud-native patterns</p>
 </div>
@@ -74,7 +76,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <article class="project-card" data-category="observability">
 <div class="project-card-header">
 <div class="project-icon spring">🍃</div>
-<span class="project-status status-active">✅ Active</span>
+<span class="project-status status-active">Active</span>
 </div>
 <div class="project-card-body">
 <h3>spring-datadog-lab</h3>
@@ -99,14 +101,14 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/spring-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
 <article class="project-card" data-category="observability">
 <div class="project-card-header">
 <div class="project-icon quarkus">⚡</div>
-<span class="project-status status-active">✅ Active</span>
+<span class="project-status status-active">Active</span>
 </div>
 <div class="project-card-body">
 <h3>quarkus-datadog-lab</h3>
@@ -131,43 +133,14 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
-</div>
-</article>
-
-<article class="project-card" data-category="infrastructure">
-<div class="project-card-header">
-<div class="project-icon" style="background:linear-gradient(135deg,#0078d422,#0078d444);color:#0078d4">☁️</div>
-<span class="project-status status-wip">🔒 Private</span>
-</div>
-<div class="project-card-body">
-<h3>azure-dev-labs</h3>
-<p>Azure-focused cloud-native labs and reference implementations covering AKS, Terraform, and DevOps delivery patterns.</p>
-<div class="tech-tags">
-<span class="tag">Azure</span>
-<span class="tag">AKS</span>
-<span class="tag">Terraform</span>
-<span class="tag">DevOps</span>
-</div>
-<div class="project-achievements">
-<ul>
-<li>Azure architecture and platform patterns</li>
-<li>Infrastructure automation scenarios</li>
-<li>Operational AKS labs and references</li>
-<li>Planned public release</li>
-</ul>
-</div>
-</div>
-<div class="project-card-footer">
-<a href="https://github.com/siosetech/azure-dev-labs" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
 <article class="project-card" data-category="infrastructure">
 <div class="project-card-header">
 <div class="project-icon" style="background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9">🚚</div>
-<span class="project-status status-active">🚧 Active</span>
+<span class="project-status status-active">Active</span>
 </div>
 <div class="project-card-body">
 <h3>fleet-forge</h3>
@@ -191,41 +164,40 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="project-card-footer">
 <a href="https://github.com/siosetech/fleet-forge" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
-<article class="project-card" data-category="portfolio">
+<article class="project-card" data-category="infrastructure">
 <div class="project-card-header">
-<div class="project-icon portfolio">📋</div>
-<span class="project-status status-wip">🏗️ This Repo</span>
+<div class="project-icon" style="background:linear-gradient(135deg,#0078d422,#0078d444);color:#0078d4">☁️</div>
+<span class="project-status status-wip">Coming soon</span>
 </div>
 <div class="project-card-body">
-<h3>siosetech (Portfolio)</h3>
-<p>Professional GitHub portfolio — 15+ years of software architecture experience, certifications, and hands-on cloud-native expertise.</p>
+<h3>azure-dev-labs</h3>
+<p>Azure-focused cloud-native labs and reference implementations covering AKS, Terraform, and DevOps delivery patterns. Public release planned.</p>
 <div class="tech-tags">
-<span class="tag">GitHub Pages</span>
-<span class="tag">HTML/CSS/JS</span>
-<span class="tag">GitHub Actions</span>
+<span class="tag">Azure</span>
+<span class="tag">AKS</span>
+<span class="tag">Terraform</span>
+<span class="tag">DevOps</span>
 </div>
 <div class="project-achievements">
 <ul>
-<li>Responsive portfolio website</li>
-<li>Dark / light mode toggle</li>
-<li>Auto-deployed via GitHub Actions</li>
-<li>WCAG 2.1 AA accessible</li>
+<li>Azure architecture and platform patterns</li>
+<li>Infrastructure automation scenarios</li>
+<li>Operational AKS labs and references</li>
 </ul>
 </div>
 </div>
 <div class="project-card-footer">
-<a href="https://github.com/siosetech/siosetech" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="/siosetech/portfolio/" class="btn btn-secondary btn-sm">Details</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-secondary btn-sm">Details</a>
 </div>
 </article>
 
 </div>
 <div class="text-center" style="margin-top:2.5rem">
-<a href="/siosetech/portfolio/" class="btn btn-primary">View All Projects →</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-primary">View All Projects →</a>
 </div>
 </div>
 </section>
@@ -234,7 +206,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <section class="section section-alt" id="skills-overview" aria-labelledby="skills-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="skills-heading">🛠️ Core Expertise</h2>
+<h2 id="skills-heading">Core Expertise</h2>
 <div class="section-divider"></div>
 <p>Deep expertise across the full cloud-native stack</p>
 </div>
@@ -301,7 +273,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="text-center" style="margin-top:2.5rem">
-<a href="/siosetech/skills/" class="btn btn-primary">Full Skills Matrix →</a>
+<a href="{{< rel "skills/" >}}" class="btn btn-primary">Full Skills Matrix →</a>
 </div>
 </div>
 </section>
@@ -310,7 +282,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <section class="section" id="certifications" aria-labelledby="certs-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="certs-heading">🏆 Certifications</h2>
+<h2 id="certs-heading">Certifications</h2>
 <div class="section-divider"></div>
 <p>Verified expertise backed by industry certifications</p>
 </div>
@@ -320,7 +292,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>Kubernetes and Cloud Native Associate (KCNA)</h4>
 <p class="issuer">The Linux Foundation / CNCF</p>
-<a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+<a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -328,7 +300,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>Kubernetes and Cloud Native Security Associate (KCSA)</h4>
 <p class="issuer">The Linux Foundation / CNCF</p>
-<a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+<a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -336,7 +308,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>HashiCorp Certified: Terraform Associate</h4>
 <p class="issuer">HashiCorp</p>
-<a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+<a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -344,7 +316,15 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>HashiCorp Certified: Vault Associate</h4>
 <p class="issuer">HashiCorp</p>
-<a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ Achieved</a>
+<a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
+</div>
+</div>
+<div class="cert-card">
+<div class="cert-card-icon">☁️</div>
+<div class="cert-card-content">
+<h4>Google Cloud Associate Cloud Engineer (ACE)</h4>
+<p class="issuer">Google Cloud</p>
+<span class="cert-status cert-progress">In Progress</span>
 </div>
 </div>
 <div class="cert-card">
@@ -352,7 +332,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>OpenTelemetry Associate (OTEA)</h4>
 <p class="issuer">CNCF</p>
-<span class="cert-status cert-progress">🟡 In Progress</span>
+<span class="cert-status cert-progress">In Progress</span>
 </div>
 </div>
 <div class="cert-card">
@@ -360,7 +340,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>Datadog APM Associate</h4>
 <p class="issuer">Datadog</p>
-<span class="cert-status cert-progress">🟡 In Progress</span>
+<span class="cert-status cert-progress">In Progress</span>
 </div>
 </div>
 <div class="cert-card">
@@ -368,15 +348,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>Google Cloud Skill Badges (15+)</h4>
 <p class="issuer">Google Cloud</p>
-<a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ View Profile</a>
-</div>
-</div>
-<div class="cert-card">
-<div class="cert-card-icon">🪟</div>
-<div class="cert-card-content">
-<h4>Microsoft Azure Fundamentals (AZ-900, DP-900, SC-900)</h4>
-<p class="issuer">Microsoft</p>
-<a href="https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7" class="cert-status cert-achieved" target="_blank" rel="noopener">✅ View Transcript</a>
+<a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="cert-status cert-achieved" target="_blank" rel="noopener">View Profile</a>
 </div>
 </div>
 </div>
@@ -417,9 +389,9 @@ Designing scalable, secure, and observable distributed systems — from architec
 <h2 id="cta-heading">Let's Build Something Together</h2>
 <p>Open to collaborations, consulting engagements, architecture reviews, and speaking opportunities.</p>
 <div class="cta-actions">
-<a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
-<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
-<a href="/siosetech/portfolio/" class="btn btn-secondary">📂 View Portfolio</a>
+<a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
+<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+<a href="{{< rel "portfolio/" >}}" class="btn btn-secondary">View Portfolio</a>
 </div>
 </div>
 </section>

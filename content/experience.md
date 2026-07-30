@@ -26,8 +26,8 @@ title: "Experience"
 <div class="stat-lbl">Industry Sectors</div>
 </div>
 <div class="stat-card">
-<div class="stat-num">8</div>
-<div class="stat-lbl">Certifications Earned</div>
+<div class="stat-num">4</div>
+<div class="stat-lbl">Associate Certifications</div>
 </div>
 </div>
 </div>
@@ -106,7 +106,7 @@ title: "Experience"
 <div class="timeline-dot current" aria-hidden="true"></div>
 <div class="timeline-date">2024 — Present</div>
 <div class="timeline-content">
-<h3>Phase 4 — Senior Software Engineer (Cloud-Native Focus)</h3>
+<h3>Phase 4 — Software Architect (Cloud-Native Focus)</h3>
 <p class="phase-subtitle">Focus: Kubernetes, identity, observability, open-source (Sioseforge)</p>
 <ul>
 <li>Providing independent cloud-native software consulting and architecture services</li>
@@ -119,11 +119,10 @@ title: "Experience"
 <strong>Key Technologies:</strong> Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana, ArgoCD
 </div>
 <div class="tech-tags" style="margin-top:1rem">
-<span class="tag">🏆 KCNA</span>
-<span class="tag">🏆 KCSA</span>
-<span class="tag">🏆 Terraform Associate</span>
-<span class="tag">🏆 Vault Associate</span>
-<span class="tag">🪟 Azure Fundamentals (AZ/DP/SC-900)</span>
+<span class="tag">KCNA</span>
+<span class="tag">KCSA</span>
+<span class="tag">Terraform Associate</span>
+<span class="tag">Vault Associate</span>
 </div>
 </div>
 </div>
@@ -220,34 +219,34 @@ title: "Experience"
 <section class="section" aria-labelledby="edu-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="edu-heading">🎓 Education &amp; Continuous Learning</h2>
+<h2 id="edu-heading">Education &amp; Continuous Learning</h2>
 <div class="section-divider"></div>
 </div>
 <div class="card-grid">
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">🎓 Formal Education</h3>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Formal Education</h3>
 <p style="font-size:0.9rem">Computer Science / Software Engineering degree</p>
 </div>
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">🏆 Certifications</h3>
-<p style="font-size:0.9rem">KCNA, KCSA, Terraform Associate, Vault Associate, Azure Fundamentals (AZ-900, DP-900, SC-900)</p>
-<p style="font-size:0.9rem"><em>In Progress:</em> OpenTelemetry Associate (OTEA), Datadog APM Associate</p>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Certifications</h3>
+<p style="font-size:0.9rem">KCNA, KCSA, Terraform Associate, Vault Associate</p>
+<p style="font-size:0.9rem"><em>In Progress:</em> Google Cloud ACE, OpenTelemetry Associate (OTEA), Datadog APM Associate</p>
 </div>
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">☁️ Cloud Training</h3>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Cloud Training</h3>
 <p style="font-size:0.9rem">15+ Google Cloud Skill Badges covering Compute, Networking, Data, Security, and AI/ML</p>
 <a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" target="_blank" rel="noopener" style="font-size:0.85rem">View Google Cloud Profile ↗</a>
 </div>
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">🔬 Hands-on Labs</h3>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Hands-on Labs</h3>
 <p style="font-size:0.9rem">Self-directed <a href="https://github.com/siosetech/spring-datadog-lab" target="_blank" rel="noopener">spring-datadog-lab</a> and <a href="https://github.com/siosetech/quarkus-datadog-lab" target="_blank" rel="noopener">quarkus-datadog-lab</a> — production-realistic APM integration labs</p>
 </div>
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">📚 Documentation</h3>
-<p style="font-size:0.9rem">10,000+ line certification study series authored — covering OpenTelemetry fundamentals, Datadog integration, Spring vs Quarkus comparison, and test scenarios</p>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Documentation</h3>
+<p style="font-size:0.9rem">Certification study series covering OpenTelemetry fundamentals, Datadog integration, Spring vs Quarkus comparison, and test scenarios</p>
 </div>
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">🌍 Community</h3>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Community</h3>
 <p style="font-size:0.9rem">Tech meetups, architecture discussions, CNCF community engagement, HashiCorp community forums</p>
 </div>
 </div>
@@ -259,9 +258,9 @@ title: "Experience"
 <h2 id="exp-cta">Let's Discuss Your Architecture Challenges</h2>
 <p>15+ years of hands-on experience ready to help solve your toughest distributed systems problems.</p>
 <div class="cta-actions">
-<a href="mailto:fatih@siosetech.com" class="btn btn-primary">📧 Get in Touch</a>
-<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">💼 LinkedIn</a>
-<a href="/siosetech/skills/" class="btn btn-secondary">📊 View Skills</a>
+<a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
+<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+<a href="{{< rel "skills/" >}}" class="btn btn-secondary">View Skills</a>
 </div>
 </div>
 </section>

@@ -509,6 +509,14 @@ p:last-child {
   position: relative;
 }
 
+.hero-monogram {
+  font-size: 4.5rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1;
+}
+
 .hero-avatar::after {
   content: '';
   position: absolute;
