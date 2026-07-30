@@ -1,13 +1,10 @@
 /* Blog — aligns with site design tokens */
 
-.blog-list-wrap {
-  padding-bottom: 4rem;
-}
-
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
   gap: 1.5rem;
+  width: 100%;
 }
 
 .blog-card {
@@ -82,11 +79,15 @@
   padding: 2rem 1rem;
 }
 
-/* Single post */
+/* Single post — same horizontal rhythm as the rest of the site */
+.blog-post-section {
+  padding-top: 6.5rem;
+}
+
 .blog-post {
   max-width: 720px;
   margin: 0 auto;
-  padding: 2.5rem 1.25rem 4rem;
+  padding: 0;
 }
 
 .blog-post-header {

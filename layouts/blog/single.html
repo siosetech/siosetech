@@ -1,27 +1,31 @@
 {{ define "main" }}
-<article class="blog-post">
-  <a class="blog-back" href="{{ "blog/" | relURL }}">← Back to Blog</a>
-  <header class="blog-post-header">
-    <div class="blog-card-meta">
-      <time class="blog-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-      {{ with .Params.tags }}
-        {{ range . }}
-        <span class="blog-tag">{{ . }}</span>
+<section class="section blog-post-section">
+  <div class="container">
+    <article class="blog-post">
+      <a class="blog-back" href="{{ "blog/" | relURL }}">← Back to Blog</a>
+      <header class="blog-post-header">
+        <div class="blog-card-meta">
+          <time class="blog-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ with .Params.tags }}
+            {{ range . }}
+            <span class="blog-tag">{{ . }}</span>
+            {{ end }}
+          {{ end }}
+        </div>
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}
+        <p class="blog-summary">{{ . }}</p>
         {{ end }}
-      {{ end }}
-    </div>
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}
-    <p class="blog-summary">{{ . }}</p>
-    {{ end }}
-  </header>
-  <div class="blog-content">
-    {{ .Content }}
+      </header>
+      <div class="blog-content">
+        {{ .Content }}
+      </div>
+      <footer class="blog-post-footer">
+        <a href="{{ "blog/" | relURL }}" class="btn btn-secondary btn-sm">All posts</a>
+        <a href="{{ "portfolio/" | relURL }}" class="btn btn-outline btn-sm">View portfolio</a>
+        <a href="mailto:fatih@siosetech.com" class="btn btn-primary btn-sm">Get in Touch</a>
+      </footer>
+    </article>
   </div>
-  <footer class="blog-post-footer">
-    <a href="{{ "blog/" | relURL }}" class="btn btn-secondary btn-sm">All posts</a>
-    <a href="{{ "portfolio/" | relURL }}" class="btn btn-outline btn-sm">View portfolio</a>
-    <a href="mailto:fatih@siosetech.com" class="btn btn-primary btn-sm">Get in Touch</a>
-  </footer>
-</article>
+</section>
 {{ end }}

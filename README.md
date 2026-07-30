@@ -134,10 +134,10 @@ Azure and cloud fundamentals coursework:
 
 ## 📈 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=siosetech&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siosetech&layout=compact&theme=dark&hide_border=true" alt="Top Languages" height="165"/>
-</p>
+Public `github-readme-stats` hosting is currently paused upstream, so dynamic cards are omitted here.
+
+- Profile: [@siosetech](https://github.com/siosetech)
+- Followers / activity: see the badges at the top of this README
 
 ---
 

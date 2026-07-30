@@ -88,7 +88,7 @@ title: "Experience"
 <h3>Phase 3 — Software Architect &amp; Senior Java Developer</h3>
 <p class="phase-subtitle">Focus: Microservices migration, high-volume payment systems, stream processing</p>
 <ul>
-<li>Led the migration of acquiring systems from legacy architectures to microservices</li>
+<li>Contributed to the migration of acquiring systems from legacy architectures to microservices</li>
 <li>Developed enterprise ePayment platforms for major financial institutions</li>
 <li>Upgraded critical legacy banking systems (Java 6 to 8, Spring 3 to 5), migrating web services from vulnerable Axis 1.4 to Apache CXF 3.5.x</li>
 <li>Modernised caching infrastructure by migrating from Infinispan to Redis 6</li>
