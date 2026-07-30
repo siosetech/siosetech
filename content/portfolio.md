@@ -38,7 +38,7 @@ title: "Portfolio"
 <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">Active</span>
 </div>
 </div>
-<p>A production-realistic APM integration lab — Spring Boot 4 fully instrumented with OpenTelemetry, forwarding traces and metrics to Datadog via the OTLP Collector. Infrastructure managed entirely via Terraform (monitors, SLOs, dashboards as code).</p>
+<p>A production-shaped APM lab: Spring Boot 4 instrumented with OpenTelemetry, exported via OTLP Collector to Datadog, with monitors and SLOs managed in Terraform.</p>
 <div class="tech-tags" style="margin-bottom:1.25rem">
 <span class="tag">Spring Boot 4</span>
 <span class="tag">Java 25</span>
@@ -49,27 +49,30 @@ title: "Portfolio"
 <span class="tag">HashiCorp Vault</span>
 <span class="tag">PostgreSQL</span>
 </div>
-<h4 style="margin-bottom:0.75rem">Key Achievements</h4>
-<ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> OTel Java agent auto-instrumentation with custom span enrichment</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Virtual threads (Project Loom) trace context preservation</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> OTLP Collector sidecar pipeline (receive → process → export)</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Terraform-managed Datadog monitors, SLOs, and dashboards</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> HashiCorp Vault dynamic secrets integration</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> 10,000+ line certification study documentation series</li>
+<h4 style="margin-bottom:0.5rem">Problem</h4>
+<p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1rem">APM demos that ignore Loom context, Collector design, and UI-clicked monitors do not survive production reviews.</p>
+<h4 style="margin-bottom:0.5rem">Approach</h4>
+<ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1rem">
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> OTel Java agent + custom span enrichment</li>
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Virtual thread trace-context preservation</li>
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> OTLP Collector pipeline to Datadog</li>
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Terraform-managed monitors, SLOs, dashboards</li>
 </ul>
-<div style="display:flex;gap:0.75rem">
+<h4 style="margin-bottom:0.5rem">Outcome</h4>
+<p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">Repeatable instrumentation and alerting path; study docs for OTel/Datadog certification prep.</p>
+<div style="display:flex;gap:0.75rem;flex-wrap:wrap">
 <a href="https://github.com/siosetech/spring-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
+<a href="{{< rel "blog/spring-otel-datadog-case-study/" >}}" class="btn btn-secondary btn-sm">Case study</a>
 </div>
 </div>
 <div style="min-width:200px;flex-shrink:0">
 <div style="background:var(--bg-secondary);border:1px solid var(--border-color);border-radius:10px;padding:1.25rem">
 <h4 style="font-size:0.85rem;margin-bottom:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">Documentation Series</h4>
 <ul style="font-size:0.82rem;color:var(--text-secondary)">
-<li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">📄 OPENTELEMETRY_FUNDAMENTALS.md <span style="color:var(--text-muted)">~2,000 lines</span></li>
-<li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">📄 DATADOG_INTEGRATION.md <span style="color:var(--text-muted)">~900 lines</span></li>
-<li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">📄 SPRING_vs_QUARKUS_OTEL.md <span style="color:var(--text-muted)">~1,800 lines</span></li>
-<li style="padding:0.3rem 0">📄 TEST_SCENARIOS.md <span style="color:var(--text-muted)">~2,764 lines</span></li>
+<li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">OPENTELEMETRY_FUNDAMENTALS.md</li>
+<li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">DATADOG_INTEGRATION.md</li>
+<li style="padding:0.3rem 0;border-bottom:1px solid var(--border-color)">SPRING_vs_QUARKUS_OTEL.md</li>
+<li style="padding:0.3rem 0">TEST_SCENARIOS.md</li>
 </ul>
 </div>
 </div>
@@ -87,7 +90,7 @@ title: "Portfolio"
 <span class="project-status status-active" style="font-size:0.75rem;padding:0.2rem 0.6rem;border-radius:100px">Active</span>
 </div>
 </div>
-<p>Quarkus-native observability lab extending the Spring Boot lab concepts — featuring GraalVM native compilation, reactive Mutiny pipelines, and direct A/B performance comparison with the Spring counterpart.</p>
+<p>Quarkus-native observability lab extending the Spring Boot lab concepts — GraalVM native builds, reactive Mutiny pipelines, and a direct A/B comparison with the Spring counterpart.</p>
 <div class="tech-tags" style="margin-bottom:1.25rem">
 <span class="tag">Quarkus 3</span>
 <span class="tag">Java 25</span>
@@ -98,15 +101,17 @@ title: "Portfolio"
 <span class="tag">HashiCorp Vault</span>
 <span class="tag">Terraform</span>
 </div>
-<h4 style="margin-bottom:0.75rem">Key Achievements</h4>
-<ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">
+<h4 style="margin-bottom:0.5rem">Problem</h4>
+<p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1rem">Spring-centric OTel guidance does not answer native-image cold start, Mutiny context, or framework extension trade-offs.</p>
+<h4 style="margin-bottom:0.5rem">Approach</h4>
+<ul style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1rem">
 <li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Quarkus OTel extension auto-instrumentation</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> GraalVM native image build with OTel agent compatibility</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Reactive Mutiny pipeline trace context preservation</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Sub-100ms cold start with GraalVM native</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Performance benchmarks: JVM vs native startup &amp; memory</li>
-<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Quarkus Vault extension for secrets management</li>
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> GraalVM native image with OTel compatibility</li>
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> Reactive Mutiny pipeline trace context</li>
+<li style="padding:0.2rem 0;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--success);font-weight:700">✓</span> JVM vs native startup and memory benchmarks</li>
 </ul>
+<h4 style="margin-bottom:0.5rem">Outcome</h4>
+<p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.25rem">Side-by-side Spring comparison; sub-100ms native cold start path validated in the lab.</p>
 <div style="display:flex;gap:0.75rem">
 <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
 </div>

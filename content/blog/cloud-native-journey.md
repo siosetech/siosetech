@@ -1,19 +1,31 @@
 ---
-title: "The Cloud-Native Journey: Beyond the Hype"
+title: "What actually matters after you leave the monolith"
+description: "Platform engineering, secrets, and observability are not buzzwords — they are the difference between a cluster and a system you can operate."
 date: 2026-07-29T10:00:00Z
 draft: false
+tags: ["Platform Engineering", "Observability"]
 ---
 
-Cloud-native is more than just a buzzword; it's a fundamental shift in how we design, build, and operate software. Moving from monolithic architectures to microservices deployed on Kubernetes introduces incredible flexibility but also significant complexity.
+Moving from a monolith to services on Kubernetes buys flexibility. It also multiplies failure modes. The teams that struggle are rarely short on YAML — they are short on a **paved road**: defaults that make the secure, observable path the easy path.
 
-## The Role of Platform Engineering
+## Platform first, tools second
 
-To truly succeed, organizations must embrace Platform Engineering. It's not enough to just give developers a Kubernetes cluster. You need to build a paved road that abstract away the underlying infrastructure while providing self-service capabilities. 
+Giving every team a raw cluster is not enablement. A useful platform answers a few boring questions well:
 
-In my experience, standardizing on tools like **Terraform** for infrastructure as code, and **Vault** for secrets management, are non-negotiable first steps.
+- How do I provision infrastructure the same way every time?
+- Where do secrets live, and how do services get them without copying files around?
+- How do I see a request across twenty services when something is slow?
 
-## Observability is Key
+In practice that starts with **Terraform** for repeatable environments and **Vault** (or an equivalent) for short-lived credentials. Everything else sits on top of that baseline.
 
-When you transition to a distributed architecture, traditional monitoring falls short. You need observability. **OpenTelemetry** has emerged as the standard for generating and collecting telemetry data, while platforms like **Datadog** excel at correlating traces, metrics, and logs.
+## Observability is how you keep the flexibility
 
-This allows us to answer not just *if* a service is down, but *why* it's behaving unexpectedly in a highly dynamic environment.
+Traditional monitoring asks whether a box is up. Distributed systems need **why** a user path broke. That is why **OpenTelemetry** for instrumentation and a backend that correlates traces, metrics, and logs (for example **Datadog**) matter more than another dashboard screenshot.
+
+If you cannot follow a request across service boundaries — including on virtual threads or reactive pipelines — you do not have observability. You have hope.
+
+## What I am practicing in public
+
+I keep that loop concrete in labs: Spring Boot and Quarkus services instrumented with OpenTelemetry, shipped to Datadog, with monitors and SLOs managed as code. The public write-ups live in the [portfolio]({{< rel "portfolio/" >}}) and the longer study notes in the lab repositories.
+
+Next on the path: GitOps depth with Flux and Argo (`cgoa-labs` / `capa-labs`) after the current cloud certification milestone.

@@ -1,11 +1,27 @@
 {{ define "main" }}
-<article class="container" style="max-width: 800px; padding: 6rem 2rem; margin: 0 auto;">
-  <header style="margin-bottom: 3rem; text-align: center;">
-    <p class="blog-date" style="color: #888; text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem;">{{ .Date.Format "January 2, 2006" }}</p>
-    <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #1a1a1a; line-height: 1.2; margin-top: 1rem;">{{ .Title }}</h1>
+<article class="blog-post">
+  <a class="blog-back" href="{{ "blog/" | relURL }}">← Back to Blog</a>
+  <header class="blog-post-header">
+    <div class="blog-card-meta">
+      <time class="blog-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{ with .Params.tags }}
+        {{ range . }}
+        <span class="blog-tag">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="blog-summary">{{ . }}</p>
+    {{ end }}
   </header>
-  <div class="content" style="font-family: 'Inter', sans-serif; font-size: 1.15rem; color: #444; line-height: 1.8;">
+  <div class="blog-content">
     {{ .Content }}
   </div>
+  <footer class="blog-post-footer">
+    <a href="{{ "blog/" | relURL }}" class="btn btn-secondary btn-sm">All posts</a>
+    <a href="{{ "portfolio/" | relURL }}" class="btn btn-outline btn-sm">View portfolio</a>
+    <a href="mailto:fatih@siosetech.com" class="btn btn-primary btn-sm">Get in Touch</a>
+  </footer>
 </article>
 {{ end }}
