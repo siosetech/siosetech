@@ -109,12 +109,12 @@ Explore the portfolio site (Hugo + GitHub Pages):
 | **Kubernetes and Cloud Native Security Associate (KCSA)** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) |
 | **HashiCorp Certified: Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) |
 | **HashiCorp Certified: Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=for-the-badge&logo=vault&logoColor=white)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
+| **Google Cloud Associate Cloud Engineer (ACE)** | Google Cloud | [![GCP ACE](https://img.shields.io/badge/GCP_ACE-Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url) |
 
 ### 🎯 In Progress
 
 | Credential | Issuer | Target |
 | :--- | :--- | :---: |
-| **Google Cloud Associate Cloud Engineer (ACE)** | Google Cloud | ![In Progress](https://img.shields.io/badge/Status-Exam_Scheduled-yellow?style=for-the-badge) |
 | **OpenTelemetry Associate (OTEA)** | CNCF | ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge) |
 | **Datadog APM Associate** | Datadog | ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge) |
 
@@ -143,7 +143,7 @@ Public `github-readme-stats` hosting is currently paused upstream, so dynamic ca
 
 ## 🌱 Current Learning Journey
 
-- 📖 **Google Cloud Associate Cloud Engineer (ACE)** — exam scheduled
+- ✅ **Google Cloud Associate Cloud Engineer (ACE)** — achieved
 - 📖 **OpenTelemetry Associate Certification** — collectors, processors, and exporters
 - 📖 **Datadog APM Associate Certification** — APM architecture, SLOs, IaC with Terraform provider
 - 🔬 **Hands-on Labs** — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab) and [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab); KodeKloud Engineer labs / hands-on practice

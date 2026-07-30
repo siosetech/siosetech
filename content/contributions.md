@@ -302,8 +302,8 @@ title: "Contributions"
 <div class="cert-card-icon">☁️</div>
 <div class="cert-card-content">
 <h4>Google Cloud Associate Cloud Engineer (ACE)</h4>
-<p class="issuer">Google Cloud · In Progress</p>
-<span class="cert-status cert-progress">Exam scheduled</span>
+<p class="issuer">Google Cloud · 2026</p>
+<a href="https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">
@@ -355,7 +355,7 @@ title: "Contributions"
 <div class="contrib-card-icon">🏅</div>
 <h4>Credly</h4>
 </div>
-<p>Verified digital badges for KCNA, KCSA, Terraform Associate, and Vault Associate certifications.</p>
+<p>Verified digital badges for KCNA, KCSA, Terraform Associate, Vault Associate, and Google Cloud ACE.</p>
 <span class="badge badge-blue">credly.com/users/siosetech.ffs ↗</span>
 </a>
 <a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">

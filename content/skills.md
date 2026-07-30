@@ -163,6 +163,7 @@ title: "Skills"
 <span class="skill-category-icon">🔵</span>
 <h3>Google Cloud (GCP)</h3>
 </div>
+<p style="font-size:0.85rem;color:var(--text-muted);margin:-0.5rem 0 1rem">Associate Cloud Engineer (ACE) certified</p>
 <div class="skill-list">
 <div class="skill-item">
 <span class="skill-name">GKE</span>

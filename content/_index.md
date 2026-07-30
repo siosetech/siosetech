@@ -22,6 +22,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <span class="cert-badge">KCSA</span>
 <span class="cert-badge">Terraform Associate</span>
 <span class="cert-badge">Vault Associate</span>
+<span class="cert-badge">GCP ACE</span>
 <span class="cert-badge">15+ GCP Badges</span>
 </div>
 <div class="hero-actions" style="margin-top:2rem">
@@ -182,6 +183,10 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="level">Associate · Intermediate</div>
 </div>
 <div class="skill-badge-card">
+<div class="name">Google Cloud</div>
+<div class="level">ACE Certified</div>
+</div>
+<div class="skill-badge-card">
 <div class="name">HashiCorp Vault</div>
 <div class="level">Associate Certified</div>
 </div>
@@ -236,7 +241,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="cert-card-content">
 <h4>Google Cloud Associate Cloud Engineer (ACE)</h4>
 <p class="issuer">Google Cloud</p>
-<span class="cert-status cert-progress">In Progress</span>
+<a href="https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
 <div class="cert-card">

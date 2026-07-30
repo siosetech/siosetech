@@ -26,7 +26,7 @@ title: "Experience"
 <div class="stat-lbl">Industry Sectors</div>
 </div>
 <div class="stat-card">
-<div class="stat-num">4</div>
+<div class="stat-num">5</div>
 <div class="stat-lbl">Associate Certifications</div>
 </div>
 </div>
@@ -123,6 +123,7 @@ title: "Experience"
 <span class="tag">KCSA</span>
 <span class="tag">Terraform Associate</span>
 <span class="tag">Vault Associate</span>
+<span class="tag">GCP ACE</span>
 </div>
 </div>
 </div>
@@ -221,8 +222,8 @@ title: "Experience"
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Certifications</h3>
-<p style="font-size:0.9rem">KCNA, KCSA, Terraform Associate, Vault Associate</p>
-<p style="font-size:0.9rem"><em>In Progress:</em> Google Cloud ACE, OpenTelemetry Associate (OTEA), Datadog APM Associate</p>
+<p style="font-size:0.9rem">KCNA, KCSA, Terraform Associate, Vault Associate, Google Cloud ACE</p>
+<p style="font-size:0.9rem"><em>In Progress:</em> OpenTelemetry Associate (OTEA), Datadog APM Associate</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Cloud Training</h3>
