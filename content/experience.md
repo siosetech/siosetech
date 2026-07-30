@@ -4,7 +4,7 @@ title: "Experience"
 
 <section class="page-hero" aria-labelledby="exp-heading">
 <div class="container">
-<h1 id="exp-heading">📅 Career Timeline</h1>
+<h1 id="exp-heading">Career Timeline</h1>
 <p>15+ years of software engineering and architecture — from Enterprise Java developer to Cloud-Native Systems Architect.</p>
 </div>
 </section>
@@ -37,7 +37,7 @@ title: "Experience"
 <section class="section section-alt" aria-labelledby="timeline-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="timeline-heading">🗺️ Career Phases</h2>
+<h2 id="timeline-heading">Career Phases</h2>
 <div class="section-divider"></div>
 </div>
 <div class="timeline" role="list">
@@ -135,12 +135,11 @@ title: "Experience"
 <section class="section" aria-labelledby="achievements-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="achievements-heading">🎯 Key Achievements</h2>
+<h2 id="achievements-heading">Key Achievements</h2>
 <div class="section-divider"></div>
 </div>
 <div class="achievements-grid">
 <div class="achievement-card">
-<div class="icon">🏗️</div>
 <h4>Architecture Leadership</h4>
 <ul>
 <li>Designed a multi-tenant SaaS platform serving enterprise clients with zero-downtime tenant onboarding</li>
@@ -149,7 +148,6 @@ title: "Experience"
 </ul>
 </div>
 <div class="achievement-card">
-<div class="icon">🔍</div>
 <h4>Observability &amp; Reliability</h4>
 <ul>
 <li>Established end-to-end distributed tracing across 20+ microservices using OpenTelemetry</li>
@@ -158,16 +156,14 @@ title: "Experience"
 </ul>
 </div>
 <div class="achievement-card">
-<div class="icon">👥</div>
 <h4>Developer Experience</h4>
 <ul>
 <li>Created reusable Terraform module library adopted by multiple teams</li>
-<li>Authored comprehensive certification study guides (OTel, Datadog, Spring vs Quarkus)</li>
+<li>Authored certification study guides (OTel, Datadog, Spring vs Quarkus)</li>
 <li>Mentored 10+ engineers on cloud-native patterns and modern Java development</li>
 </ul>
 </div>
 <div class="achievement-card">
-<div class="icon">⚡</div>
 <h4>Performance Wins</h4>
 <ul>
 <li>Migrated critical legacy services to Java 8+, paving the way for significant performance gains and long-term sustainability</li>
@@ -183,30 +179,26 @@ title: "Experience"
 <section class="section section-alt" aria-labelledby="industry-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="industry-heading">🌍 Industry Experience</h2>
+<h2 id="industry-heading">Industry Experience</h2>
 <div class="section-divider"></div>
 </div>
 <div class="industry-grid">
 <div class="industry-card">
-<div class="icon">🏦</div>
 <h4>Financial Services</h4>
 <div class="duration">5+ years</div>
 <p>High-availability, compliance, security, audit logging</p>
 </div>
 <div class="industry-card">
-<div class="icon">📡</div>
 <h4>Telecommunications</h4>
 <div class="duration">3+ years</div>
 <p>High-throughput event streaming, network APIs</p>
 </div>
 <div class="industry-card">
-<div class="icon">🚀</div>
 <h4>SaaS / Startups</h4>
 <div class="duration">4+ years</div>
 <p>Speed-to-market, multi-tenancy, developer experience</p>
 </div>
 <div class="industry-card">
-<div class="icon">🏢</div>
 <h4>Enterprise / Consulting</h4>
 <div class="duration">3+ years</div>
 <p>Architecture reviews, migration strategy, mentoring</p>

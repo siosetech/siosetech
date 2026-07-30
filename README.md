@@ -28,8 +28,10 @@ Currently focused on:
 | :--- | :--- | :--- | :---: |
 | [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus, OTel, Datadog | 🚀 Active |
-| [**fleet-forge**](https://github.com/siosetech/fleet-forge) | End-to-end multi-tenant logistics platform with event-driven microservices, GitOps, Vault, Keycloak, and full observability stack | Spring Boot, Kafka, PostgreSQL, Redis, ClickHouse, Kubernetes, ArgoCD, Vault | 🚧 Active (public hardening) |
-| [**azure-dev-labs**](https://github.com/siosetech/azure-dev-labs) | Azure-focused cloud-native labs and reference implementations | Azure, Kubernetes, Terraform, DevOps | 🔒 Coming soon |
+| **fleet-forge** | Multi-tenant logistics platform with event-driven microservices, GitOps, Vault, Keycloak | Spring Boot, Kafka, Kubernetes, ArgoCD | 🔒 Private |
+| **cgoa-labs** | Certified GitOps Associate (CGOA) labs — Flux, GitLab CI, Minikube | Flux, GitOps, Kubernetes | 🔜 Coming soon |
+| **capa-labs** | Certified Argo Project Associate (CAPA) labs — Argo CD, Workflows, Rollouts, Events | Argo, Helm, Kubernetes | 🔜 Coming soon |
+| **azure-dev-labs** | Azure-focused cloud-native labs and reference implementations | Azure, Kubernetes, Terraform, DevOps | 🔜 Coming soon |
 | [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — Hugo site on GitHub Pages | Hugo, CSS, JS, GitHub Actions | 🏗️ Live |
 
 > 📂 See [**PORTFOLIO.md**](./PORTFOLIO.md) for detailed project breakdowns, tech stacks, and key learnings.

@@ -4,7 +4,7 @@ title: "Skills"
 
 <section class="page-hero" aria-labelledby="skills-page-heading">
 <div class="container">
-<h1 id="skills-page-heading">📊 Technical Skills Matrix</h1>
+<h1 id="skills-page-heading">Technical Skills Matrix</h1>
 <p>Comprehensive breakdown of technical skills, proficiency levels, and years of experience across the full cloud-native stack.</p>
 </div>
 </section>
@@ -13,7 +13,7 @@ title: "Skills"
 <section class="section" aria-labelledby="langs-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="langs-heading">💻 Programming Languages</h2>
+<h2 id="langs-heading">Programming Languages</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">
@@ -81,7 +81,7 @@ title: "Skills"
 <section class="section section-alt" aria-labelledby="java-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="java-heading">🍃 Java Ecosystem</h2>
+<h2 id="java-heading">Java Ecosystem</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">
@@ -154,7 +154,7 @@ title: "Skills"
 <section class="section" aria-labelledby="cloud-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="cloud-heading">☁️ Cloud Platforms</h2>
+<h2 id="cloud-heading">Cloud Platforms</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">
@@ -227,7 +227,7 @@ title: "Skills"
 <section class="section section-alt" aria-labelledby="k8s-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="k8s-heading">☸️ Kubernetes &amp; Infrastructure</h2>
+<h2 id="k8s-heading">Kubernetes &amp; Infrastructure</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">
@@ -295,7 +295,7 @@ title: "Skills"
 <section class="section" aria-labelledby="obs-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="obs-heading">🔍 Observability &amp; APM</h2>
+<h2 id="obs-heading">Observability &amp; APM</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">
@@ -406,7 +406,7 @@ title: "Skills"
 <section class="section section-alt" aria-labelledby="security-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="security-heading">🔐 Security, Databases &amp; DevOps</h2>
+<h2 id="security-heading">Security, Databases &amp; DevOps</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">
@@ -517,7 +517,7 @@ title: "Skills"
 <section class="section" aria-labelledby="arch-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="arch-heading">🏛️ Architecture Patterns</h2>
+<h2 id="arch-heading">Architecture Patterns</h2>
 <div class="section-divider"></div>
 </div>
 <div class="skills-grid">

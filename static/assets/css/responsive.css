@@ -167,6 +167,10 @@
   .stats-row {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .stats-row-compact {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- Mobile (≤ 480px) ---------- */

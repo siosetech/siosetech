@@ -4,7 +4,7 @@ title: "Contributions"
 
 <section class="page-hero" aria-labelledby="contrib-heading">
 <div class="container">
-<h1 id="contrib-heading">🤝 Contributions &amp; Community</h1>
+<h1 id="contrib-heading">Contributions &amp; Community</h1>
 <p>Learning in public, sharing knowledge, and contributing to the cloud-native community through documentation, open-source, and mentoring.</p>
 </div>
 </section>
@@ -13,7 +13,7 @@ title: "Contributions"
 <section class="section" aria-labelledby="docs-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="docs-heading">📖 Technical Documentation</h2>
+<h2 id="docs-heading">Technical Documentation</h2>
 <div class="section-divider"></div>
 <p>Open-source certification study guides produced as hands-on lab documentation</p>
 </div>
@@ -130,7 +130,7 @@ title: "Contributions"
 <section class="section section-alt" aria-labelledby="oss-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="oss-heading">🔬 Open-Source Projects</h2>
+<h2 id="oss-heading">Open-Source Projects</h2>
 <div class="section-divider"></div>
 </div>
 <div class="contrib-grid">
@@ -178,6 +178,30 @@ title: "Contributions"
 </div>
 <div class="contrib-card">
 <div class="contrib-card-header">
+<div class="contrib-card-icon">CG</div>
+<h4>cgoa-labs</h4>
+</div>
+<p>CGOA exam labs — Flux GitOps, GitLab CI, Minikube. Coming soon.</p>
+<div class="tech-tags">
+<span class="tag">Flux</span>
+<span class="tag">GitOps</span>
+<span class="tag">GitLab CI</span>
+</div>
+</div>
+<div class="contrib-card">
+<div class="contrib-card-header">
+<div class="contrib-card-icon">CA</div>
+<h4>capa-labs</h4>
+</div>
+<p>CAPA exam labs — Argo CD, Workflows, Rollouts, Events. Coming soon.</p>
+<div class="tech-tags">
+<span class="tag">Argo CD</span>
+<span class="tag">Helm</span>
+<span class="tag">Kubernetes</span>
+</div>
+</div>
+<div class="contrib-card">
+<div class="contrib-card-header">
 <div class="contrib-card-icon">📋</div>
 <h4>siosetech (Portfolio)</h4>
 </div>
@@ -199,7 +223,7 @@ title: "Contributions"
 <section class="section" aria-labelledby="mentoring-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="mentoring-heading">👥 Mentoring &amp; Knowledge Sharing</h2>
+<h2 id="mentoring-heading">Mentoring &amp; Knowledge Sharing</h2>
 <div class="section-divider"></div>
 </div>
 <div class="achievements-grid">
@@ -241,7 +265,7 @@ title: "Contributions"
 <section class="section section-alt" aria-labelledby="learning-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="learning-heading">🎓 Continuous Learning</h2>
+<h2 id="learning-heading">Continuous Learning</h2>
 <div class="section-divider"></div>
 </div>
 <div class="certs-grid">
@@ -317,7 +341,7 @@ title: "Contributions"
 <section class="section" aria-labelledby="profiles-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="profiles-heading">🌐 Platforms &amp; Profiles</h2>
+<h2 id="profiles-heading">Platforms &amp; Profiles</h2>
 <div class="section-divider"></div>
 </div>
 <div class="contrib-grid">
@@ -369,7 +393,7 @@ title: "Contributions"
 <section class="section section-alt" aria-labelledby="future-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="future-heading">💡 Future Plans</h2>
+<h2 id="future-heading">Future Plans</h2>
 <div class="section-divider"></div>
 </div>
 <div class="card-grid">
@@ -387,7 +411,7 @@ title: "Contributions"
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">GitOps Path</h3>
-<p>Deepen Helm + Kustomization workflows for multi-environment delivery after cloud certification milestones.</p>
+<p>Deepen Helm + Kustomization workflows; public release of cgoa-labs (Flux) and capa-labs (Argo) on the GitOps path.</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Speaking</h3>

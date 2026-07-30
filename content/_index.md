@@ -2,7 +2,6 @@
 title: "Home"
 ---
 
-<!-- Hero Section -->
 <section class="hero" aria-labelledby="hero-heading">
 <div class="container">
 <div class="hero-content">
@@ -16,26 +15,8 @@ Hi, I'm <span class="highlight">Fatih Şahin</span>
 </h1>
 <p class="hero-subtitle">Software Architect · Cloud-Native Systems · 15+ Years Experience</p>
 <p class="hero-description">
-Designing scalable, secure, and observable distributed systems — from architecture blueprints to production-ready deployments. Specialising in Java ecosystems, Kubernetes, OpenTelemetry, and platform engineering.
+Designing scalable, secure, and observable distributed systems — from architecture blueprints to production-ready deployments. Focus areas: Java ecosystems, Kubernetes, OpenTelemetry, and platform engineering.
 </p>
-<div class="hero-stats">
-<div class="stat">
-<div class="stat-number">15+</div>
-<div class="stat-label">Years Exp.</div>
-</div>
-<div class="stat">
-<div class="stat-number">4</div>
-<div class="stat-label">Certifications</div>
-</div>
-<div class="stat">
-<div class="stat-number">15+</div>
-<div class="stat-label">Cloud Badges</div>
-</div>
-<div class="stat">
-<div class="stat-number">20+</div>
-<div class="stat-label">Services Traced</div>
-</div>
-</div>
 <div class="cert-badges">
 <span class="cert-badge">KCNA</span>
 <span class="cert-badge">KCSA</span>
@@ -63,39 +44,36 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </section>
 
-<!-- Featured Projects Section -->
 <section class="section" id="projects" aria-labelledby="projects-heading">
 <div class="container">
 <div class="section-header">
 <h2 id="projects-heading">Featured Projects</h2>
 <div class="section-divider"></div>
-<p>Hands-on labs and open-source work showcasing real-world cloud-native patterns</p>
+<p>Hands-on labs and platforms that demonstrate production-oriented cloud-native patterns</p>
 </div>
 <div class="card-grid">
 
 <article class="project-card" data-category="observability">
 <div class="project-card-header">
-<div class="project-icon spring">🍃</div>
+<div class="project-icon spring">SB</div>
 <span class="project-status status-active">Active</span>
 </div>
 <div class="project-card-body">
 <h3>spring-datadog-lab</h3>
-<p>Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors, dashboards, and SLOs.</p>
+<p>Spring Boot 4 + OpenTelemetry + Datadog APM, with Terraform-managed monitors, dashboards, and SLOs.</p>
 <div class="tech-tags">
 <span class="tag">Spring Boot 4</span>
 <span class="tag">OpenTelemetry</span>
 <span class="tag">Datadog</span>
 <span class="tag">Terraform</span>
 <span class="tag">Java 25</span>
-<span class="tag">Docker</span>
 </div>
 <div class="project-achievements">
 <ul>
-<li>OTel Java agent auto-instrumentation</li>
-<li>Virtual threads (Project Loom) trace context</li>
-<li>OTLP Collector sidecar pipeline</li>
-<li>Terraform-managed Datadog monitors &amp; SLOs</li>
-<li>10,000+ line certification study series</li>
+<li>OTel Java agent with custom span enrichment</li>
+<li>Virtual thread trace-context preservation</li>
+<li>OTLP Collector pipeline to Datadog</li>
+<li>Monitors and SLOs as code</li>
 </ul>
 </div>
 </div>
@@ -107,27 +85,25 @@ Designing scalable, secure, and observable distributed systems — from architec
 
 <article class="project-card" data-category="observability">
 <div class="project-card-header">
-<div class="project-icon quarkus">⚡</div>
+<div class="project-icon quarkus">Q</div>
 <span class="project-status status-active">Active</span>
 </div>
 <div class="project-card-body">
 <h3>quarkus-datadog-lab</h3>
-<p>Quarkus-native observability: native compilation, OTLP Collector, Datadog APM — direct A/B comparison with Spring Boot lab.</p>
+<p>Quarkus observability lab with GraalVM native builds and a direct A/B comparison against the Spring Boot counterpart.</p>
 <div class="tech-tags">
 <span class="tag">Quarkus 3</span>
 <span class="tag">OpenTelemetry</span>
 <span class="tag">Datadog</span>
 <span class="tag">GraalVM</span>
 <span class="tag">Java 25</span>
-<span class="tag">Reactive</span>
 </div>
 <div class="project-achievements">
 <ul>
-<li>Quarkus OTel extension auto-instrumentation</li>
-<li>GraalVM native image with OTel compatibility</li>
-<li>Reactive Mutiny pipeline trace context</li>
-<li>Performance benchmarks (JVM vs native)</li>
-<li>HashiCorp Vault secrets integration</li>
+<li>Quarkus OTel extension instrumentation</li>
+<li>Native image compatibility with OTel</li>
+<li>Reactive Mutiny trace context</li>
+<li>JVM vs native startup and memory benchmarks</li>
 </ul>
 </div>
 </div>
@@ -139,54 +115,25 @@ Designing scalable, secure, and observable distributed systems — from architec
 
 <article class="project-card" data-category="infrastructure">
 <div class="project-card-header">
-<div class="project-icon" style="background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9">🚚</div>
-<span class="project-status status-active">Active</span>
+<div class="project-icon" style="background:linear-gradient(135deg,#0ea5e922,#0ea5e944);color:#0ea5e9">FF</div>
+<span class="project-status status-wip">Private</span>
 </div>
 <div class="project-card-body">
 <h3>fleet-forge</h3>
-<p>Multi-tenant logistics platform with event-driven microservices, outbox/CDC pipelines, Vault + Keycloak security, and GitOps-ready operations.</p>
+<p>Multi-tenant logistics platform: event-driven services, CDC pipelines, Vault + Keycloak, and a GitOps-ready delivery path. Currently private.</p>
 <div class="tech-tags">
 <span class="tag">Spring Boot</span>
 <span class="tag">Kafka</span>
 <span class="tag">PostgreSQL</span>
-<span class="tag">Redis GEO</span>
-<span class="tag">ClickHouse</span>
 <span class="tag">Kubernetes</span>
+<span class="tag">ArgoCD</span>
 </div>
 <div class="project-achievements">
 <ul>
-<li>End-to-end tenant-aware domain flows</li>
-<li>Outbox + Debezium CDC eventing model</li>
-<li>Vault AppRole + Keycloak OIDC integration</li>
-<li>Helm + ArgoCD GitOps deployment path</li>
-</ul>
-</div>
-</div>
-<div class="project-card-footer">
-<a href="https://github.com/siosetech/fleet-forge" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
-<a href="{{< rel "portfolio/" >}}" class="btn btn-secondary btn-sm">Details</a>
-</div>
-</article>
-
-<article class="project-card" data-category="infrastructure">
-<div class="project-card-header">
-<div class="project-icon" style="background:linear-gradient(135deg,#0078d422,#0078d444);color:#0078d4">☁️</div>
-<span class="project-status status-wip">Coming soon</span>
-</div>
-<div class="project-card-body">
-<h3>azure-dev-labs</h3>
-<p>Azure-focused cloud-native labs and reference implementations covering AKS, Terraform, and DevOps delivery patterns. Public release planned.</p>
-<div class="tech-tags">
-<span class="tag">Azure</span>
-<span class="tag">AKS</span>
-<span class="tag">Terraform</span>
-<span class="tag">DevOps</span>
-</div>
-<div class="project-achievements">
-<ul>
-<li>Azure architecture and platform patterns</li>
-<li>Infrastructure automation scenarios</li>
-<li>Operational AKS labs and references</li>
+<li>Tenant-aware domain and reporting flows</li>
+<li>Outbox + Debezium CDC to Kafka</li>
+<li>Vault AppRole and Keycloak OIDC</li>
+<li>Helm charts with ArgoCD GitOps path</li>
 </ul>
 </div>
 </div>
@@ -202,72 +149,43 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </section>
 
-<!-- Skills Overview -->
 <section class="section section-alt" id="skills-overview" aria-labelledby="skills-heading">
 <div class="container">
 <div class="section-header">
 <h2 id="skills-heading">Core Expertise</h2>
 <div class="section-divider"></div>
-<p>Deep expertise across the full cloud-native stack</p>
+<p>Primary strengths across the cloud-native stack</p>
 </div>
 <div class="skills-overview-grid">
 <div class="skill-badge-card">
-<div class="icon">☕</div>
 <div class="name">Java / JVM</div>
 <div class="level">Expert · 15+ yrs</div>
 </div>
 <div class="skill-badge-card">
-<div class="icon">☸️</div>
-<div class="name">Kubernetes</div>
-<div class="level">KCNA Certified</div>
-</div>
-<div class="skill-badge-card">
-<div class="icon">🔭</div>
-<div class="name">OpenTelemetry</div>
-<div class="level">Advanced</div>
-</div>
-<div class="skill-badge-card">
-<div class="icon">🐕</div>
-<div class="name">Datadog APM</div>
-<div class="level">Advanced</div>
-</div>
-<div class="skill-badge-card">
-<div class="icon">🏗️</div>
-<div class="name">Terraform</div>
-<div class="level">Associate Certified</div>
-</div>
-<div class="skill-badge-card">
-<div class="icon">🔑</div>
-<div class="name">HashiCorp Vault</div>
-<div class="level">Associate Certified</div>
-</div>
-<div class="skill-badge-card">
-<div class="icon">☁️</div>
-<div class="name">Google Cloud</div>
-<div class="level">15+ Skill Badges</div>
-</div>
-<div class="skill-badge-card">
-<div class="icon">🍃</div>
 <div class="name">Spring Boot</div>
 <div class="level">Expert · 10+ yrs</div>
 </div>
 <div class="skill-badge-card">
-<div class="icon">⚡</div>
-<div class="name">Quarkus</div>
+<div class="name">Kubernetes</div>
+<div class="level">KCNA / KCSA</div>
+</div>
+<div class="skill-badge-card">
+<div class="name">OpenTelemetry</div>
 <div class="level">Advanced</div>
 </div>
 <div class="skill-badge-card">
-<div class="icon">📊</div>
-<div class="name">Prometheus/Grafana</div>
-<div class="level">Expert</div>
+<div class="name">Datadog APM</div>
+<div class="level">Advanced</div>
 </div>
 <div class="skill-badge-card">
-<div class="icon">🐘</div>
-<div class="name">PostgreSQL</div>
-<div class="level">Expert · 12+ yrs</div>
+<div class="name">Terraform</div>
+<div class="level">Associate · Intermediate</div>
 </div>
 <div class="skill-badge-card">
-<div class="icon">🔐</div>
+<div class="name">HashiCorp Vault</div>
+<div class="level">Associate Certified</div>
+</div>
+<div class="skill-badge-card">
 <div class="name">Keycloak / OIDC</div>
 <div class="level">Expert</div>
 </div>
@@ -278,17 +196,15 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </section>
 
-<!-- Certifications Section -->
 <section class="section" id="certifications" aria-labelledby="certs-heading">
 <div class="container">
 <div class="section-header">
 <h2 id="certs-heading">Certifications</h2>
 <div class="section-divider"></div>
-<p>Verified expertise backed by industry certifications</p>
+<p>Verified credentials and current preparation track</p>
 </div>
 <div class="certs-grid">
 <div class="cert-card">
-<div class="cert-card-icon">☸️</div>
 <div class="cert-card-content">
 <h4>Kubernetes and Cloud Native Associate (KCNA)</h4>
 <p class="issuer">The Linux Foundation / CNCF</p>
@@ -296,7 +212,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="cert-card">
-<div class="cert-card-icon">🔐</div>
 <div class="cert-card-content">
 <h4>Kubernetes and Cloud Native Security Associate (KCSA)</h4>
 <p class="issuer">The Linux Foundation / CNCF</p>
@@ -304,7 +219,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="cert-card">
-<div class="cert-card-icon">🏗️</div>
 <div class="cert-card-content">
 <h4>HashiCorp Certified: Terraform Associate</h4>
 <p class="issuer">HashiCorp</p>
@@ -312,7 +226,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="cert-card">
-<div class="cert-card-icon">🔑</div>
 <div class="cert-card-content">
 <h4>HashiCorp Certified: Vault Associate</h4>
 <p class="issuer">HashiCorp</p>
@@ -320,7 +233,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="cert-card">
-<div class="cert-card-icon">☁️</div>
 <div class="cert-card-content">
 <h4>Google Cloud Associate Cloud Engineer (ACE)</h4>
 <p class="issuer">Google Cloud</p>
@@ -328,23 +240,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 <div class="cert-card">
-<div class="cert-card-icon">🔭</div>
-<div class="cert-card-content">
-<h4>OpenTelemetry Associate (OTEA)</h4>
-<p class="issuer">CNCF</p>
-<span class="cert-status cert-progress">In Progress</span>
-</div>
-</div>
-<div class="cert-card">
-<div class="cert-card-icon">🐕</div>
-<div class="cert-card-content">
-<h4>Datadog APM Associate</h4>
-<p class="issuer">Datadog</p>
-<span class="cert-status cert-progress">In Progress</span>
-</div>
-</div>
-<div class="cert-card">
-<div class="cert-card-icon">☁️</div>
 <div class="cert-card-content">
 <h4>Google Cloud Skill Badges (15+)</h4>
 <p class="issuer">Google Cloud</p>
@@ -352,38 +247,29 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 </div>
+<p class="certs-footnote">Also preparing: OpenTelemetry Associate (OTEA) and Datadog APM Associate.</p>
 </div>
 </section>
 
-<!-- Stats Row -->
-<section class="section section-alt" aria-label="Key statistics">
+<section class="section section-alt" aria-label="Selected outcomes">
 <div class="container">
-<div class="stats-row">
-<div class="stat-card">
-<div class="stat-num">15+</div>
-<div class="stat-lbl">Years Engineering</div>
-</div>
+<div class="stats-row stats-row-compact">
 <div class="stat-card">
 <div class="stat-num">20+</div>
-<div class="stat-lbl">Services Traced</div>
+<div class="stat-lbl">Services traced end-to-end</div>
 </div>
 <div class="stat-card">
 <div class="stat-num">10+</div>
-<div class="stat-lbl">Engineers Mentored</div>
-</div>
-<div class="stat-card">
-<div class="stat-num">10K+</div>
-<div class="stat-lbl">Lines of Docs Written</div>
+<div class="stat-lbl">Engineers mentored</div>
 </div>
 <div class="stat-card">
 <div class="stat-num">40%+</div>
-<div class="stat-lbl">Throughput Gain (Loom)</div>
+<div class="stat-lbl">Throughput gain with Loom</div>
 </div>
 </div>
 </div>
 </section>
 
-<!-- CTA Section -->
 <section class="cta-section" aria-labelledby="cta-heading">
 <div class="container">
 <h2 id="cta-heading">Let's Build Something Together</h2>
@@ -395,4 +281,3 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 </section>
-
