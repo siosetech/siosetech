@@ -23,6 +23,7 @@
 
 ### Google Cloud Platform (GCP)
 
+[![GCP ACE](https://img.shields.io/badge/Google_Cloud-ACE_Certified-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url)
 [![View Badges](https://img.shields.io/badge/GCP-15%2B_Skill_Badges-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
 
 | Service Area | Services | Level |

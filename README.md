@@ -1,73 +1,49 @@
-# Hi there, I'm Fatih Şahin 👋
+# Fatih Şahin
 
 **Software Architect | Cloud-Native Systems | 15+ Years Experience**
 
-> Designing scalable, secure, and observable distributed systems — from architecture blueprints to production-ready deployments.
+Designing scalable, secure, and observable distributed systems — from architecture to production.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sioseforge/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fatih@siosetech.com)
-[![GitHub followers](https://img.shields.io/github/followers/siosetech?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siosetech)
-
----
-
-## 👨‍💻 About Me
-
-Software Architect with **15+ years** of hands-on experience building production-grade distributed systems and cloud-native architectures. I specialize in **Java ecosystems** (Spring Boot, Quarkus), **Kubernetes orchestration**, and **observability platforms** (OpenTelemetry, Datadog). My work spans from architecture design to production deployments with deep expertise in security, scalability, and cloud-native best practices.
-
-Currently focused on:
-- 🔭 **Observability & APM** — OpenTelemetry instrumentation, Datadog APM, distributed tracing
-- ☁️ **Cloud-Native Architecture** — Kubernetes, Terraform IaC, multi-tenant systems
-- 🚀 **Modern Java** — Spring Boot 4.x / Quarkus 3.x with virtual threads and reactive patterns
-- 🔐 **Platform Engineering** — HashiCorp Vault, Keycloak, service mesh security
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sioseforge-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sioseforge/)
+[![Email](https://img.shields.io/badge/Email-fatih@siosetech.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:fatih@siosetech.com)
+[![Website](https://img.shields.io/badge/Portfolio-siosetech.github.io-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://siosetech.github.io/siosetech/)
+[![GitHub](https://img.shields.io/badge/GitHub-@siosetech-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/siosetech)
 
 ---
 
-## 🚀 Featured Projects
+## About
+
+Software Architect with **15+ years** building production distributed systems. Focus: **Java** (Spring Boot, Quarkus), **Kubernetes**, **observability** (OpenTelemetry, Datadog), and platform foundations (**Terraform**, **Vault**, **Keycloak**).
+
+**[Portfolio site](https://siosetech.github.io/siosetech/)** · [Projects](https://siosetech.github.io/siosetech/portfolio/) · [Skills](https://siosetech.github.io/siosetech/skills/) · [Experience](https://siosetech.github.io/siosetech/experience/) · [Contributions](https://siosetech.github.io/siosetech/contributions/) · [Blog](https://siosetech.github.io/siosetech/blog/)
+
+---
+
+## Featured Projects
 
 | Project | Description | Stack | Status |
 | :--- | :--- | :--- | :---: |
-| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Full APM integration: Spring Boot 4 + OpenTelemetry + Datadog Agent + Terraform IaC for monitors & dashboards | Spring Boot, OTel, Datadog, Terraform | 🚀 Active |
-| [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability: native compilation, OTLP collector, Datadog APM comparison | Quarkus, OTel, Datadog | 🚀 Active |
-| **fleet-forge** | Multi-tenant logistics platform with event-driven microservices, GitOps, Vault, Keycloak | Spring Boot, Kafka, Kubernetes, ArgoCD | 🔒 Private |
-| **cgoa-labs** | Certified GitOps Associate (CGOA) labs — Flux, GitLab CI, Minikube | Flux, GitOps, Kubernetes | 🔜 Coming soon |
-| **capa-labs** | Certified Argo Project Associate (CAPA) labs — Argo CD, Workflows, Rollouts, Events | Argo, Helm, Kubernetes | 🔜 Coming soon |
-| **azure-dev-labs** | Azure-focused cloud-native labs and reference implementations | Azure, Kubernetes, Terraform, DevOps | 🔜 Coming soon |
-| [**siosetech**](https://github.com/siosetech/siosetech) | This portfolio — Hugo site on GitHub Pages | Hugo, CSS, JS, GitHub Actions | 🏗️ Live |
+| [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Spring Boot APM: OpenTelemetry, Datadog agent, Terraform monitors/SLOs | Spring, OTel, Datadog, Terraform | Active |
+| [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability with OTLP collector and Datadog APM | Quarkus, OTel, Datadog | Active |
+| **fleet-forge** | Multi-tenant logistics platform — GitOps, Vault, Keycloak | Spring, Kafka, Kubernetes | Private |
+| **cgoa-labs** | GitOps Associate (CGOA) labs — Flux, GitLab CI | Flux, Kubernetes | Coming soon |
+| **capa-labs** | Argo Project Associate (CAPA) labs — CD, Workflows, Rollouts | Argo, Helm, Kubernetes | Coming soon |
+| **azure-dev-labs** | Azure cloud-native labs and reference implementations | Azure, Kubernetes, Terraform | Coming soon |
 
-> 📂 See [**PORTFOLIO.md**](./PORTFOLIO.md) for detailed project breakdowns, tech stacks, and key learnings.
-
----
-
-## 🌐 Portfolio Website
-
-Explore the portfolio site (Hugo + GitHub Pages):
-- **[Portfolio Projects](https://siosetech.github.io/siosetech/portfolio/)** — Featured projects showcase
-- **[Technical Skills](https://siosetech.github.io/siosetech/skills/)** — Skills matrix across the cloud-native stack
-- **[Career Experience](https://siosetech.github.io/siosetech/experience/)** — 15+ years timeline
-- **[Contributions](https://siosetech.github.io/siosetech/contributions/)** — Documentation, OSS, mentoring, certifications
-- **[Blog](https://siosetech.github.io/siosetech/blog/)** — Notes on cloud-native architecture
-
-**[→ Visit Full Website](https://siosetech.github.io/siosetech/)**
+Details: [PORTFOLIO.md](./PORTFOLIO.md)
 
 ---
 
-## 🛠️ Technical Skills
-
-### 💻 Programming Languages
+## Skills
 
 ![Java](https://img.shields.io/badge/Java-15%2B_Years-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-Intermediate-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-Working_Knowledge-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-Advanced-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
-### ☁️ Cloud Platforms
-
-![GCP](https://img.shields.io/badge/Google_Cloud-15%2B_Skill_Badges-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-ACE_Certified-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-Fundamentals-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-Working_Knowledge-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-
-### 🔧 Orchestration & Infrastructure
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-KCNA_Certified-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-Associate_Certified-844FBA?style=flat-square&logo=terraform&logoColor=white)
@@ -75,105 +51,40 @@ Explore the portfolio site (Hugo + GitHub Pages):
 ![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Vault](https://img.shields.io/badge/Vault-Associate_Certified-000000?style=flat-square&logo=vault&logoColor=white)
 
-### 🔍 Observability & APM
-
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Hands--on_Labs-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Hands--on-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-APM_%26_IaC-632CA6?style=flat-square&logo=datadog&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-Advanced-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-Advanced-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Jaeger](https://img.shields.io/badge/Jaeger-Distributed_Tracing-00C3E3?style=flat-square)
-
-### 🗄️ Databases & Messaging
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Advanced-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-Event_Streaming-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-Caching_%26_Sessions-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### 🔑 Security & Identity
-
+![Kafka](https://img.shields.io/badge/Kafka-Event_Streaming-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
 ![Keycloak](https://img.shields.io/badge/Keycloak-IAM_%26_SSO-4D9BF4?style=flat-square)
 ![KCSA](https://img.shields.io/badge/KCSA-Certified-00A6CE?style=flat-square&logo=linux&logoColor=white)
-![Vault](https://img.shields.io/badge/HashiCorp_Vault-Secrets_Management-000000?style=flat-square&logo=vault&logoColor=white)
 
-> 📊 See [**SKILLS.md**](./SKILLS.md) for a full skills matrix with proficiency levels.
+Full matrix: [SKILLS.md](./SKILLS.md)
 
 ---
 
-## 🏆 Certifications
-
-### ✅ Achieved
+## Certifications
 
 | Credential | Issuer | Badge |
 | :--- | :--- | :---: |
-| **Kubernetes and Cloud Native Associate (KCNA)** | The Linux Foundation | [![KCNA](https://img.shields.io/badge/KCNA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url) |
-| **Kubernetes and Cloud Native Security Associate (KCSA)** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=for-the-badge&logo=linux&logoColor=white)](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) |
-| **HashiCorp Certified: Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) |
-| **HashiCorp Certified: Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=for-the-badge&logo=vault&logoColor=white)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
-| **Google Cloud Associate Cloud Engineer (ACE)** | Google Cloud | [![GCP ACE](https://img.shields.io/badge/GCP_ACE-Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url) |
+| **KCNA** | The Linux Foundation | [![KCNA](https://img.shields.io/badge/KCNA-Linux_Foundation-00A6CE?style=flat-square&logo=linux&logoColor=white)](https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url) |
+| **KCSA** | The Linux Foundation | [![KCSA](https://img.shields.io/badge/KCSA-Linux_Foundation-00A6CE?style=flat-square&logo=linux&logoColor=white)](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) |
+| **Terraform Associate** | HashiCorp | [![Terraform](https://img.shields.io/badge/Terraform_Associate-HashiCorp-844FBA?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) |
+| **Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=flat-square&logo=vault&logoColor=white)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
+| **Google Cloud ACE** | Google Cloud | [![GCP ACE](https://img.shields.io/badge/GCP_ACE-Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url) |
 
-### 🎯 In Progress
+**Next (security + platform):** SC-300 · AZ-700 · then Helm / CKA path  
 
-| Credential | Issuer | Target |
-| :--- | :--- | :---: |
-| **OpenTelemetry Associate (OTEA)** | CNCF | ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge) |
-| **Datadog APM Associate** | Datadog | ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge) |
+Also preparing: OpenTelemetry Associate (OTEA), Datadog APM Associate  
 
-### ☁️ Google Cloud Skill Badges (15+)
+[Google Cloud Skill Badges (15+)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) · [Microsoft Learn transcript](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
 
-Hands-on expertise across GCP services — compute, networking, data, security, and AI/ML:
-
-[![View My Google Cloud Badges](https://img.shields.io/badge/Google_Cloud-View_All_My_Badges-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060)
-
-### ☁️ Microsoft Learn
-
-Azure and cloud fundamentals coursework:
-
-[![View My Microsoft Transcript](https://img.shields.io/badge/Microsoft_Learn-View_Transcript-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
+Blog: [Passing GCP ACE — exam notes](https://siosetech.github.io/siosetech/blog/gcp-ace-exam-notes/)
 
 ---
 
-## 📈 GitHub Stats
+## Docs
 
-Public `github-readme-stats` hosting is currently paused upstream, so dynamic cards are omitted here.
-
-- Profile: [@siosetech](https://github.com/siosetech)
-- Followers / activity: see the badges at the top of this README
-
----
-
-## 🌱 Current Learning Journey
-
-- ✅ **Google Cloud Associate Cloud Engineer (ACE)** — achieved
-- 📖 **OpenTelemetry Associate Certification** — collectors, processors, and exporters
-- 📖 **Datadog APM Associate Certification** — APM architecture, SLOs, IaC with Terraform provider
-- 🔬 **Hands-on Labs** — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab) and [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab); KodeKloud Engineer labs / hands-on practice
-- 📚 **Next focus** — Helm + Kustomization on the GitOps path
-
----
-
-## 🤝 Let's Connect
-
-I'm open to **collaborations**, **consulting engagements**, **architecture reviews**, and **speaking opportunities**.
-
-- 💼 **LinkedIn**: [linkedin.com/in/sioseforge](https://www.linkedin.com/in/sioseforge/)
-- 📧 **Email**: [fatih@siosetech.com](mailto:fatih@siosetech.com)
-- 🐙 **GitHub**: [@siosetech](https://github.com/siosetech)
-
-> 💡 Interested in cloud-native architecture, observability, or microservices? Let's talk!
-
----
-
-## 📚 Portfolio Docs
-
-| Document | Description |
-| :--- | :--- |
-| [PORTFOLIO.md](./PORTFOLIO.md) | Featured projects with detailed tech stacks and learnings |
-| [SKILLS.md](./SKILLS.md) | Comprehensive technical skills matrix |
-| [EXPERIENCE.md](./EXPERIENCE.md) | 15+ years career timeline and achievements |
-| [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) | Community, writing, open-source, and mentoring |
-
----
-
-<p align="center">
-  <i>⭐ If you find something useful, feel free to star a repository or reach out!</i>
-</p>
+[PORTFOLIO.md](./PORTFOLIO.md) · [SKILLS.md](./SKILLS.md) · [EXPERIENCE.md](./EXPERIENCE.md) · [CONTRIBUTIONS.md](./CONTRIBUTIONS.md)
