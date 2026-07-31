@@ -232,7 +232,7 @@ title: "Experience"
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Hands-on Labs</h3>
-<p style="font-size:0.9rem">Self-directed <a href="https://github.com/siosetech/spring-datadog-lab" target="_blank" rel="noopener">spring-datadog-lab</a> and <a href="https://github.com/siosetech/quarkus-datadog-lab" target="_blank" rel="noopener">quarkus-datadog-lab</a> — production-realistic APM integration labs. Also: KodeKloud Engineer labs / hands-on practice (Linux, Kubernetes, DevOps scenarios).</p>
+<p style="font-size:0.9rem">Self-directed <a href="https://github.com/siosetech/spring-datadog-lab" target="_blank" rel="noopener">spring-datadog-lab</a> and <a href="https://github.com/siosetech/quarkus-datadog-lab" target="_blank" rel="noopener">quarkus-datadog-lab</a> — production-realistic APM integration labs.</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Documentation</h3>

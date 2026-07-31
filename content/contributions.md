@@ -243,7 +243,7 @@ title: "Contributions"
 <li>Participant in cloud-native and Kubernetes community meetups</li>
 <li>Active follower and contributor to CNCF working group discussions</li>
 <li>Engaged in HashiCorp community forums (Terraform, Vault)</li>
-<li>Learning in public via GitHub repositories and documentation; KodeKloud Engineer labs / hands-on practice</li>
+<li>Learning in public via GitHub repositories and documentation</li>
 </ul>
 </div>
 </div>
@@ -382,13 +382,6 @@ title: "Contributions"
 <p>Public skill profile — observability, GitOps, and Kubernetes learning paths.</p>
 <span class="badge badge-blue">View Pluralsight Profile ↗</span>
 </a>
-<div class="contrib-card">
-<div class="contrib-card-header">
-<h4>KodeKloud Engineer</h4>
-</div>
-<p>KodeKloud Engineer labs / hands-on practice — real-world Linux, Kubernetes, and DevOps scenarios on live systems.</p>
-<span class="badge badge-blue">Hands-on practice</span>
-</div>
 </div>
 </div>
 </section>
