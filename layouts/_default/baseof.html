@@ -6,11 +6,26 @@
   <meta name="description" content="Fatih Şahin — Software Architect | Cloud-Native Systems | 15+ Years Experience. Portfolio showcasing expertise in Java, Kubernetes, OpenTelemetry, Datadog, and cloud-native architecture."/>
   <meta name="keywords" content="Software Architect, Cloud-Native, Kubernetes, OpenTelemetry, Datadog, Spring Boot, Quarkus, Java, Terraform, DevOps"/>
   <meta name="author" content="Fatih Şahin"/>
-  <meta property="og:title" content="Fatih Şahin — Software Architect Portfolio"/>
-  <meta property="og:description" content="15+ years building scalable, observable cloud-native distributed systems."/>
+  {{- $ogTitle := cond .IsHome "Fatih Şahin — Software Architect Portfolio" (printf "%s · Fatih Şahin — Software Architect" .Title) -}}
+  {{- $ogDesc := "15+ years building scalable, observable cloud-native distributed systems." -}}
+  {{- $ogImage := absURL "assets/img/og-image.png" -}}
+  <link rel="canonical" href="{{ .Permalink }}"/>
+  <meta property="og:site_name" content="Fatih Şahin"/>
+  <meta property="og:locale" content="en_US"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ "" | absURL }}"/>
+  <meta property="og:title" content="{{ $ogTitle }}"/>
+  <meta property="og:description" content="{{ $ogDesc }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:image" content="{{ $ogImage }}"/>
+  <meta property="og:image:type" content="image/png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="Fatih Şahin — Software Architect · Cloud-Native Systems"/>
   <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="{{ $ogTitle }}"/>
+  <meta name="twitter:description" content="{{ $ogDesc }}"/>
+  <meta name="twitter:image" content="{{ $ogImage }}"/>
+  <meta name="twitter:image:alt" content="Fatih Şahin — Software Architect · Cloud-Native Systems"/>
   <title>{{ if .Title }}{{ .Title }} · {{ end }}Fatih Şahin — Software Architect</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>

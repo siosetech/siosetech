@@ -17,7 +17,9 @@ title: "Portfolio"
 <button class="filter-btn active" data-filter="all">All Projects</button>
 <button class="filter-btn" data-filter="observability">Observability</button>
 <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+<!-- HIDDEN with cgoa-labs / capa-labs. Restore together.
 <button class="filter-btn" data-filter="gitops">GitOps</button>
+-->
 </div>
 </div>
 </section>
@@ -130,7 +132,7 @@ title: "Portfolio"
 </div>
 </article>
 
-<!-- azure-dev-labs -->
+<!-- HIDDEN until the repo is public. Remove this comment wrapper to restore the card. (azure-dev-labs)
 <article class="card" style="margin-bottom:2rem" data-category="infrastructure">
 <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
 <div style="flex:1;min-width:260px">
@@ -159,6 +161,7 @@ title: "Portfolio"
 </div>
 </div>
 </article>
+-->
 
 <!-- fleet-forge -->
 <article class="card" style="margin-bottom:2rem" data-category="infrastructure">
@@ -197,7 +200,7 @@ title: "Portfolio"
 </div>
 </article>
 
-<!-- cgoa-labs -->
+<!-- HIDDEN until the repo is public. Remove this comment wrapper to restore the card. (cgoa-labs, capa-labs)
 <article class="card" style="margin-bottom:2rem" data-category="gitops">
 <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
 <div style="flex:1;min-width:260px">
@@ -228,7 +231,7 @@ title: "Portfolio"
 </div>
 </article>
 
-<!-- capa-labs -->
+capa-labs
 <article class="card" style="margin-bottom:2rem" data-category="gitops">
 <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
 <div style="flex:1;min-width:260px">
@@ -258,6 +261,7 @@ title: "Portfolio"
 </div>
 </div>
 </article>
+-->
 
 <!-- Terraform Datadog IaC (part of spring-datadog-lab) -->
 <article class="card" data-category="observability">

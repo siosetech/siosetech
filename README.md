@@ -26,9 +26,12 @@ Software Architect with **15+ years** building production distributed systems. F
 | [**spring-datadog-lab**](https://github.com/siosetech/spring-datadog-lab) | Spring Boot APM: OpenTelemetry, Datadog agent, Terraform monitors/SLOs | Spring, OTel, Datadog, Terraform | Active |
 | [**quarkus-datadog-lab**](https://github.com/siosetech/quarkus-datadog-lab) | Quarkus-native observability with OTLP collector and Datadog APM | Quarkus, OTel, Datadog | Active |
 | **fleet-forge** | Multi-tenant logistics platform — GitOps, Vault, Keycloak | Spring, Kafka, Kubernetes | Private |
+
+<!-- HIDDEN until the repos are public. Restore these rows when they ship.
 | **cgoa-labs** | GitOps Associate (CGOA) labs — Flux, GitLab CI | Flux, Kubernetes | Coming soon |
 | **capa-labs** | Argo Project Associate (CAPA) labs — CD, Workflows, Rollouts | Argo, Helm, Kubernetes | Coming soon |
 | **azure-dev-labs** | Azure cloud-native labs and reference implementations | Azure, Kubernetes, Terraform | Coming soon |
+-->
 
 Details: [PORTFOLIO.md](./PORTFOLIO.md)
 

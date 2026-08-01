@@ -90,15 +90,15 @@ A companion lab to `spring-datadog-lab` focused on the Quarkus ecosystem. Demons
 
 ---
 
-### 3. azure-dev-labs
+<!-- HIDDEN until the repo is public. Restore this section when it ships.
+
+### azure-dev-labs
 
 > **Azure-focused cloud-native labs and reference implementations across platform, DevOps, and infrastructure patterns.**
 
-[![Repository](https://img.shields.io/badge/GitHub-azure--dev--labs-181717?style=for-the-badge&logo=github)](https://github.com/siosetech/azure-dev-labs)
-
 **Description**
 
-A dedicated repository for Azure-centric experiments and implementation guides, including Kubernetes operations, infrastructure automation, and platform engineering scenarios. The repository is currently private and planned to be opened publicly.
+A dedicated repository for Azure-centric experiments and implementation guides, including Kubernetes operations, infrastructure automation, and platform engineering scenarios.
 
 **Focus Areas**
 
@@ -107,9 +107,9 @@ A dedicated repository for Azure-centric experiments and implementation guides, 
 - Terraform-based infrastructure provisioning
 - DevOps workflows and deployment automation
 
----
+-->
 
-### 4. fleet-forge
+### 3. fleet-forge
 
 > **Multi-tenant logistics and delivery platform with event-driven microservices, Vault/Keycloak security, and GitOps deployment model.**
 
@@ -145,7 +145,7 @@ A dedicated repository for Azure-centric experiments and implementation guides, 
 
 ## 🏗️ Architecture & Platform Projects
 
-### 5. Multi-Tenant Platform (Enterprise)
+### 4. Multi-Tenant Platform (Enterprise)
 
 **Description**
 
@@ -174,7 +174,7 @@ Designed and implemented a multi-tenant SaaS platform serving multiple enterpris
 
 ---
 
-### 6. Infrastructure as Code (IaC) Library
+### 5. Infrastructure as Code (IaC) Library
 
 **Description**
 
@@ -199,7 +199,7 @@ Reusable Terraform modules and Helm charts for cloud-native deployments across G
 
 ---
 
-### 7. Observability Stack Bootstrap
+### 6. Observability Stack Bootstrap
 
 **Description**
 

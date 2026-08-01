@@ -160,6 +160,7 @@ title: "Contributions"
 <a href="https://github.com/siosetech/quarkus-datadog-lab" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub ↗</a>
 </div>
 </div>
+<!-- HIDDEN until the repo is public. Remove this comment wrapper to restore the card. (azure-dev-labs, cgoa-labs, capa-labs)
 <div class="contrib-card">
 <div class="contrib-card-header">
 <h4>azure-dev-labs</h4>
@@ -193,6 +194,7 @@ title: "Contributions"
 <span class="tag">Kubernetes</span>
 </div>
 </div>
+-->
 <div class="contrib-card">
 <div class="contrib-card-header">
 <h4>siosetech (Portfolio)</h4>
@@ -406,7 +408,7 @@ title: "Contributions"
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">GitOps Path</h3>
-<p>Deepen Helm + Kustomization workflows; public release of cgoa-labs (Flux) and capa-labs (Argo) on the GitOps path.</p>
+<p>Deepen Helm and Kustomize workflows, then take the GitOps path (Flux, Argo) from private practice into public labs.</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Speaking</h3>
