@@ -264,8 +264,8 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="stat-lbl">Services traced end-to-end</div>
 </div>
 <div class="stat-card">
-<div class="stat-num">4</div>
-<div class="stat-lbl">Partner functions: Net · Ops · DevOps · DBA</div>
+<div class="stat-num">5</div>
+<div class="stat-lbl">Partner functions: Net · Ops · DevOps · DBA · Security</div>
 </div>
 <div class="stat-card">
 <div class="stat-num">40%+</div>

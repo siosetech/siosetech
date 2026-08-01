@@ -62,7 +62,7 @@
 - Built Terraform modules for multi-cloud infrastructure provisioning
 - Introduced HashiCorp Vault for secrets management (no more static credentials)
 - Set up Prometheus + Grafana monitoring stacks across cloud environments
-- Collaborated with Network, Ops, DevOps, and DBA; paired with teammates on delivery
+- Collaborated with Network, Ops / SysAdmin, DevOps, DBA, and Security; paired with teammates on delivery and incidents
 
 **Key Technologies:** Kubernetes, Helm, Kustomize, Terraform, HashiCorp Vault, ArgoCD, Prometheus, Grafana, GKE, GitHub Actions
 
@@ -113,7 +113,7 @@
 
 - Created reusable Terraform module library adopted by multiple teams
 - Authored comprehensive certification study guides (OpenTelemetry, Datadog, Spring vs Quarkus)
-- Paired with teammates and collaborated cross-functionally with Network, Ops, DevOps, and DBA
+- Paired with teammates; collaborated with Network, Ops / SysAdmin, DevOps, DBA, and Security on delivery and incidents
 
 ### Performance
 
