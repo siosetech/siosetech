@@ -161,7 +161,7 @@ title: "Experience"
 <ul>
 <li>Created reusable Terraform module library adopted by multiple teams</li>
 <li>Authored certification study guides (OTel, Datadog, Spring vs Quarkus)</li>
-<li>Mentored 10+ engineers on cloud-native patterns and modern Java development</li>
+<li>Paired with teammates and collaborated cross-functionally with Network, Ops, DevOps, and DBA</li>
 </ul>
 </div>
 <div class="achievement-card">
@@ -202,7 +202,7 @@ title: "Experience"
 <div class="industry-card">
 <h4>Enterprise / Consulting</h4>
 <div class="duration">3+ years</div>
-<p>Architecture reviews, migration strategy, mentoring</p>
+<p>Architecture reviews, migration strategy, cross-team delivery</p>
 </div>
 </div>
 </div>

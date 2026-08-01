@@ -62,7 +62,7 @@
 - Built Terraform modules for multi-cloud infrastructure provisioning
 - Introduced HashiCorp Vault for secrets management (no more static credentials)
 - Set up Prometheus + Grafana monitoring stacks across cloud environments
-- Mentored junior engineers on cloud-native patterns and Kubernetes operations
+- Collaborated with Network, Ops, DevOps, and DBA; paired with teammates on delivery
 
 **Key Technologies:** Kubernetes, Helm, Kustomize, Terraform, HashiCorp Vault, ArgoCD, Prometheus, Grafana, GKE, GitHub Actions
 
@@ -113,7 +113,7 @@
 
 - Created reusable Terraform module library adopted by multiple teams
 - Authored comprehensive certification study guides (OpenTelemetry, Datadog, Spring vs Quarkus)
-- Mentored 10+ engineers on cloud-native patterns, observability, and modern Java development
+- Paired with teammates and collaborated cross-functionally with Network, Ops, DevOps, and DBA
 
 ### Performance
 
@@ -142,7 +142,7 @@
 | **Financial Services** | 5+ years | High-availability, compliance, security, audit logging |
 | **Telecommunications** | 3+ years | High-throughput event streaming, network APIs |
 | **SaaS / Startups** | 4+ years | Speed-to-market, multi-tenancy, developer experience |
-| **Enterprise / Consulting** | 3+ years | Architecture reviews, migration strategy, mentoring |
+| **Enterprise / Consulting** | 3+ years | Architecture reviews, migration strategy, cross-team delivery |
 
 ---
 

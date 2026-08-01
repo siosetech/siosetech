@@ -5,7 +5,7 @@ title: "Contributions"
 <section class="page-hero" aria-labelledby="contrib-heading">
 <div class="container">
 <h1 id="contrib-heading">Contributions &amp; Community</h1>
-<p>Learning in public, sharing knowledge, and contributing to the cloud-native community through documentation, open-source, and mentoring.</p>
+<p>Learning in public, documentation, open-source labs, and day-to-day collaboration with teammates and partner teams.</p>
 </div>
 </section>
 
@@ -211,38 +211,36 @@ title: "Contributions"
 </div>
 </section>
 
-<!-- Mentoring -->
-<section class="section" aria-labelledby="mentoring-heading">
+<!-- Collaboration -->
+<section class="section" aria-labelledby="collab-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="mentoring-heading">Mentoring &amp; Knowledge Sharing</h2>
+<h2 id="collab-heading">Collaboration &amp; Pairing</h2>
 <div class="section-divider"></div>
+<p>As a Senior Java Developer — cross-functional delivery and peer pairing, not a formal mentoring role</p>
 </div>
 <div class="achievements-grid">
 <div class="achievement-card">
-<h4>Team Mentoring</h4>
+<h4>Cross-functional collaboration</h4>
 <ul>
-<li>Mentored 10+ engineers on cloud-native patterns (Kubernetes, Terraform, observability)</li>
-<li>Conducted internal architecture workshops on microservices and event-driven design</li>
-<li>Facilitated hands-on sessions on distributed tracing and OpenTelemetry instrumentation</li>
-<li>Code reviews focused on architecture: coupling, scalability, and operability</li>
+<li>Worked with Network, Operations, DevOps, and DBA teams on delivery and production issues</li>
+<li>Aligned application changes with connectivity, runtime, and data-store constraints</li>
+<li>Joined release and incident conversations as the Java / application counterpart</li>
 </ul>
 </div>
 <div class="achievement-card">
-<h4>Knowledge Sharing Practices</h4>
+<h4>Peer pairing</h4>
 <ul>
-<li>Authored Architecture Decision Records (ADRs) to document and communicate design choices</li>
-<li>Created reusable Terraform module libraries with embedded documentation and examples</li>
-<li>Produced "golden path" templates for new microservice bootstrapping</li>
-<li>Ran internal workshops on GitOps, Helm chart authoring, and Vault integration patterns</li>
+<li>Paired with teammates on design and day-to-day implementation</li>
+<li>Shared context through pair sessions and peer code review</li>
+<li>Helped unblock work as a senior IC — not as a mentor program owner</li>
 </ul>
 </div>
 <div class="achievement-card">
-<h4>Community Involvement</h4>
+<h4>Community</h4>
 <ul>
 <li>Participant in cloud-native and Kubernetes community meetups</li>
-<li>Active follower and contributor to CNCF working group discussions</li>
-<li>Engaged in HashiCorp community forums (Terraform, Vault)</li>
+<li>Follow CNCF and HashiCorp community discussions (Terraform, Vault)</li>
 <li>Learning in public via GitHub repositories and documentation</li>
 </ul>
 </div>
@@ -421,7 +419,7 @@ title: "Contributions"
 <section class="cta-section" aria-labelledby="contrib-cta">
 <div class="container">
 <h2 id="contrib-cta">Want to Collaborate or Connect?</h2>
-<p>I'm open to interesting technical discussions, mentoring, consulting, and community contributions.</p>
+<p>Open to technical discussions, consulting, and collaboration.</p>
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
 <a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>

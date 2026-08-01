@@ -74,31 +74,31 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 
 ---
 
-## 👥 Mentoring & Knowledge Sharing
+## Collaboration & Pairing
 
-### Team Mentoring
+As a Senior Java Developer — cross-functional delivery and peer pairing, not a formal mentoring role.
 
-- Mentored **10+ engineers** on cloud-native patterns (Kubernetes, Terraform, observability)
-- Conducted internal architecture workshops on microservices patterns and event-driven design
-- Led hands-on sessions on distributed tracing and OpenTelemetry instrumentation
-- Code review focused on architecture concerns: coupling, scalability, and operability
+### Cross-functional collaboration
 
-### Knowledge Sharing Practices
+- Worked with Network, Operations, DevOps, and DBA teams on delivery and production issues
+- Aligned application changes with connectivity, runtime, and data-store constraints
+- Joined release and incident conversations as the Java / application counterpart
 
-- Authored Architecture Decision Records (ADRs) to document and communicate design choices
-- Created reusable Terraform module libraries with embedded documentation and examples
-- Produced "golden path" templates for new microservice bootstrapping
-- Ran internal workshops on GitOps, Helm chart authoring, and Vault integration patterns
+### Peer pairing
+
+- Paired with teammates on design and day-to-day implementation
+- Shared context through pair sessions and peer code review
+- Helped unblock work as a senior IC — not as a mentor program owner
 
 ---
 
-## 🌐 Community Involvement
+## Community
 
 ### Tech Meetups & Events
 
 - Participant in cloud-native and Kubernetes community meetups
-- Active follower and contributor to CNCF working group discussions
-- Engaged in HashiCorp community forums (Terraform, Vault)
+- Follow CNCF and HashiCorp community discussions (Terraform, Vault)
+- Learning in public via GitHub repositories and documentation
 
 ### Platforms & Profiles
 
