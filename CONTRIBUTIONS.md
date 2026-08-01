@@ -76,7 +76,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 
 ## Collaboration & Pairing
 
-As a Senior Java Developer — cross-functional delivery and peer pairing, not a formal mentoring role.
+Cross-functional delivery and peer pairing as a Senior Java Developer.
 
 ### Cross-functional collaboration
 
@@ -88,7 +88,7 @@ As a Senior Java Developer — cross-functional delivery and peer pairing, not a
 
 - Paired with teammates on design and day-to-day implementation
 - Shared context through pair sessions and peer code review
-- Helped unblock work as a senior IC — not as a mentor program owner
+- Helped unblock day-to-day work with teammates
 
 ---
 

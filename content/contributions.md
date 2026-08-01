@@ -217,7 +217,7 @@ title: "Contributions"
 <div class="section-header">
 <h2 id="collab-heading">Collaboration &amp; Pairing</h2>
 <div class="section-divider"></div>
-<p>As a Senior Java Developer — cross-functional delivery and peer pairing, not a formal mentoring role</p>
+<p>Cross-functional delivery and peer pairing as a Senior Java Developer</p>
 </div>
 <div class="achievements-grid">
 <div class="achievement-card">
@@ -233,7 +233,7 @@ title: "Contributions"
 <ul>
 <li>Paired with teammates on design and day-to-day implementation</li>
 <li>Shared context through pair sessions and peer code review</li>
-<li>Helped unblock work as a senior IC — not as a mentor program owner</li>
+<li>Helped unblock day-to-day work with teammates</li>
 </ul>
 </div>
 <div class="achievement-card">
