@@ -1,6 +1,6 @@
 # 📅 Experience & Career Timeline
 
-> 15+ years of software engineering and architecture — from backend developer to cloud-native systems architect.
+> 15+ years of software engineering — from Enterprise Java developer to cloud-native systems architecture.
 
 ---
 
@@ -9,16 +9,15 @@
 ```
 2009 ─────────────────────────────────────────────────────────────── 2026
   │                                                                     │
-  ▼ Java Developer                                      Software Architect ▼
+  ▼ Enterprise Java Developer                          Cloud-Native Focus ▼
   │                                                                     │
-  ├─ Enterprise Java (J2EE / JEE)                                       │
-  ├─ SOA & Web Services (SOAP, REST)                                    │
-  ├─ Spring Framework adoption                                          │
-  ├─ First cloud deployments (AWS, GCP)                                 │
-  ├─ Microservices transition                                           │
-  ├─ Kubernetes & container orchestration                               │
-  ├─ Platform Engineering & multi-tenant SaaS                           │
-  └─ Cloud-native observability (OTel, Datadog, Prometheus) ───────────►
+  ├─ Enterprise Java (J2EE / JEE), OSS/BSS for telecom operators        │
+  ├─ SOA & web services (SOAP, REST), Spring Framework adoption         │
+  ├─ LMS and retail platforms, multi-tier architectures                 │
+  ├─ High-volume payment systems, legacy modernization                  │
+  ├─ Stream processing (Flink, Kafka, Elasticsearch)                    │
+  ├─ Identity and observability (Keycloak, Grafana)                     │
+  └─ Kubernetes, IaC, observability labs ─────────────────────────────►
 ```
 
 ---
@@ -27,98 +26,108 @@
 
 ### Phase 1 — Enterprise Java Developer (2009–2014)
 
-**Focus:** Backend development, enterprise integration, SOA
+**Focus:** OSS/BSS systems, telecom, enterprise integration
 
-- Built and maintained large-scale enterprise Java applications (J2EE / JEE)
+- Developed and tested software projects for major telecom operators across multiple countries
+- Worked on critical OSS and BSS support systems
+- Built large-scale enterprise Java applications using J2EE / JEE
 - Designed SOAP-based web services and REST APIs
-- Worked with Oracle, IBM WebSphere, and JBoss application servers
-- Introduced Spring Framework to reduce boilerplate and improve testability
-- Participated in Agile transformation (Scrum adoption across teams)
+- Worked with Oracle databases and enterprise application servers
 
-**Key Technologies:** Java EE, Spring MVC, JPA/Hibernate, Oracle DB, SOAP, REST, Maven, SVN → Git
+**Key Technologies:** Java EE, Spring, Hibernate, Oracle DB, SOAP, Maven
 
 ---
 
 ### Phase 2 — Senior Backend Engineer (2014–2018)
 
-**Focus:** RESTful API design, early cloud adoption, microservices foundations
+**Focus:** Learning management systems, retail management, full stack
 
-- Led migration from monolithic J2EE applications to Spring Boot microservices
-- Designed multi-tier API architectures with OAuth2 / OpenID Connect security
-- Introduced Docker containerisation for local development and CI pipelines
-- Built event-driven integrations using Apache Kafka
-- First hands-on experience with AWS (EC2, RDS, S3, SQS)
+- Developed large-scale Learning Management Systems for corporate academies
+- Led documentation and refactoring efforts to improve system maintainability
+- Contributed to the core development team for a major Retail Management System
+- Built multi-tier architectures, integrating an AngularJS frontend with REST/SOAP backends
 
-**Key Technologies:** Spring Boot 1.x/2.x, Docker, Apache Kafka, PostgreSQL, Redis, AWS, OAuth2/OIDC, GitHub
-
----
-
-### Phase 3 — Cloud & Platform Engineer (2018–2021)
-
-**Focus:** Cloud-native patterns, Kubernetes, infrastructure as code
-
-- Designed and deployed production Kubernetes clusters (GKE, EKS)
-- Implemented GitOps workflows using ArgoCD and Helm
-- Built Terraform modules for multi-cloud infrastructure provisioning
-- Introduced HashiCorp Vault for secrets management (no more static credentials)
-- Set up Prometheus + Grafana monitoring stacks across cloud environments
-- Collaborated with Network, Ops / SysAdmin, DevOps, DBA, and Security; paired with teammates on delivery and incidents
-
-**Key Technologies:** Kubernetes, Helm, Kustomize, Terraform, HashiCorp Vault, ArgoCD, Prometheus, Grafana, GKE, GitHub Actions
-
-**Certifications Earned:**
-- 🏆 HashiCorp Certified: Terraform Associate
-- 🏆 HashiCorp Certified: Vault Associate
+**Key Technologies:** Spring Framework, Hibernate JPA, Apache CXF, AngularJS, OSGi
 
 ---
 
-### Phase 4 — Software Architect (2021–Present)
+### Phase 3 — Software Architect & Senior Java Developer (2018–2024)
 
-**Focus:** Multi-tenant SaaS platforms, observability, identity, cloud-native architecture leadership
+**Focus:** High-volume payment systems, legacy modernization, stream processing
 
-- Architected multi-tenant SaaS platforms with strict data isolation and per-tenant configuration
-- Designed identity federation using Keycloak (OIDC/SAML) for enterprise SSO
-- Led observability strategy: OpenTelemetry instrumentation, distributed tracing, SLO management
-- Introduced Datadog APM for production observability with IaC-managed monitors and dashboards
-- Drove Quarkus adoption alongside Spring Boot for containerised, GraalVM-native microservices
-- Built platform engineering practices: internal developer platform, golden paths, policy-as-code
-- Earned 15+ Google Cloud Skill Badges (hands-on GCP expertise)
-- Pursuing OpenTelemetry Associate (OTEA) and Datadog APM Associate certifications
+- Contributed to the migration of acquiring systems from legacy architectures toward microservices
+- Developed enterprise ePayment platforms for major financial institutions
+- Upgraded core banking systems (Java 6 → 8, Spring 3 → 5) while they continued to process live traffic
+- Migrated web services from the end-of-life Axis 1.4 stack to Apache CXF 3.5.x, removing a known vulnerability class from the payment path
+- Modernised caching infrastructure by migrating from Infinispan to Redis 6
+- Implemented sensitive-data encryption pipelines using Spring Batch
+- Built log correlation and stream processing jobs using Apache Flink, Kafka, and Elasticsearch
+- Collaborated with Network, Operations / SysAdmin, DevOps, DBA, and Security teams on delivery and production incidents
 
-**Key Technologies:** Quarkus 3, Spring Boot 4, OpenTelemetry, Datadog, Kubernetes KCNA/KCSA, Keycloak, Vault, Terraform, GCP, ArgoCD
+**Key Technologies:** Java, Spring Boot, Apache Flink, Kafka, Elasticsearch, Redis, Spring Batch, Apache CXF
 
-**Certifications Earned:**
+---
+
+### Phase 4 — Cloud-Native Focus (2024–Present)
+
+**Focus:** Kubernetes, identity, observability, self-directed transition
+
+- Self-directed transition into cloud-native engineering — certifications, public labs, and selected contract contributions
+- Contributed to Keycloak-based authentication systems for secure, multi-tenant user management
+- Integrated identity management with Grafana via auth proxy to enable secure observability access
+- Applying Kubernetes application design and deployment concepts in hands-on scenarios
+- Building public observability labs (`spring-datadog-lab`, `quarkus-datadog-lab`)
+- Focus on security-aware application design and containerised workloads
+
+**Key Technologies:** Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana, ArgoCD
+
+**Certifications earned in this period:**
+
 - 🏆 Kubernetes and Cloud Native Associate (KCNA)
 - 🏆 Kubernetes and Cloud Native Security Associate (KCSA)
+- 🏆 HashiCorp Certified: Terraform Associate
+- 🏆 HashiCorp Certified: Vault Associate
+- 🏆 Google Cloud Associate Cloud Engineer (ACE)
 - ☁️ 15+ Google Cloud Skill Badges
-- 📜 Microsoft Azure Fundamentals (AZ-900, DP-900, SC-900)
 
 ---
 
 ## 🎯 Key Achievements
 
-### Architecture Leadership
+### Legacy Modernization & Risk Reduction
 
-- Designed a multi-tenant SaaS platform serving enterprise clients with zero-downtime tenant onboarding
-- Led architecture decision records (ADRs) process adoption — improved documentation and decision traceability
-- Reduced time-to-production for new microservices from weeks to days via internal platform tooling
+- Upgraded core banking systems from Java 6 to 8 and Spring 3 to 5 while they continued to process live traffic
+- Replaced the end-of-life Axis 1.4 SOAP stack with Apache CXF 3.5.x, removing a known vulnerability class from the payment path
+- Migrated caching infrastructure from Infinispan to Redis 6 on high-volume payment flows
 
-### Observability & Reliability
+### Data & Stream Processing
 
-- Established end-to-end distributed tracing across 20+ microservices using OpenTelemetry
-- Implemented SLO-based alerting that reduced MTTR by reducing noise and focusing on user-impacting issues
-- Built Terraform-managed Datadog monitors and dashboards, eliminating manual dashboard drift
+- Implemented sensitive-data encryption pipelines using Spring Batch
+- Built log correlation and stream processing jobs on Apache Flink, Kafka, and Elasticsearch
+- Optimised database queries and caching strategies for high-traffic endpoints
 
-### Developer Experience
+### Cross-Functional Delivery
 
-- Created reusable Terraform module library adopted by multiple teams
-- Authored comprehensive certification study guides (OpenTelemetry, Datadog, Spring vs Quarkus)
-- Paired with teammates; collaborated with Network, Ops / SysAdmin, DevOps, DBA, and Security on delivery and incidents
+- Worked with Network, Operations / SysAdmin, DevOps, DBA, and Security teams on delivery and production incidents
+- Aligned application changes with connectivity, runtime, data-store, and security constraints across those teams
+- Paired with teammates on design and peer code review
 
-### Performance
+### Self-Directed Labs (public repositories)
 
-- Migrated critical Java services to virtual threads (Project Loom) — 40%+ throughput improvement under load
-- Introduced GraalVM native compilation for latency-sensitive services — sub-100ms cold start
+- End-to-end OpenTelemetry instrumentation with an OTLP Collector pipeline into Datadog — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab)
+- Datadog monitors, dashboards, and SLOs managed as code with Terraform
+- GraalVM native builds with JVM vs native startup and memory benchmarks — [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab)
+- Certification study notes and technical write-ups on the [portfolio blog](https://siosetech.github.io/siosetech/blog/)
+
+---
+
+## 🌍 Industry Experience
+
+| Industry | Focus |
+| :--- | :--- |
+| **Financial Services** | High-availability payment systems, compliance, security, audit logging |
+| **Telecommunications** | OSS/BSS systems, enterprise integration, SOA |
+| **Corporate Learning / Retail** | Learning management systems, retail platforms, multi-tier architectures |
 
 ---
 
@@ -126,23 +135,10 @@
 
 | Type | Details |
 | :--- | :--- |
-| **Formal Education** | Computer Science / Software Engineering degree |
-| **Certifications** | KCNA, KCSA, Terraform Associate, Vault Associate (see README) |
-| **Cloud Training** | 15+ Google Cloud Skill Badges, Azure Fundamentals series |
-| **Hands-on Labs** | `spring-datadog-lab`, `quarkus-datadog-lab` (self-directed) |
-| **Documentation** | 10,000+ line certification study series authored |
-| **Community** | Tech meetups, architecture discussions, open-source contributions |
-
----
-
-## 🌍 Industry Experience
-
-| Industry | Duration | Focus |
-| :--- | :---: | :--- |
-| **Financial Services** | 5+ years | High-availability, compliance, security, audit logging |
-| **Telecommunications** | 3+ years | High-throughput event streaming, network APIs |
-| **SaaS / Startups** | 4+ years | Speed-to-market, multi-tenancy, developer experience |
-| **Enterprise / Consulting** | 3+ years | Architecture reviews, migration strategy, cross-team delivery |
+| **Certifications** | KCNA, KCSA, Terraform Associate, Vault Associate, GCP ACE — all verifiable, see [README](./README.md) |
+| **Cloud Training** | 15+ Google Cloud Skill Badges, Microsoft Azure fundamentals series |
+| **Hands-on Labs** | `spring-datadog-lab`, `quarkus-datadog-lab` (self-directed, public) |
+| **In Preparation** | OpenTelemetry Associate (OTEA), Datadog APM Associate, AZ-700, AZ-500 |
 
 ---
 

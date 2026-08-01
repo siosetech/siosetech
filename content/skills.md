@@ -540,8 +540,8 @@ title: "Skills"
 </div>
 <div class="skill-item">
 <span class="skill-name">Multi-Tenant SaaS</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="100%"></div></div>
-<span class="skill-level">Expert</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="80%"></div></div>
+<span class="skill-level">Advanced</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Cloud-Native (12-factor)</span>

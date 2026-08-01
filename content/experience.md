@@ -109,7 +109,7 @@ title: "Experience"
 <h3>Phase 4 — Software Architect (Cloud-Native Focus)</h3>
 <p class="phase-subtitle">Focus: Kubernetes, identity, observability, open-source (Sioseforge)</p>
 <ul>
-<li>Providing independent cloud-native software consulting and architecture services</li>
+<li>Self-directed transition into cloud-native engineering — certifications, public labs, and selected contract contributions</li>
 <li>Contributed to Keycloak-based authentication systems for secure, multi-tenant user management</li>
 <li>Integrated identity management with Grafana via auth proxy to enable secure observability access</li>
 <li>Applying Kubernetes application design and deployment concepts in hands-on scenarios</li>
@@ -141,35 +141,36 @@ title: "Experience"
 </div>
 <div class="achievements-grid">
 <div class="achievement-card">
-<h4>Architecture Leadership</h4>
+<h4>Legacy modernization &amp; risk reduction</h4>
+<p style="font-size:0.82rem;color:var(--text-muted);margin:-0.35rem 0 0.75rem">Regulated, high-volume payment infrastructure</p>
 <ul>
-<li>Designed a multi-tenant SaaS platform serving enterprise clients with zero-downtime tenant onboarding</li>
-<li>Led Architecture Decision Records (ADRs) process adoption — improved decision traceability</li>
-<li>Reduced time-to-production for new microservices from weeks to days via platform tooling</li>
+<li>Upgraded core banking systems from Java 6 to 8 and Spring 3 to 5 while they continued to process live traffic</li>
+<li>Replaced the end-of-life Axis 1.4 SOAP stack with Apache CXF 3.5.x, removing a known vulnerability class from the payment path</li>
+<li>Migrated caching infrastructure from Infinispan to Redis 6 on high-volume payment flows</li>
 </ul>
 </div>
 <div class="achievement-card">
-<h4>Observability &amp; Reliability</h4>
+<h4>Data &amp; stream processing</h4>
 <ul>
-<li>Established end-to-end distributed tracing across 20+ microservices using OpenTelemetry</li>
-<li>Implemented SLO-based alerting that reduced MTTR by focusing on user-impacting issues</li>
-<li>Built Terraform-managed Datadog monitors and dashboards, eliminating manual dashboard drift</li>
-</ul>
-</div>
-<div class="achievement-card">
-<h4>Developer Experience</h4>
-<ul>
-<li>Created reusable Terraform module library adopted by multiple teams</li>
-<li>Authored certification study guides (OTel, Datadog, Spring vs Quarkus)</li>
-<li>Paired with teammates; collaborated with Network, Ops / SysAdmin, DevOps, DBA, and Security on delivery and incidents</li>
-</ul>
-</div>
-<div class="achievement-card">
-<h4>Performance Wins</h4>
-<ul>
-<li>Migrated critical legacy services to Java 8+, paving the way for significant performance gains and long-term sustainability</li>
-<li>Resolved compliance and security issues by modernizing outdated frameworks (e.g., upgrading to secure web services)</li>
+<li>Implemented sensitive-data encryption pipelines using Spring Batch</li>
+<li>Built log correlation and stream processing jobs on Apache Flink, Kafka, and Elasticsearch</li>
 <li>Optimised database queries and caching strategies for high-traffic endpoints</li>
+</ul>
+</div>
+<div class="achievement-card">
+<h4>Cross-functional delivery</h4>
+<ul>
+<li>Worked with Network, Operations / SysAdmin, DevOps, DBA, and Security teams on delivery and production incidents</li>
+<li>Aligned application changes with connectivity, runtime, data-store, and security constraints across those teams</li>
+<li>Paired with teammates on design and peer code review</li>
+</ul>
+</div>
+<div class="achievement-card">
+<h4>Self-directed labs <span style="font-weight:400;color:var(--text-muted);font-size:0.85em">— public repositories</span></h4>
+<ul>
+<li>End-to-end OpenTelemetry instrumentation with an OTLP Collector pipeline into Datadog (<code>spring-datadog-lab</code>)</li>
+<li>Datadog monitors, dashboards, and SLOs managed as code with Terraform</li>
+<li>GraalVM native builds with JVM vs native startup and memory benchmarks (<code>quarkus-datadog-lab</code>)</li>
 </ul>
 </div>
 </div>

@@ -171,7 +171,7 @@
 | Event-Driven Architecture | ⭐⭐⭐⭐⭐ |
 | CQRS / Event Sourcing | ⭐⭐⭐⭐ |
 | Cloud-Native (12-factor) | ⭐⭐⭐⭐⭐ |
-| Multi-Tenant SaaS | ⭐⭐⭐⭐⭐ |
+| Multi-Tenant SaaS | ⭐⭐⭐⭐ |
 | Reactive Systems | ⭐⭐⭐⭐ |
 | Domain-Driven Design (DDD) | ⭐⭐⭐⭐ |
 | API Gateway / BFF | ⭐⭐⭐⭐⭐ |

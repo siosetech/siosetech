@@ -256,25 +256,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </section>
 
-<section class="section section-alt" aria-label="Selected outcomes">
-<div class="container">
-<div class="stats-row stats-row-compact">
-<div class="stat-card">
-<div class="stat-num">20+</div>
-<div class="stat-lbl">Services traced end-to-end</div>
-</div>
-<div class="stat-card">
-<div class="stat-num">5</div>
-<div class="stat-lbl">Partner functions: Net · Ops · DevOps · DBA · Security</div>
-</div>
-<div class="stat-card">
-<div class="stat-num">40%+</div>
-<div class="stat-lbl">Throughput gain with Loom</div>
-</div>
-</div>
-</div>
-</section>
-
 <section class="cta-section" aria-labelledby="cta-heading">
 <div class="container">
 <h2 id="cta-heading">Let's Build Something Together</h2>

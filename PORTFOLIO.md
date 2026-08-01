@@ -113,7 +113,7 @@ A dedicated repository for Azure-centric experiments and implementation guides, 
 
 > **Multi-tenant logistics and delivery platform with event-driven microservices, Vault/Keycloak security, and GitOps deployment model.**
 
-[![Repository](https://img.shields.io/badge/GitHub-fleet--forge-181717?style=for-the-badge&logo=github)](https://github.com/siosetech/fleet-forge)
+> _Repository is currently private._
 
 **Description**
 
@@ -143,87 +143,8 @@ A dedicated repository for Azure-centric experiments and implementation guides, 
 
 ---
 
-## 🏗️ Architecture & Platform Projects
-
-### 4. Multi-Tenant Platform (Enterprise)
-
-**Description**
-
-Designed and implemented a multi-tenant SaaS platform serving multiple enterprise clients with strict data isolation, per-tenant configuration, and horizontal scalability. Built on Kubernetes with Keycloak for identity, Vault for secrets, and custom tenant routing middleware.
-
-**Tech Stack**
-
-| Layer | Technology |
-| :--- | :--- |
-| Runtime | Kubernetes (GKE) |
-| Identity | Keycloak (OIDC / SAML) |
-| Secrets | HashiCorp Vault |
-| Cache | Redis Cluster |
-| Database | PostgreSQL (per-tenant schemas) |
-| Messaging | Apache Kafka |
-| IaC | Terraform + Helm |
-| Observability | Prometheus + Grafana + Jaeger |
-
-**Key Achievements**
-
-- ✅ Zero-downtime tenant onboarding
-- ✅ Per-tenant rate limiting and quota management
-- ✅ Keycloak realm-per-tenant with federation
-- ✅ Vault dynamic database credentials (no static passwords)
-- ✅ Kafka topic-per-tenant event streaming
-
----
-
-### 5. Infrastructure as Code (IaC) Library
-
-**Description**
-
-Reusable Terraform modules and Helm charts for cloud-native deployments across GCP, Azure, and on-prem Kubernetes clusters. Covers networking, identity, observability stack, and application bootstrapping.
-
-**Tech Stack**
-
-| Component | Technology |
-| :--- | :--- |
-| IaC | Terraform (modules + workspaces) |
-| Packaging | Helm 3 + Kustomize |
-| Cloud | GCP, Azure, AWS |
-| CI/CD | GitHub Actions, ArgoCD |
-| Security | OPA / Gatekeeper policies |
-
-**Key Achievements**
-
-- ✅ DRY module library (network, IAM, GKE, monitoring)
-- ✅ Environment parity (dev / staging / prod) with workspace isolation
-- ✅ Policy-as-code enforcement via OPA
-- ✅ Automated drift detection in CI
-
----
-
-### 6. Observability Stack Bootstrap
-
-**Description**
-
-A composable, GitOps-managed observability stack deploying Prometheus, Grafana, Loki, Tempo, and OpenTelemetry Collector via Helm and ArgoCD. Designed as a reference implementation for platform teams.
-
-**Tech Stack**
-
-| Component | Technology |
-| :--- | :--- |
-| Metrics | Prometheus + Alertmanager |
-| Dashboards | Grafana |
-| Logs | Loki + Promtail |
-| Traces | Tempo + Jaeger |
-| Collection | OpenTelemetry Collector |
-| GitOps | ArgoCD |
-
-**Key Achievements**
-
-- ✅ Single-command stack deployment
-- ✅ Pre-built dashboards for Spring Boot and Quarkus services
-- ✅ Auto-discovery of scrape targets via Prometheus operator
-- ✅ Trace-to-log correlation across all three pillars
-
----
+<!-- REMOVED: these three sections described platform work that is not backed by a repository
+     and overlapped with fleet-forge. Re-add only what ships publicly. -->
 
 ## 📚 Documentation Series (spring-datadog-lab)
 
