@@ -25,8 +25,8 @@ title: "Skills"
 <div class="skill-list">
 <div class="skill-item">
 <span class="skill-name">Java</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="100%"></div></div>
-<span class="skill-level">Expert · 15+ yrs</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="90%"></div></div>
+<span class="skill-level">Advanced · 15+ yrs</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Bash / Shell</span>
@@ -93,28 +93,28 @@ title: "Skills"
 <div class="skill-list">
 <div class="skill-item">
 <span class="skill-name">Spring Boot 4</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="100%"></div></div>
-<span class="skill-level">Expert</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="90%"></div></div>
+<span class="skill-level">Advanced · 10+ yrs</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Spring Security</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="90%"></div></div>
-<span class="skill-level">Expert</span>
-</div>
-<div class="skill-item">
-<span class="skill-name">Spring Data / JPA</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="90%"></div></div>
-<span class="skill-level">Expert</span>
-</div>
-<div class="skill-item">
-<span class="skill-name">Virtual Threads</span>
 <div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
 <span class="skill-level">Advanced</span>
 </div>
 <div class="skill-item">
-<span class="skill-name">WebFlux / Reactor</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="80%"></div></div>
+<span class="skill-name">Spring Data / JPA</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
 <span class="skill-level">Advanced</span>
+</div>
+<div class="skill-item">
+<span class="skill-name">Virtual Threads</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
+</div>
+<div class="skill-item">
+<span class="skill-name">WebFlux / Reactor</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 </div>
 </div>
@@ -308,28 +308,28 @@ title: "Skills"
 <div class="skill-list">
 <div class="skill-item">
 <span class="skill-name">Java SDK / Agent</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="90%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">OTel Collector</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">W3C Trace Context</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="90%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Sampling Strategies</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">OTLP (gRPC / HTTP)</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 </div>
 </div>
@@ -341,28 +341,28 @@ title: "Skills"
 <div class="skill-list">
 <div class="skill-item">
 <span class="skill-name">APM / Tracing</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Monitors / Alerts</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">SLOs</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Dashboards</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="80%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">Terraform Provider</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="85%"></div></div>
-<span class="skill-level">Advanced</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 </div>
 </div>
@@ -419,13 +419,13 @@ title: "Skills"
 <div class="skill-list">
 <div class="skill-item">
 <span class="skill-name">Keycloak</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="95%"></div></div>
-<span class="skill-level">Expert</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">OAuth2 / OIDC</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="95%"></div></div>
-<span class="skill-level">Expert</span>
+<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
+<span class="skill-level">Intermediate</span>
 </div>
 <div class="skill-item">
 <span class="skill-name">HashiCorp Vault</span>

@@ -36,7 +36,7 @@ Details: [PORTFOLIO.md](./PORTFOLIO.md)
 
 ## Skills
 
-![Java](https://img.shields.io/badge/Java-15%2B_Years-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-Advanced_15%2B_Years-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-Intermediate-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-Advanced-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
@@ -51,14 +51,14 @@ Details: [PORTFOLIO.md](./PORTFOLIO.md)
 ![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Vault](https://img.shields.io/badge/Vault-Associate_Certified-000000?style=flat-square&logo=vault&logoColor=white)
 
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Hands--on-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-APM_%26_IaC-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Intermediate-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-Intermediate-632CA6?style=flat-square&logo=datadog&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-Advanced-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-Advanced-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Advanced-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-Event_Streaming-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Keycloak](https://img.shields.io/badge/Keycloak-IAM_%26_SSO-4D9BF4?style=flat-square)
+![Keycloak](https://img.shields.io/badge/Keycloak-Intermediate-4D9BF4?style=flat-square)
 ![KCSA](https://img.shields.io/badge/KCSA-Certified-00A6CE?style=flat-square&logo=linux&logoColor=white)
 
 Full matrix: [SKILLS.md](./SKILLS.md)

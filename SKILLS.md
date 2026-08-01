@@ -8,7 +8,7 @@
 
 | Language | Level | Experience | Notes |
 | :--- | :---: | :---: | :--- |
-| **Java** | ⭐⭐⭐⭐⭐ Expert | 15+ years | Spring Boot 4, Quarkus 3, virtual threads, reactive |
+| **Java** | ⭐⭐⭐⭐ Advanced | 15+ years | Spring Boot 4, Quarkus 3, virtual threads, reactive |
 | **Go** | ⭐⭐⭐ Intermediate | 3 years | CLI tools, microservices, k8s operators |
 | **Python** | ⭐⭐⭐ Intermediate | 4 years | Automation, scripting, data pipelines |
 | **TypeScript** | ⭐⭐ Working | 2 years | Frontend tooling, Node.js backends |
@@ -83,6 +83,8 @@
 
 ### OpenTelemetry
 
+**Level:** Intermediate (hands-on labs + certification prep)
+
 | Area | Competency |
 | :--- | :--- |
 | **SDK** | Java SDK — spans, metrics, baggage, context propagation |
@@ -95,6 +97,8 @@
 | **Certification** | ![In Progress](https://img.shields.io/badge/OTEA-In_Progress-yellow?style=flat-square) |
 
 ### Datadog
+
+**Level:** Intermediate (APM labs + Terraform IaC practice)
 
 | Area | Competency |
 | :--- | :--- |
@@ -137,8 +141,8 @@
 
 | Technology / Concept | Level | Notes |
 | :--- | :---: | :--- |
-| **Keycloak** | ⭐⭐⭐⭐⭐ | OIDC, SAML, realm federation, custom extensions |
-| **OAuth2 / OIDC** | ⭐⭐⭐⭐⭐ | Authorization Code, Client Credentials, PKCE |
+| **Keycloak** | ⭐⭐⭐ | OIDC, SAML, realm federation, multi-tenant RBAC |
+| **OAuth2 / OIDC** | ⭐⭐⭐ | Authorization Code, Client Credentials, PKCE |
 | **HashiCorp Vault** | ⭐⭐⭐⭐⭐ | Dynamic secrets, PKI, transit encryption, K8s auth |
 | **Kubernetes Security** | ⭐⭐⭐⭐ | KCSA Certified — RBAC, PSP/PSA, network policies |
 | **OPA / Gatekeeper** | ⭐⭐⭐ | Policy-as-code, admission webhooks |

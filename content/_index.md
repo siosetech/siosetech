@@ -160,11 +160,11 @@ Designing scalable, secure, and observable distributed systems — from architec
 <div class="skills-overview-grid">
 <div class="skill-badge-card">
 <div class="name">Java / JVM</div>
-<div class="level">Expert · 15+ yrs</div>
+<div class="level">Advanced · 15+ yrs</div>
 </div>
 <div class="skill-badge-card">
 <div class="name">Spring Boot</div>
-<div class="level">Expert · 10+ yrs</div>
+<div class="level">Advanced · 10+ yrs</div>
 </div>
 <div class="skill-badge-card">
 <div class="name">Kubernetes</div>
@@ -172,11 +172,11 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="skill-badge-card">
 <div class="name">OpenTelemetry</div>
-<div class="level">Advanced</div>
+<div class="level">Intermediate</div>
 </div>
 <div class="skill-badge-card">
 <div class="name">Datadog APM</div>
-<div class="level">Advanced</div>
+<div class="level">Intermediate</div>
 </div>
 <div class="skill-badge-card">
 <div class="name">Terraform</div>
@@ -192,7 +192,7 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 <div class="skill-badge-card">
 <div class="name">Keycloak / OIDC</div>
-<div class="level">Expert</div>
+<div class="level">Intermediate</div>
 </div>
 </div>
 <div class="text-center" style="margin-top:2.5rem">
