@@ -261,7 +261,7 @@ title: "Contributions"
 <div class="cert-card-icon">☸️</div>
 <div class="cert-card-content">
 <h4>KCNA</h4>
-<p class="issuer">CNCF / Linux Foundation · 2024</p>
+<p class="issuer">CNCF / Linux Foundation · 2026</p>
 <a href="https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
@@ -269,7 +269,7 @@ title: "Contributions"
 <div class="cert-card-icon">🔐</div>
 <div class="cert-card-content">
 <h4>KCSA</h4>
-<p class="issuer">CNCF / Linux Foundation · 2024</p>
+<p class="issuer">CNCF / Linux Foundation · 2026</p>
 <a href="https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
@@ -277,7 +277,7 @@ title: "Contributions"
 <div class="cert-card-icon">🏗️</div>
 <div class="cert-card-content">
 <h4>Terraform Associate</h4>
-<p class="issuer">HashiCorp · 2023</p>
+<p class="issuer">HashiCorp · 2026</p>
 <a href="https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
@@ -285,7 +285,7 @@ title: "Contributions"
 <div class="cert-card-icon">🔑</div>
 <div class="cert-card-content">
 <h4>Vault Associate</h4>
-<p class="issuer">HashiCorp · 2023</p>
+<p class="issuer">HashiCorp · 2026</p>
 <a href="https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
@@ -293,7 +293,7 @@ title: "Contributions"
 <div class="cert-card-icon">☁️</div>
 <div class="cert-card-content">
 <h4>15+ Google Cloud Skill Badges</h4>
-<p class="issuer">Google Cloud · 2022–2024</p>
+<p class="issuer">Google Cloud · 2026</p>
 <a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" class="cert-status cert-achieved" target="_blank" rel="noopener">View Profile</a>
 </div>
 </div>

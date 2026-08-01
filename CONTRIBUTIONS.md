@@ -58,12 +58,13 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 
 | Certification | Provider | Year |
 | :--- | :--- | :---: |
-| KCNA | CNCF / Linux Foundation | 2024 |
-| KCSA | CNCF / Linux Foundation | 2024 |
-| Terraform Associate | HashiCorp | 2023 |
-| Vault Associate | HashiCorp | 2023 |
-| Azure Fundamentals (AZ-900, DP-900, SC-900) | Microsoft | 2023 |
-| 15+ Google Cloud Skill Badges | Google | 2022–2024 |
+| KCNA | CNCF / Linux Foundation | 2026 |
+| KCSA | CNCF / Linux Foundation | 2026 |
+| Terraform Associate | HashiCorp | 2026 |
+| Vault Associate | HashiCorp | 2026 |
+| Google Cloud Associate Cloud Engineer (ACE) | Google Cloud | 2026 |
+| Azure Fundamentals (AZ-900, DP-900, SC-900) | Microsoft | 2026 |
+| 15+ Google Cloud Skill Badges | Google | 2026 |
 
 ### Self-Directed Learning Projects
 
