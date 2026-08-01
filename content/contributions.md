@@ -223,9 +223,9 @@ title: "Contributions"
 <div class="achievement-card">
 <h4>Cross-functional collaboration</h4>
 <ul>
-<li>Worked with Network, Operations / System Admin, DevOps, DBA, and Security on delivery and production issues</li>
-<li>Aligned application changes with connectivity, runtime, data-store, and security constraints</li>
-<li>Joined incident and release work as the Java / application counterpart alongside Security and operations teams</li>
+<li>Worked with Network, Operations / System Admin, DevOps, DBA, and Security teams on delivery and production issues</li>
+<li>Aligned application changes with connectivity, runtime, data-store, and security constraints across those teams</li>
+<li>Joined incident and release work as the Java / application counterpart alongside Security and operations</li>
 </ul>
 </div>
 <div class="achievement-card">

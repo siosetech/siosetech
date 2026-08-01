@@ -80,9 +80,9 @@ Cross-functional delivery and peer pairing as a Senior Java Developer.
 
 ### Cross-functional collaboration
 
-- Worked with Network, Operations / System Admin, DevOps, DBA, and Security on delivery and production issues
-- Aligned application changes with connectivity, runtime, data-store, and security constraints
-- Joined incident and release work as the Java / application counterpart alongside Security and operations teams
+- Worked with Network, Operations / System Admin, DevOps, DBA, and Security teams on delivery and production issues
+- Aligned application changes with connectivity, runtime, data-store, and security constraints across those teams
+- Joined incident and release work as the Java / application counterpart alongside Security and operations
 
 ### Peer pairing
 
