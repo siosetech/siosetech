@@ -46,14 +46,6 @@
 | Security | Azure Security, Identity, Compliance | ⭐⭐⭐ |
 | AKS | Azure Kubernetes Service | ⭐⭐⭐ |
 
-### Amazon Web Services (AWS)
-
-| Service Area | Services | Level |
-| :--- | :--- | :---: |
-| Compute | EC2, ECS, EKS | ⭐⭐⭐ |
-| Networking | VPC, Route 53, ALB | ⭐⭐⭐ |
-| Data | RDS, S3, SQS | ⭐⭐⭐ |
-
 ---
 
 ## 🔧 Orchestration & Infrastructure
@@ -67,7 +59,6 @@
 | **Helm 3** | ⭐⭐⭐⭐ | Chart authoring, lifecycle hooks, OCI registry |
 | **Kustomize** | ⭐⭐⭐⭐ | Overlays, patches, environment management |
 | **ArgoCD** | ⭐⭐⭐⭐ | GitOps deployments, app-of-apps pattern |
-| **Istio / Linkerd** | ⭐⭐⭐ | mTLS, traffic management, observability sidecar |
 
 ### HashiCorp Stack
 
@@ -75,7 +66,6 @@
 | :--- | :---: | :---: |
 | **Terraform** | ⭐⭐⭐⭐⭐ | [![Terraform Associate](https://img.shields.io/badge/Terraform_Associate-Certified-844FBA?style=flat-square&logo=terraform)](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) |
 | **Vault** | ⭐⭐⭐⭐⭐ | [![Vault Associate](https://img.shields.io/badge/Vault_Associate-Certified-000000?style=flat-square&logo=vault)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
-| **Packer** | ⭐⭐⭐ | Image building, pipelines |
 
 ---
 
@@ -145,7 +135,6 @@
 | **OAuth2 / OIDC** | ⭐⭐⭐ | Authorization Code, Client Credentials, PKCE |
 | **HashiCorp Vault** | ⭐⭐⭐⭐⭐ | Dynamic secrets, PKI, transit encryption, K8s auth |
 | **Kubernetes Security** | ⭐⭐⭐⭐ | KCSA Certified — RBAC, PSP/PSA, network policies |
-| **OPA / Gatekeeper** | ⭐⭐⭐ | Policy-as-code, admission webhooks |
 | **mTLS** | ⭐⭐⭐⭐ | Service mesh, cert-manager, SPIFFE/SPIRE |
 
 ---
@@ -157,8 +146,7 @@
 | **GitHub Actions** | ⭐⭐⭐⭐⭐ | Workflows, custom actions, matrix builds, OIDC |
 | **Docker** | ⭐⭐⭐⭐⭐ | Multi-stage builds, Buildx, OCI images |
 | **ArgoCD** | ⭐⭐⭐⭐ | GitOps, app-of-apps, sync waves |
-| **Tekton** | ⭐⭐⭐ | Cloud-native CI pipelines on Kubernetes |
-| **Skaffold** | ⭐⭐⭐ | Local dev → K8s workflow |
+| **Skaffold** | ⭐⭐⭐ | Local dev → K8s workflow, used with Jib on GCP labs |
 | **Testcontainers** | ⭐⭐⭐⭐ | Integration testing with real dependencies |
 
 ---
@@ -175,7 +163,7 @@
 | Reactive Systems | ⭐⭐⭐⭐ |
 | Domain-Driven Design (DDD) | ⭐⭐⭐⭐ |
 | API Gateway / BFF | ⭐⭐⭐⭐⭐ |
-| Service Mesh | ⭐⭐⭐⭐ |
+| Service Mesh | ⭐⭐ |
 | Strangler Fig / Migration | ⭐⭐⭐⭐ |
 
 ---
@@ -184,7 +172,7 @@
 
 | Practice | Proficiency |
 | :--- | :---: |
-| SLI / SLO / Error Budgets | ⭐⭐⭐⭐⭐ |
+| SLI / SLO / Error Budgets | ⭐⭐⭐⭐ |
 | Incident Management | ⭐⭐⭐⭐ |
 | Capacity Planning | ⭐⭐⭐⭐ |
 | Chaos Engineering | ⭐⭐⭐ |

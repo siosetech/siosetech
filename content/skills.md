@@ -195,7 +195,7 @@ title: "Skills"
 <div class="skill-category">
 <div class="skill-category-header">
 <span class="skill-category-icon">🟦</span>
-<h3>Azure &amp; AWS</h3>
+<h3>Azure</h3>
 </div>
 <div class="skill-list">
 <div class="skill-item">
@@ -205,16 +205,6 @@ title: "Skills"
 </div>
 <div class="skill-item">
 <span class="skill-name">AKS</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
-<span class="skill-level">Intermediate</span>
-</div>
-<div class="skill-item">
-<span class="skill-name">AWS EC2 / EKS</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
-<span class="skill-level">Intermediate</span>
-</div>
-<div class="skill-item">
-<span class="skill-name">AWS RDS / S3 / SQS</span>
 <div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
 <span class="skill-level">Intermediate</span>
 </div>
@@ -258,11 +248,6 @@ title: "Skills"
 <div class="skill-bar-container"><div class="skill-bar" data-width="45%"></div></div>
 <span class="skill-level">Working</span>
 </div>
-<div class="skill-item">
-<span class="skill-name">Istio / Linkerd</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="65%"></div></div>
-<span class="skill-level">Intermediate</span>
-</div>
 </div>
 </div>
 <div class="skill-category">
@@ -280,11 +265,6 @@ title: "Skills"
 <span class="skill-name">Vault</span>
 <div class="skill-bar-container"><div class="skill-bar" data-width="95%"></div></div>
 <span class="skill-level">Associate Certified</span>
-</div>
-<div class="skill-item">
-<span class="skill-name">Packer</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
-<span class="skill-level">Intermediate</span>
 </div>
 </div>
 </div>
@@ -437,11 +417,6 @@ title: "Skills"
 <div class="skill-bar-container"><div class="skill-bar" data-width="80%"></div></div>
 <span class="skill-level">Advanced</span>
 </div>
-<div class="skill-item">
-<span class="skill-name">OPA / Gatekeeper</span>
-<div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
-<span class="skill-level">Intermediate</span>
-</div>
 </div>
 </div>
 <div class="skill-category">
@@ -504,7 +479,7 @@ title: "Skills"
 <span class="skill-level">Advanced</span>
 </div>
 <div class="skill-item">
-<span class="skill-name">Tekton / Skaffold</span>
+<span class="skill-name">Skaffold (with Jib)</span>
 <div class="skill-bar-container"><div class="skill-bar" data-width="60%"></div></div>
 <span class="skill-level">Intermediate</span>
 </div>
