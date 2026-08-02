@@ -65,14 +65,31 @@ Not exhaustive — just where I saw the most decision density:
 
 ### Compute
 
-- **Cloud Run** — request-driven, container, scale to zero
-- **GKE** — when you need Kubernetes control plane semantics (ACE stays associate-depth)
-- **GCE** — custom networking, persistent disks, sole control of the VM
-- Managed instance groups and basic autoscaling signals
+This is the densest decision area on the exam, so here is the table I actually studied from. ACE questions rarely name the product — they describe a constraint and expect you to map it.
+
+| Signal in the question | Pick | Why |
+|---|---|---|
+| "scales to zero", "pay per request", "container, but we don't want to run a cluster" | **Cloud Run** | Request-driven and fully managed; no node operations |
+| "we already run Kubernetes", "sidecars", "DaemonSet", "custom controllers" | **GKE** | You need control-plane semantics, not just containers |
+| "specific OS or kernel", "licensed software", "persistent disk", "control the host network" | **GCE** | The only option with full VM ownership |
+| "existing app, no containers, managed runtime, traffic splitting" | **App Engine** | Source deploy with versions and split traffic built in |
+
+Managed instance groups and autoscaling signals sit on top of the GCE row — know which signal (CPU, LB capacity, custom metric) fits which scenario.
+
 
 ### Storage and data
 
-- Cloud Storage: Standard / Nearline / Coldline / Archive — access frequency and cost trade-offs
+Cloud Storage classes are the other place a table beats prose. The trap is that the answer is usually driven by the **minimum storage duration** (early-deletion fee), not by access frequency alone:
+
+| Access pattern | Class | Minimum storage duration |
+|---|---|---|
+| Frequent, hot | Standard | none |
+| Roughly monthly | Nearline | 30 days |
+| Roughly quarterly | Coldline | 90 days |
+| Yearly, or compliance retention | Archive | 365 days |
+
+If a question says data is written once and read "maybe once a year, kept for seven years", Archive is right — and picking Coldline is the mistake the wording is fishing for.
+
 - Uniform bucket-level access vs ACLs (prefer IAM)
 - Cloud SQL: private IP, Cloud SQL Auth Proxy patterns at a high level
 
@@ -84,7 +101,7 @@ Not exhaustive — just where I saw the most decision density:
 
 ## How this fits the rest of the stack
 
-ACE sits next to credentials I already hold: **KCNA**, **KCSA**, **Terraform Associate**, **Vault Associate**. On the Google side it anchors project-level operations; on the Kubernetes side the next depth is Helm, then **CKA** / **CKS**, toward SRE and platform engineering — including Flux/Argo lab paths (`cgoa-labs` / `capa-labs`) as they become public.
+ACE sits next to credentials I already hold: **KCNA**, **KCSA**, **Terraform Associate**, **Vault Associate**. On the Google side it anchors project-level operations; on the Kubernetes side the next depth is Helm, then **CKA** / **CKS**, toward SRE and platform engineering.
 
 Terraform remains Intermediate in my own skills matrix on purpose: ACE does not make you an IaC expert. It makes you fluent in the platform you automate.
 
