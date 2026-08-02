@@ -10,7 +10,7 @@ Most writing about platform engineering comes from people who built the paved ro
 
 That work looked like this: upgrading core banking services from **Java 6 to 8** and **Spring 3 to 5** while they kept processing live traffic. Replacing an **Axis 1.4** SOAP stack — software that had been end-of-life for over a decade — with Apache CXF 3.5.x, because a known vulnerability class was sitting in the payment path. Moving caching from Infinispan to Redis 6 under high-volume flows.
 
-None of that was hard in the sense of clever. It was hard in the sense of **irreversible**.
+None of it was technically complex. What made it difficult was that none of it could be undone.
 
 ## Constraints, not preferences
 
@@ -32,7 +32,7 @@ This is the part greenfield platform posts miss. A paved road is not primarily a
 
 Concretely, the defaults that pay off are boring:
 
-- **Provisioning that is repeatable.** If environments drift, you cannot test a migration honestly — and an untested migration on live payment traffic is not a migration, it is a hope.
+- **Provisioning that is repeatable.** If environments drift, you cannot test a migration honestly — and an untested migration on live payment traffic is not a migration, it is a gamble.
 - **Secrets with a lifecycle.** Static credentials copied between config files are why "just rotate the key" becomes a quarter of work.
 - **A dependency you can actually replace.** If swapping a library means touching business logic in forty places, you will not swap it. You will defer it. See above.
 
