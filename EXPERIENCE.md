@@ -15,7 +15,7 @@
   ├─ SOA & web services (SOAP, REST), Spring Framework adoption         │
   ├─ LMS and retail platforms, multi-tier architectures                 │
   ├─ High-volume payment systems, legacy modernization                  │
-  ├─ Stream processing (Flink, Kafka, Elasticsearch)                    │
+  ├─ SIEM correlation & stream processing (Flink, Kafka, Elasticsearch) │
   ├─ Identity and observability (Keycloak, Grafana)                     │
   └─ Kubernetes, IaC, observability labs ─────────────────────────────►
 ```
@@ -61,7 +61,7 @@
 - Migrated web services from the end-of-life Axis 1.4 stack to Apache CXF 3.5.x, removing a known vulnerability class from the payment path
 - Modernised caching infrastructure by migrating from Infinispan to Redis 6
 - Implemented sensitive-data encryption pipelines using Spring Batch
-- Built log correlation and stream processing jobs using Apache Flink, Kafka, and Elasticsearch
+- Built SIEM event correlation and complex event processing pipelines on Apache Flink, Kafka, and Elasticsearch
 - Collaborated with Network, Operations / SysAdmin, DevOps, DBA, and Security teams on delivery and production incidents
 
 **Key Technologies:** Java, Spring Boot, Apache Flink, Kafka, Elasticsearch, Redis, Spring Batch, Apache CXF
@@ -103,7 +103,7 @@
 ### Data & Stream Processing
 
 - Implemented sensitive-data encryption pipelines using Spring Batch
-- Built log correlation and stream processing jobs on Apache Flink, Kafka, and Elasticsearch
+- Built SIEM event correlation and complex event processing pipelines on Apache Flink, Kafka, and Elasticsearch
 - Optimised database queries and caching strategies for high-traffic endpoints
 
 ### Cross-Functional Delivery

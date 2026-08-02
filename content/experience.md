@@ -93,7 +93,7 @@ title: "Experience"
 <li>Upgraded critical legacy banking systems (Java 6 to 8, Spring 3 to 5), migrating web services from vulnerable Axis 1.4 to Apache CXF 3.5.x</li>
 <li>Modernised caching infrastructure by migrating from Infinispan to Redis 6</li>
 <li>Implemented sensitive data encryption pipelines using Spring Batch</li>
-<li>Built log correlation and stream processing jobs using Apache Flink, Kafka, and Elasticsearch</li>
+<li>Built SIEM event correlation and complex event processing pipelines on Apache Flink, Kafka, and Elasticsearch</li>
 </ul>
 <div class="tech-stack-line">
 <strong>Key Technologies:</strong> Java, Spring Boot, Apache Flink, Kafka, Elasticsearch, Redis, Spring Batch, CXF
@@ -153,7 +153,7 @@ title: "Experience"
 <h4>Data &amp; stream processing</h4>
 <ul>
 <li>Implemented sensitive-data encryption pipelines using Spring Batch</li>
-<li>Built log correlation and stream processing jobs on Apache Flink, Kafka, and Elasticsearch</li>
+<li>Built SIEM event correlation and complex event processing pipelines on Apache Flink, Kafka, and Elasticsearch</li>
 <li>Optimised database queries and caching strategies for high-traffic endpoints</li>
 </ul>
 </div>

@@ -6,7 +6,7 @@ draft: false
 tags: ["Platform Engineering", "Observability"]
 ---
 
-Most writing about platform engineering comes from people who built the paved road. I spent six years on the other end of it — modernising payment systems where the road had never been paved.
+Most writing about platform engineering comes from people who built the paved road. I spent five years on the other end of it — modernising payment systems where the road had never been paved.
 
 That work looked like this: upgrading core banking services from **Java 6 to 8** and **Spring 3 to 5** while they kept processing live traffic. Replacing an **Axis 1.4** SOAP stack — software that had been end-of-life for over a decade — with Apache CXF 3.5.x, because a known vulnerability class was sitting in the payment path. Moving caching from Infinispan to Redis 6 under high-volume flows.
 
@@ -48,6 +48,6 @@ I keep that concrete in public labs: Spring Boot and Quarkus services instrument
 
 ## The part I did not expect
 
-Six years of removing other people's deferred decisions taught me more about platform design than building a greenfield system would have. When you inherit the consequences, you stop treating "we'll clean it up later" as a plan and start treating it as a forecast.
+Five years of removing other people's deferred decisions taught me more about platform design than building a greenfield system would have. When you inherit the consequences, you stop treating "we'll clean it up later" as a plan and start treating it as a forecast.
 
 The platform is not the tooling. It is the set of decisions a future engineer no longer has to make — and the set of choices they can still reverse.
