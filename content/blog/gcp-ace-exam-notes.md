@@ -1,6 +1,6 @@
 ---
 title: "Passing GCP Associate Cloud Engineer: what the exam actually tests"
-description: "A technical take on Google Cloud ACE — IAM least privilege, networking choices, compute trade-offs, and why Skills Boost labs alone are not enough."
+description: "IAM least privilege, networking choices, compute trade-offs — plus the ten weeks I lost to postponing an exam I was already ready for."
 date: 2026-07-30T22:00:00Z
 draft: false
 tags: ["Google Cloud", "Certification", "Cloud Engineering"]
@@ -9,6 +9,8 @@ tags: ["Google Cloud", "Certification", "Cloud Engineering"]
 I passed the **Google Cloud Associate Cloud Engineer (ACE)** exam. Credential: [Credly badge](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url).
 
 This is not a dump of exam questions. It is what I would tell another engineer who already knows cloud basics and wants to know where ACE is actually hard.
+
+Written the same afternoon, a couple of hours after the result came through, while the shape of the questions was still sharp.
 
 ## What ACE is really measuring
 
@@ -36,14 +38,25 @@ They are weaker at forcing this under time pressure:
 
 That second skill is what practice exams and scenario drills train.
 
-## Practice scores in the 70s
+## I planned to sit it in May. I sat it at the end of July.
 
-I postponed once. Practice scores sat in the 70s and reviewing felt repetitive. Two useful reframes:
+That is the most useful number in this post, so here it is in full.
 
-1. **Bored ≠ unprepared.** When the material feels familiar and you are tired of rereading the same IAM tables, that is often readiness, not failure.
-2. **Hard practice banks run hot.** I used **Tutorials Dojo** for pressure testing. A mid-70 there is not a prediction that you will scrape a pass on exam day — those sets are often calibrated tougher than the real exam.
+I booked for **15 May**, with early June as the absolute worst case. I took the exam on **30 July**. Three postponements got me there:
 
-For structured video review (when labs alone felt scattered), Vladimir Raykov’s GCP ACE course on Udemy was systematic enough to keep domains ordered.
+- **One was forced.** The remote-proctoring system check failed and the slot was gone. Nothing to learn from except the obvious: run the system check days in advance, not an hour before. It is the one failure mode that has nothing to do with how well you know IAM.
+- **Two were mine.** Practice scores sat in the 70s, review felt repetitive, and I decided I was not ready.
+
+I was ready. Two reframes I wish I had applied instead of rescheduling:
+
+1. **Bored is not the same as unprepared.** When the material feels familiar and you are tired of rereading the same IAM tables, that is usually readiness. Novelty is not the signal you think it is — by the end, nothing should feel new.
+2. **Hard practice banks run hot.** I worked through two **Tutorials Dojo** sets for pressure testing. A mid-70 there is not a forecast that you will scrape a pass on exam day; those sets are deliberately calibrated tougher than the real thing. I read mine as a warning when it was closer to a good sign.
+
+Here is the uncomfortable part: I can write "boredom is a go-signal" clearly enough to put it in a blog post, and I still postponed twice after recognising it. Knowing the heuristic and acting on it are separate skills. The gap between them cost me about ten weeks.
+
+If your practice scores have plateaued in the 70s on a hard bank and your review sessions have stopped teaching you anything, that is not a reason to reschedule. That is the exam telling you to book it.
+
+For structured video review, when labs alone felt scattered, Vladimir Raykov’s GCP ACE course on Udemy was systematic enough to keep the domains ordered.
 
 ## Domains I would prioritize in the last week
 
