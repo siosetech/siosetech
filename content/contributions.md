@@ -355,21 +355,7 @@ title: "Contributions"
 </div>
 <p>Learning transcript and cloud fundamentals coursework.</p>
 <span class="badge badge-blue">View Microsoft Transcript ↗</span>
+</a>
 </div>
 </div>
 </section>
-
-
-
-<section class="cta-section" aria-labelledby="contrib-cta">
-<div class="container">
-<h2 id="contrib-cta">Want to Collaborate or Connect?</h2>
-<p>Open to technical discussions, consulting, and collaboration.</p>
-<div class="cta-actions">
-<a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
-<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
-<a href="https://github.com/siosetech" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
-</div>
-</div>
-</section>
-
