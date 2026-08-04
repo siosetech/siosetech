@@ -106,14 +106,4 @@ Cross-functional delivery and peer pairing as a Senior Java Developer.
 
 ---
 
-## 💡 Future Plans
-
-- 📝 **Blog Series** — Write public articles on OTel and Datadog based on lab learnings
-- 🎤 **Speaking** — Share certification preparation journey and hands-on lab insights
-- 🔧 **Open Source** — Contribute to OpenTelemetry Java SDK and Collector
-- 📚 **More Labs** — Explore OTel with Golang, Python, and polyglot service scenarios
-- 🌍 **GitHub Pages** — Launch a portfolio site at `https://siosetech.github.io/siosetech/index.html`
-
----
-
 > 🔗 Back to [README.md](./README.md) | 📂 [PORTFOLIO.md](./PORTFOLIO.md) | 📊 [SKILLS.md](./SKILLS.md) | 📅 [EXPERIENCE.md](./EXPERIENCE.md)

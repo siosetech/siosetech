@@ -359,37 +359,7 @@ title: "Contributions"
 </div>
 </section>
 
-<!-- Future Plans -->
-<section class="section section-alt" aria-labelledby="future-heading">
-<div class="container">
-<div class="section-header">
-<h2 id="future-heading">Future Plans</h2>
-<div class="section-divider"></div>
-</div>
-<div class="card-grid">
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">📝 Blog Series</h3>
-<p>Write public articles on OTel and Datadog based on hands-on lab learnings — sharing certification preparation journey and practical insights.</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">🔧 Open Source Contributions</h3>
-<p>Contribute to OpenTelemetry Java SDK and Collector upstream projects. Share reusable instrumentation patterns and extensions.</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">📚 More Labs</h3>
-<p>Explore OTel with Golang, Python, and polyglot service scenarios. Build cross-language distributed tracing examples.</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">GitOps Path</h3>
-<p>Deepen Helm and Kustomize workflows, then take the GitOps path (Flux, Argo) from private practice into public labs.</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Speaking</h3>
-<p>Share certification preparation journey and hands-on lab insights at cloud-native and observability-focused events.</p>
-</div>
-</div>
-</div>
-</section>
+
 
 <section class="cta-section" aria-labelledby="contrib-cta">
 <div class="container">
