@@ -252,7 +252,6 @@ Designing scalable, secure, and observable distributed systems — from architec
 </div>
 </div>
 </div>
-<p class="certs-footnote">Also preparing: OpenTelemetry Associate (OTEA) and Datadog APM Associate.</p>
 </div>
 </section>
 

@@ -138,7 +138,6 @@
 | **Certifications** | KCNA, KCSA, Terraform Associate, Vault Associate, GCP ACE — all verifiable, see [README](./README.md) |
 | **Cloud Training** | 15+ Google Cloud Skill Badges, Microsoft Azure fundamentals series |
 | **Hands-on Labs** | `spring-datadog-lab`, `quarkus-datadog-lab` (self-directed, public) |
-| **In Preparation** | AZ-700, SC-300, OpenTelemetry Associate (OTEA), Datadog APM Associate |
 
 ---
 

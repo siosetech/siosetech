@@ -47,14 +47,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 
 ## 🎓 Continuous Learning
 
-### Active Certification Pursuits
-
-| Certification | Provider | Status | Preparation |
-| :--- | :--- | :---: | :--- |
-| **OpenTelemetry Associate (OTEA)** | CNCF | 🟡 In Progress | Hands-on labs + study guide authored |
-| **Datadog APM Associate** | Datadog | 🟡 In Progress | Lab projects + Terraform IaC practice |
-
-### Completed Certifications
+### Certifications
 
 | Certification | Provider | Year |
 | :--- | :--- | :---: |

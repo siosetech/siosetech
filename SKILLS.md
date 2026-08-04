@@ -84,7 +84,6 @@
 | **W3C Trace Context** | `traceparent`, `tracestate`, distributed propagation |
 | **Baggage** | Cross-service attribute propagation |
 | **Sampling** | AlwaysOn, ratio-based, tail sampling |
-| **Certification** | ![In Progress](https://img.shields.io/badge/OTEA-In_Progress-yellow?style=flat-square) |
 
 ### Datadog
 

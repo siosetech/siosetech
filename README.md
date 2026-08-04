@@ -78,10 +78,6 @@ Full matrix: [SKILLS.md](./SKILLS.md)
 | **Vault Associate** | HashiCorp | [![Vault](https://img.shields.io/badge/Vault_Associate-HashiCorp-000000?style=flat-square&logo=vault&logoColor=white)](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) |
 | **Google Cloud ACE** | Google Cloud | [![GCP ACE](https://img.shields.io/badge/GCP_ACE-Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url) |
 
-**Next (security + platform):** AZ-700 · SC-300 · then Helm / CKA path  
-
-Also preparing: OpenTelemetry Associate (OTEA), Datadog APM Associate  
-
 [Google Cloud Skill Badges (15+)](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) · [Microsoft Learn transcript](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
 
 Blog: [Passing GCP ACE — exam notes](https://siosetech.github.io/siosetech/blog/gcp-ace-exam-notes/)

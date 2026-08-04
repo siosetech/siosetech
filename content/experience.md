@@ -224,7 +224,6 @@ title: "Experience"
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Certifications</h3>
 <p style="font-size:0.9rem">KCNA, KCSA, Terraform Associate, Vault Associate, Google Cloud ACE</p>
-<p style="font-size:0.9rem"><em>In Progress:</em> OpenTelemetry Associate (OTEA), Datadog APM Associate</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Cloud Training</h3>

@@ -30,7 +30,6 @@ title: "Contributions"
 <span class="tag">OTel Collector</span>
 </div>
 <div class="contrib-stats">
-<div class="contrib-stat"><strong>OTEA</strong><span>cert prep</span></div>
 <div class="contrib-stat"><strong>Java</strong><span>instrumentation</span></div>
 </div>
 <div style="margin-top:1rem">
@@ -305,22 +304,6 @@ title: "Contributions"
 <a href="https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url" class="cert-status cert-achieved" target="_blank" rel="noopener">Verified</a>
 </div>
 </div>
-<div class="cert-card">
-<div class="cert-card-icon">🔭</div>
-<div class="cert-card-content">
-<h4>OpenTelemetry Associate (OTEA)</h4>
-<p class="issuer">CNCF · In Progress</p>
-<span class="cert-status cert-progress">Preparing</span>
-</div>
-</div>
-<div class="cert-card">
-<div class="cert-card-icon">🐕</div>
-<div class="cert-card-content">
-<h4>Datadog APM Associate</h4>
-<p class="issuer">Datadog · In Progress</p>
-<span class="cert-status cert-progress">Preparing</span>
-</div>
-</div>
 </div>
 </div>
 </section>
@@ -372,15 +355,6 @@ title: "Contributions"
 </div>
 <p>Learning transcript and cloud fundamentals coursework.</p>
 <span class="badge badge-blue">View Microsoft Transcript ↗</span>
-</a>
-<a href="https://app.pluralsight.com/profile/sioseforge" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
-<div class="contrib-card-header">
-<div class="contrib-card-icon">🎓</div>
-<h4>Pluralsight</h4>
-</div>
-<p>Public skill profile — observability, GitOps, and Kubernetes learning paths.</p>
-<span class="badge badge-blue">View Pluralsight Profile ↗</span>
-</a>
 </div>
 </div>
 </section>
