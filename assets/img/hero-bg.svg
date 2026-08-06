@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(37,99,235,0.3)"/>
+      <stop offset="100%" stop-color="rgba(37,99,235,0)"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="70%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="rgba(124,58,237,0.3)"/>
+      <stop offset="100%" stop-color="rgba(124,58,237,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#0d1b35"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <circle cx="240" cy="240" r="300" fill="url(#glow1)"/>
+  <circle cx="560" cy="360" r="300" fill="url(#glow2)"/>
+  <!-- decorative nodes -->
+  <circle cx="120" cy="80" r="4" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="680" cy="120" r="4" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="60" cy="500" r="4" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="740" cy="480" r="4" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="400" cy="560" r="4" fill="rgba(255,255,255,0.2)"/>
+  <line x1="120" y1="80" x2="680" y2="120" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="60" y1="500" x2="740" y2="480" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="120" y1="80" x2="60" y2="500" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="680" y1="120" x2="740" y2="480" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+</svg>
