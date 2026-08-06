@@ -1,10 +1,14 @@
 name: Deploy GitHub Pages
 
+# TEMP: deploy prebuilt ./public (local hugo --minify).
+# Restore Hugo build steps in CI when Actions queue/OIDC is stable again.
+
 on:
   push:
     branches:
       - main
     paths:
+      - 'public/**'
       - 'content/**'
       - 'layouts/**'
       - 'static/**'
@@ -20,7 +24,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -28,15 +32,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.164.0'
-          extended: true
-
-      - name: Build
-        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

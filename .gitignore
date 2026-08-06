@@ -1,5 +1,6 @@
 .idea/
 .junie/
-/public/
+# TEMP: track /public for Actions deploy until CI Hugo is restored
+# /public/
 /docs/
 .hugo_build.lock
