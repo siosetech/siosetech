@@ -25,7 +25,7 @@
     // Update all toggle button icons on the page
     document.querySelectorAll('.theme-toggle').forEach(function (btn) {
       btn.setAttribute('aria-label', theme === DARK ? 'Switch to light mode' : 'Switch to dark mode');
-      btn.innerHTML = theme === DARK ? '☀️' : '🌙';
+      btn.textContent = theme === DARK ? 'Light' : 'Dark';
       btn.title = theme === DARK ? 'Switch to light mode' : 'Switch to dark mode';
     });
   }

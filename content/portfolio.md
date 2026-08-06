@@ -5,8 +5,8 @@ title: "Portfolio"
 <!-- Page Hero -->
 <section class="page-hero" aria-labelledby="portfolio-heading">
 <div class="container">
-<h1 id="portfolio-heading">Project Portfolio</h1>
-<p>Hands-on labs, open-source work, and architecture showcases built over 15+ years of software engineering.</p>
+<h1 id="portfolio-heading">Portfolio</h1>
+<p>Labs and platforms — observability, multi-tenant delivery, and platform patterns.</p>
 </div>
 </section>
 
@@ -302,10 +302,10 @@ capa-labs
 <!-- CTA -->
 <section class="cta-section" aria-labelledby="portfolio-cta">
 <div class="container">
-<h2 id="portfolio-cta">Interested in Collaborating?</h2>
-<p>I'm always open to interesting architecture challenges, consulting work, and technical discussions.</p>
+<h2 id="portfolio-cta">Get in touch</h2>
+<p>Open to roles and collaboration.</p>
 <div class="cta-actions">
-<a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
+<a href="mailto:fatih@siosetech.com" class="btn btn-primary">Email</a>
 <a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
 </div>
 </div>

@@ -582,8 +582,7 @@ p:last-child {
 }
 
 .card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-2px);
+  box-shadow: var(--shadow);
 }
 
 .card-grid {
@@ -605,8 +604,7 @@ p:last-child {
 }
 
 .project-card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-3px);
+  box-shadow: var(--shadow);
 }
 
 .project-card-header {
@@ -857,6 +855,35 @@ p:last-child {
   color: var(--text-muted);
 }
 
+/* ---------- Skills compact list ---------- */
+.skills-compact {
+  list-style: none;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.skills-compact li {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.skills-compact li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.skills-compact strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 /* ---------- Credentials (compact) ---------- */
 .cred-list {
   list-style: none;
@@ -919,8 +946,7 @@ p:last-child {
 }
 
 .cert-card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-2px);
+  box-shadow: var(--shadow);
 }
 
 .cert-card-icon {
