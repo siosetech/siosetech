@@ -17,7 +17,7 @@
 
 ### 👨‍💻 About Me
 
-Software Architect with **15+ years** building production distributed systems. Focus: **Java** (Spring Boot, Quarkus), **Kubernetes**, **observability** (OpenTelemetry, Datadog), and platform foundations (**Terraform**, **Vault**, **Keycloak**).
+My technical focus revolves around **Java** (Spring Boot, Quarkus), **Kubernetes**, **observability** (OpenTelemetry, Datadog), and platform foundations (**Terraform**, **Vault**, **Keycloak**).
 
 **[Portfolio site](https://siosetech.github.io/siosetech/)** · [Projects](https://siosetech.github.io/siosetech/portfolio/) · [Skills](https://siosetech.github.io/siosetech/skills/) · [Experience](https://siosetech.github.io/siosetech/experience/) · [Contributions](https://siosetech.github.io/siosetech/contributions/) · [Blog](https://siosetech.github.io/siosetech/blog/)
 
@@ -49,12 +49,12 @@ Software Architect with **15+ years** building production distributed systems. F
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=siosetech&show_icons=true&theme=radical" alt="siosetech's GitHub stats" width="48%" />
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=siosetech&show_icons=true&theme=radical" alt="siosetech's GitHub stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=siosetech&theme=radical" alt="siosetech's Streak" width="48%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siosetech&layout=compact&theme=radical" alt="Top Languages" width="50%" />
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=siosetech&layout=compact&theme=radical" alt="Top Languages" width="50%" />
 </div>
 
 <br/>
