@@ -19,8 +19,6 @@
 
 My technical focus revolves around **Java** (Spring Boot, Quarkus), **Kubernetes**, **observability** (OpenTelemetry, Datadog), and platform foundations (**Terraform**, **Vault**, **Keycloak**).
 
-**[Portfolio site](https://siosetech.github.io/siosetech/)** · [Projects](https://siosetech.github.io/siosetech/portfolio/) · [Skills](https://siosetech.github.io/siosetech/skills/) · [Experience](https://siosetech.github.io/siosetech/experience/) · [Contributions](https://siosetech.github.io/siosetech/contributions/) · [Blog](https://siosetech.github.io/siosetech/blog/)
-
 ---
 
 ### 💻 Tech Stack
