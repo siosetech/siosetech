@@ -1,6 +1,6 @@
 .idea/
 .junie/
-# TEMP: track /public for Actions deploy until CI Hugo is restored
+# TEMP: prebuilt site until Actions Pages deploy is reliable
 # /public/
-/docs/
+# /docs/
 .hugo_build.lock
