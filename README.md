@@ -9,6 +9,8 @@
     <a href="https://siosetech.github.io/siosetech/"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
     <a href="https://github.com/siosetech"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   </p>
+
+  <img src="https://komarev.com/ghpvc/?username=siosetech&color=blue&style=flat-square&label=VISITORS" alt="Profile Views" />
 </div>
 
 ---
@@ -25,9 +27,18 @@ Software Architect with **15+ years** building production distributed systems. F
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,go,python,bash,gcp,azure,kubernetes,terraform,docker,postgres,kafka,vault&perline=15" />
+    <img src="https://skillicons.dev/icons?i=java,spring,go,python,bash,gcp,azure,kubernetes,terraform&perline=12" />
+    <br/>
+    <img src="https://skillicons.dev/icons?i=docker,linux,ubuntu,nginx,postgres,mysql,redis,kafka,rabbitmq&perline=12" />
   </a>
 </div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HashiCorp_Vault-000000?style=flat-square&logo=vault&logoColor=white" alt="Vault" />
+  <img src="https://img.shields.io/badge/Keycloak-4D9BF4?style=flat-square&logo=keycloak&logoColor=white" alt="Keycloak" />
+  <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" alt="Datadog" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
+</p>
 
 <p align="center">
   <i><a href="./SKILLS.md">View Full Skills Matrix</a></i>
@@ -44,6 +55,12 @@ Software Architect with **15+ years** building production distributed systems. F
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siosetech&layout=compact&theme=radical" alt="Top Languages" width="50%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
 </div>
 
 ---
