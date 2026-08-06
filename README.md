@@ -25,7 +25,7 @@ Software Architect with **15+ years** building production distributed systems. F
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,go,python,bash,gcp,azure,aws,kubernetes,terraform,docker,postgres,kafka&perline=15" />
+    <img src="https://skillicons.dev/icons?i=java,spring,go,python,bash,gcp,azure,kubernetes,terraform,docker,postgres,kafka,vault&perline=15" />
   </a>
 </div>
 
