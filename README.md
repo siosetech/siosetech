@@ -27,9 +27,9 @@ Software Architect with **15+ years** building production distributed systems. F
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,go,python,bash,gcp,azure,kubernetes,terraform&perline=12" />
+    <img src="https://skillicons.dev/icons?i=java,spring,go,python,bash,gcp,azure,kubernetes,terraform&perline=12" alt="Programming and Cloud Infrastructure Skills" />
     <br/>
-    <img src="https://skillicons.dev/icons?i=docker,linux,ubuntu,nginx,postgres,mysql,redis,kafka,rabbitmq&perline=12" />
+    <img src="https://skillicons.dev/icons?i=docker,linux,ubuntu,nginx,postgres,mysql,redis,kafka,rabbitmq&perline=12" alt="DevOps, Database and Messaging Skills" />
   </a>
 </div>
 
