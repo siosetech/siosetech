@@ -31,7 +31,7 @@ Java platforms, Kubernetes, observability, and the platform layer around them 鈥
 | [KCNA](https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url) 路 [KCSA](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) | Linux Foundation |
 | [Terraform Associate](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) 路 [Vault Associate](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) | HashiCorp |
 
-[15+ GCP Skill Badges](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) 路 [Microsoft Learn](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7)
+[15+ GCP Skill Badges](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) 路 [Microsoft Learn](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7)
 
 **Next:** AZ-700 路 SC-300 路 then AZ-500 / CKA path
 
