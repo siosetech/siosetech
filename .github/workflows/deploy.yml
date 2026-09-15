@@ -1,50 +1,89 @@
 name: Deploy GitHub Pages
 
-# TEMP: deploy prebuilt ./public (local hugo --minify).
-# Restore Hugo build steps in CI when Actions queue/OIDC is stable again.
+# Builds the Hugo site in CI and deploys it with GitHub Actions.
+# Pages source must be set to "GitHub Actions" (Settings → Pages).
+# public/ and docs/ are build output and are not committed.
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - 'public/**'
       - 'content/**'
       - 'layouts/**'
       - 'static/**'
-      - 'hugo.toml'
+      - 'assets/**'
       - 'archetypes/**'
+      - 'hugo.toml'
+      - '.github/workflows/deploy.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'layouts/**'
+      - 'static/**'
+      - 'assets/**'
+      - 'archetypes/**'
+      - 'hugo.toml'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
+# New group name: an orphaned run from Aug 2026 is still "queued" in the old "pages" group.
+# Deploys are never cancelled mid-flight (that is what left Pages stuck); PR builds are.
 concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  group: pages-deploy-${{ github.event_name == 'pull_request' && github.ref || 'main' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  HUGO_VERSION: 0.166.0
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          path: './public'
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+        run: hugo --gc --minify
+
+      - name: Sanity check
+        run: |
+          test -s public/index.html
+          test -s public/assets/css/style.css
+          if grep -rq "{{<" public --include='*.html'; then
+            echo "::error::Unrendered shortcode found in build output"; exit 1
+          fi
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./public
 
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

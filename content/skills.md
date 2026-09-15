@@ -38,7 +38,7 @@ title: "Skills"
 <li><strong>Terraform</strong> — Associate · Intermediate</li>
 <li><strong>HashiCorp Vault</strong> — Associate</li>
 <li><strong>Docker · Helm</strong> — Intermediate</li>
-<li><strong>Azure</strong> — Fundamentals / in progress (AZ-700 · SC-300)</li>
+<li><strong>Azure</strong> — Fundamentals · identity, security &amp; networking in progress (SC-300 · SC-500 · AZ-700)</li>
 <li><strong>AWS</strong> — Working knowledge</li>
 </ul>
 </div>

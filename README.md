@@ -4,7 +4,7 @@
 
 Java platforms, Kubernetes, observability, and the platform layer around them — Terraform, Vault, Keycloak. Cross-functional delivery with Network, Ops, DevOps, DBA, and Security.
 
-[Portfolio](https://siosetech.github.io/siosetech/) · [LinkedIn](https://www.linkedin.com/in/sioseforge/) · [Email](mailto:fatih@siosetech.com) · [Blog: GCP ACE notes](https://siosetech.github.io/siosetech/blog/gcp-ace-exam-notes/)
+[Portfolio](https://siosetech.github.io/siosetech/) · [LinkedIn](https://www.linkedin.com/in/siosetech/) · [Email](mailto:fatih@siosetech.com) · [Blog: GCP ACE notes](https://siosetech.github.io/siosetech/blog/gcp-ace-exam-notes/)
 
 ---
 
@@ -33,7 +33,7 @@ Java platforms, Kubernetes, observability, and the platform layer around them �
 
 [15+ GCP Skill Badges](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) · [Microsoft Learn](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7)
 
-**Next:** AZ-700 · SC-300 · then AZ-500 / CKA path
+**In progress:** SC-300 (Identity & Access Admin) · SC-500 (Cloud & AI Security Engineer) · AZ-700 (Azure Network Engineer) — then CKA
 
 ---
 

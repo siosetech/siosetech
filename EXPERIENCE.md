@@ -78,6 +78,7 @@
 - Applying Kubernetes application design and deployment concepts in hands-on scenarios
 - Building public observability labs (`spring-datadog-lab`, `quarkus-datadog-lab`)
 - Focus on security-aware application design and containerised workloads
+- Extending into Azure identity, security and networking — preparing SC-300, SC-500 and AZ-700
 
 **Key Technologies:** Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana, ArgoCD
 
@@ -89,6 +90,8 @@
 - 🏆 HashiCorp Certified: Vault Associate
 - 🏆 Google Cloud Associate Cloud Engineer (ACE)
 - ☁️ 15+ Google Cloud Skill Badges
+
+**In progress:** SC-300 · SC-500 · AZ-700 ([Microsoft Learn transcript](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7))
 
 ---
 

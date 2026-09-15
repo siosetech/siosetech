@@ -1,6 +1,7 @@
 .idea/
 .junie/
-# TEMP: prebuilt site until Actions Pages deploy is reliable
-# /public/
-# /docs/
+# Hugo build output — built and deployed by GitHub Actions
+/public/
+/docs/
+/resources/_gen/
 .hugo_build.lock

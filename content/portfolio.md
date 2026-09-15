@@ -306,7 +306,7 @@ capa-labs
 <p>Open to roles and collaboration.</p>
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">Email</a>
-<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+<a href="{{< param "linkedin_url" >}}" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
 </div>
 </div>
 </section>

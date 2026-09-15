@@ -316,13 +316,13 @@ title: "Contributions"
 <div class="section-divider"></div>
 </div>
 <div class="contrib-grid">
-<a href="https://www.linkedin.com/in/sioseforge/" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+<a href="{{< param "linkedin_url" >}}" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
 <div class="contrib-card-header">
 <div class="contrib-card-icon">💼</div>
 <h4>LinkedIn</h4>
 </div>
 <p>Professional network — connect for collaborations, consulting, and architecture discussions.</p>
-<span class="badge badge-blue">linkedin.com/in/sioseforge ↗</span>
+<span class="badge badge-blue">linkedin.com/in/siosetech ↗</span>
 </a>
 <a href="https://github.com/siosetech" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
 <div class="contrib-card-header">
@@ -348,12 +348,12 @@ title: "Contributions"
 <p>15+ Google Cloud Skill Badges across Compute, Networking, Data, Security, and AI/ML.</p>
 <span class="badge badge-blue">View Google Cloud Profile ↗</span>
 </a>
-<a href="https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+<a href="{{< param "microsoft_transcript_url" >}}" class="contrib-card" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
 <div class="contrib-card-header">
 <div class="contrib-card-icon">🪟</div>
 <h4>Microsoft Learn</h4>
 </div>
-<p>Learning transcript and cloud fundamentals coursework.</p>
+<p>Learning transcript — Azure networking, identity and security paths (SC-300 · SC-500 · AZ-700 in progress).</p>
 <span class="badge badge-blue">View Microsoft Transcript ↗</span>
 </a>
 </div>

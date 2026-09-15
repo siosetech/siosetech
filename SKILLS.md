@@ -20,7 +20,7 @@ Honest levels. Site: [skills page](https://siosetech.github.io/siosetech/skills/
 | Terraform | Associate · Intermediate |
 | Vault | Associate |
 | Docker · Helm | Intermediate |
-| Azure | Fundamentals · AZ-700 / SC-300 in progress |
+| Azure | Fundamentals · SC-300 / SC-500 / AZ-700 in progress |
 | AWS | Working knowledge |
 
 ## Observability & identity

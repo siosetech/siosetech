@@ -114,6 +114,7 @@ title: "Experience"
 <li>Integrated identity management with Grafana via auth proxy to enable secure observability access</li>
 <li>Applying Kubernetes application design and deployment concepts in hands-on scenarios</li>
 <li>Focus on security-aware application design and modern containerized workloads</li>
+<li>Extending into Azure identity, security and networking — preparing SC-300, SC-500 and AZ-700</li>
 </ul>
 <div class="tech-stack-line">
 <strong>Key Technologies:</strong> Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana, ArgoCD
@@ -252,7 +253,7 @@ title: "Experience"
 <p>15+ years of hands-on experience ready to help solve your toughest distributed systems problems.</p>
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
-<a href="https://www.linkedin.com/in/sioseforge/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+<a href="{{< param "linkedin_url" >}}" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
 <a href="{{< rel "skills/" >}}" class="btn btn-secondary">View Skills</a>
 </div>
 </div>

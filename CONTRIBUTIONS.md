@@ -98,10 +98,10 @@ Cross-functional delivery and peer pairing as a Senior Java Developer.
 
 | Platform | Profile |
 | :--- | :--- |
-| **LinkedIn** | [linkedin.com/in/sioseforge](https://www.linkedin.com/in/sioseforge/) |
+| **LinkedIn** | [linkedin.com/in/siosetech](https://www.linkedin.com/in/siosetech/) |
 | **GitHub** | [github.com/siosetech](https://github.com/siosetech) |
 | **Google Cloud Skills** | [View Profile](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) |
-| **Microsoft Learn** | [View Transcript](https://learn.microsoft.com/tr-tr/users/sioseforge/transcript/vnolcy590ro4zr7) |
+| **Microsoft Learn** | [View Transcript](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7) |
 | **Credly** | [View Badges](https://www.credly.com/users/siosetech.ffs) |
 
 ---
