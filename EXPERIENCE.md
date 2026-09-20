@@ -108,12 +108,11 @@
 - Aligned application changes with connectivity, runtime, data-store, and security constraints across those teams
 - Paired with teammates on design and peer code review
 
-### Self-Directed Labs (public repositories)
+### Observability (public repositories)
 
-- End-to-end OpenTelemetry instrumentation with an OTLP Collector pipeline into Datadog — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab)
-- Datadog monitors, dashboards, and SLOs managed as code with Terraform
-- GraalVM native builds with JVM vs native startup and memory benchmarks — [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab)
-- Certification study notes and technical write-ups on the [portfolio blog](https://siosetech.github.io/siosetech/blog/)
+- OpenTelemetry from Spring Boot into Datadog APM via an OTLP collector — [`spring-datadog-lab`](https://github.com/siosetech/spring-datadog-lab)
+- Datadog monitors, dashboards, and SLOs as Terraform
+- Quarkus GraalVM native vs JVM on the same APM path — [`quarkus-datadog-lab`](https://github.com/siosetech/quarkus-datadog-lab)
 
 ---
 
@@ -127,13 +126,12 @@
 
 ---
 
-## 🎓 Education & Continuous Learning
+## Education
 
 | Type | Details |
 | :--- | :--- |
-| **Certifications** | KCNA, KCSA, Terraform Associate, Vault Associate, GCP ACE — all verifiable, see [README](./README.md) |
-| **Cloud Training** | 15+ Google Cloud Skill Badges, Microsoft Azure fundamentals series |
-| **Hands-on Labs** | `spring-datadog-lab`, `quarkus-datadog-lab` (self-directed, public) |
+| **Degree** | BSc, Electrical & Electronics Engineering — Çukurova University |
+| **Certifications** | KCNA, KCSA, Terraform Associate, Vault Associate, GCP ACE — [Credly](https://www.credly.com/users/siosetech.ffs) |
 
 ---
 

@@ -164,11 +164,11 @@ title: "Experience"
 </ul>
 </div>
 <div class="achievement-card">
-<h4>Self-directed labs <span style="font-weight:400;color:var(--text-muted);font-size:0.85em">— public repositories</span></h4>
+<h4>Observability — public repos</h4>
 <ul>
-<li>End-to-end OpenTelemetry instrumentation with an OTLP Collector pipeline into Datadog (<code>spring-datadog-lab</code>)</li>
-<li>Datadog monitors, dashboards, and SLOs managed as code with Terraform</li>
-<li>GraalVM native builds with JVM vs native startup and memory benchmarks (<code>quarkus-datadog-lab</code>)</li>
+<li>OpenTelemetry from Spring Boot into Datadog APM via an OTLP collector (<code>spring-datadog-lab</code>)</li>
+<li>Datadog monitors, dashboards, and SLOs as Terraform</li>
+<li>Quarkus GraalVM native vs JVM startup and memory on the same APM path (<code>quarkus-datadog-lab</code>)</li>
 </ul>
 </div>
 </div>
@@ -207,38 +207,21 @@ title: "Experience"
 </div>
 </section>
 
-<!-- Education & Continuous Learning -->
 <section class="section" aria-labelledby="edu-heading">
 <div class="container">
 <div class="section-header">
-<h2 id="edu-heading">Education &amp; Continuous Learning</h2>
+<h2 id="edu-heading">Education</h2>
 <div class="section-divider"></div>
 </div>
 <div class="card-grid">
 <div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Formal Education</h3>
+<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Degree</h3>
 <p style="font-size:0.9rem">BSc, Electrical &amp; Electronics Engineering — Çukurova University</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Certifications</h3>
-<p style="font-size:0.9rem">KCNA, KCSA, Terraform Associate, Vault Associate, Google Cloud ACE</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Cloud Training</h3>
-<p style="font-size:0.9rem">15+ Google Cloud Skill Badges covering Compute, Networking, Data, Security, and AI/ML</p>
-<a href="https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060" target="_blank" rel="noopener" style="font-size:0.85rem">View Google Cloud Profile ↗</a>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Hands-on Labs</h3>
-<p style="font-size:0.9rem">Self-directed <a href="https://github.com/siosetech/spring-datadog-lab" target="_blank" rel="noopener">spring-datadog-lab</a> and <a href="https://github.com/siosetech/quarkus-datadog-lab" target="_blank" rel="noopener">quarkus-datadog-lab</a> — production-realistic APM integration labs.</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Documentation</h3>
-<p style="font-size:0.9rem">Certification study series covering OpenTelemetry fundamentals, Datadog integration, Spring vs Quarkus comparison, and test scenarios</p>
-</div>
-<div class="card">
-<h3 style="font-size:1.05rem;margin-bottom:0.75rem">Community</h3>
-<p style="font-size:0.9rem">Tech meetups, architecture discussions, CNCF community engagement, HashiCorp community forums</p>
+<p style="font-size:0.9rem">KCNA · KCSA · Terraform Associate · Vault Associate · Google Cloud ACE</p>
+<p style="font-size:0.85rem;margin-top:0.5rem"><a href="https://www.credly.com/users/siosetech.ffs" target="_blank" rel="noopener">Credly ↗</a></p>
 </div>
 </div>
 </div>
@@ -246,8 +229,8 @@ title: "Experience"
 
 <section class="cta-section" aria-labelledby="exp-cta">
 <div class="container">
-<h2 id="exp-cta">Let's Discuss Your Architecture Challenges</h2>
-<p>15+ years of hands-on experience ready to help solve your toughest distributed systems problems.</p>
+<h2 id="exp-cta">Get in touch</h2>
+<p>Senior Java — payments and backend.</p>
 <div class="cta-actions">
 <a href="mailto:fatih@siosetech.com" class="btn btn-primary">Get in Touch</a>
 <a href="{{< param "linkedin_url" >}}" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>

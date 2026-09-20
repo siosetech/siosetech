@@ -155,7 +155,7 @@ As part of the certification preparation work, a comprehensive documentation ser
 | `OPENTELEMETRY_FUNDAMENTALS.md` | Core OTel concepts, SDK, Collector architecture | ~2,000 |
 | `DATADOG_INTEGRATION.md` | APM, DogStatsD, OTLP, Terraform IaC, SLOs | ~900 |
 | `SPRING_vs_QUARKUS_OTEL.md` | Side-by-side framework comparison | ~1,800 |
-| `TEST_SCENARIOS_AND_VALIDATION.md` | Unit / integration / performance tests, exam scenarios | ~2,764 |
+| `TEST_SCENARIOS_AND_VALIDATION.md` | Unit, integration, and load tests | ~2,764 |
 
 ---
 

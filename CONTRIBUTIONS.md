@@ -1,21 +1,21 @@
-# 🤝 Contributions, Learning & Community
+# Contributions
 
-> Learning in public, sharing knowledge, and contributing to the cloud-native community.
+Public labs, write-ups, and delivery with partner teams.
 
 ---
 
 ## 📖 Documentation & Technical Writing
 
-### Certification Study Series (spring-datadog-lab)
+### Lab notes (spring-datadog-lab)
 
-A comprehensive, open-source study guide series for OpenTelemetry and Datadog APM certifications — produced as hands-on lab documentation inside the `spring-datadog-lab` repository.
+Notes from the OpenTelemetry and Datadog lab repos.
 
 | Document | Lines | Topics Covered |
 | :--- | ---: | :--- |
 | [**OPENTELEMETRY_FUNDAMENTALS.md**](https://github.com/siosetech/spring-datadog-lab/blob/main/docs/OPENTELEMETRY_FUNDAMENTALS.md) | ~2,000 | OTel SDK, Collector architecture, instrumentation, context propagation |
 | [**DATADOG_INTEGRATION.md**](https://github.com/siosetech/spring-datadog-lab/blob/main/docs/DATADOG_INTEGRATION.md) | ~900 | APM architecture, DogStatsD, OTLP, Terraform IaC, SLOs |
 | [**SPRING_vs_QUARKUS_OTEL.md**](https://github.com/siosetech/spring-datadog-lab/blob/main/docs/SPRING_vs_QUARKUS_OTEL.md) | ~1,800 | Framework comparison, virtual threads vs reactive, performance |
-| [**TEST_SCENARIOS_AND_VALIDATION.md**](https://github.com/siosetech/spring-datadog-lab/blob/main/docs/TEST_SCENARIOS_AND_VALIDATION.md) | ~2,764 | Unit/integration/performance tests, CI/CD, exam scenarios |
+| [**TEST_SCENARIOS_AND_VALIDATION.md**](https://github.com/siosetech/spring-datadog-lab/blob/main/docs/TEST_SCENARIOS_AND_VALIDATION.md) | ~2,764 | Unit, integration, and load tests |
 
 **Total:** ~7,464 lines of technical documentation with 150+ runnable code examples.
 
@@ -30,7 +30,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 - SLI / SLO monitoring with Terraform Datadog provider
 - Testcontainers-based integration tests for traces
 - k6 performance tests with sampling validation
-- 7 realistic certification exam practice scenarios with root-cause analysis
+- k6 load tests with sampling validation
 
 ---
 
@@ -45,9 +45,7 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 
 ---
 
-## 🎓 Continuous Learning
-
-### Certifications
+## Certifications
 
 | Certification | Provider | Year |
 | :--- | :--- | :---: |
@@ -56,15 +54,6 @@ A comprehensive, open-source study guide series for OpenTelemetry and Datadog AP
 | Terraform Associate | HashiCorp | 2026 |
 | Vault Associate | HashiCorp | 2026 |
 | Google Cloud Associate Cloud Engineer (ACE) | Google Cloud | 2026 |
-| Azure Fundamentals (AZ-900, DP-900, SC-900) | Microsoft | 2026 |
-| 15+ Google Cloud Skill Badges | Google | 2026 |
-
-### Self-Directed Learning Projects
-
-- **spring-datadog-lab** — Built from scratch as a production-realistic APM integration lab
-- **quarkus-datadog-lab** — Extended the Spring lab concepts to the Quarkus ecosystem
-- **OTel Collector Experiments** — Explored tail sampling, custom processors, and multi-backend routing
-- **Terraform Datadog Provider** — Automated monitor and dashboard lifecycle via IaC
 
 ---
 
@@ -86,22 +75,12 @@ Cross-functional delivery and peer pairing as a Senior Java Developer.
 
 ---
 
-## Community
-
-### Tech Meetups & Events
-
-- Participant in cloud-native and Kubernetes community meetups
-- Follow CNCF and HashiCorp community discussions (Terraform, Vault)
-- Learning in public via GitHub repositories and documentation
-
-### Platforms & Profiles
+## Profiles
 
 | Platform | Profile |
 | :--- | :--- |
 | **LinkedIn** | [linkedin.com/in/siosetech](https://www.linkedin.com/in/siosetech/) |
 | **GitHub** | [github.com/siosetech](https://github.com/siosetech) |
-| **Google Cloud Skills** | [View Profile](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) |
-| **Microsoft Learn** | [View Transcript](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7) |
 | **Credly** | [View Badges](https://www.credly.com/users/siosetech.ffs) |
 
 ---
