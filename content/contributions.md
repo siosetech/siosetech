@@ -353,7 +353,7 @@ title: "Contributions"
 <div class="contrib-card-icon">🪟</div>
 <h4>Microsoft Learn</h4>
 </div>
-<p>Learning transcript — Azure networking, identity and security paths (SC-300 · SC-500 · AZ-700 in progress).</p>
+<p>Microsoft Learn profile.</p>
 <span class="badge badge-blue">View Microsoft Transcript ↗</span>
 </a>
 </div>

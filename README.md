@@ -1,8 +1,8 @@
 # Fatih Şahin
 
-**Software Architect · Cloud-Native Systems · 15+ years**
+**Senior Java Developer · Payments · Backend · 15+ years**
 
-Java platforms, Kubernetes, observability, and the platform layer around them — Terraform, Vault, Keycloak. Cross-functional delivery with Network, Ops, DevOps, DBA, and Security.
+Enterprise Java — payment gateways, live-system upgrades. Kubernetes, Terraform, Vault and Keycloak where the work needed them.
 
 [Portfolio](https://siosetech.github.io/siosetech/) · [LinkedIn](https://www.linkedin.com/in/siosetech/) · [Email](mailto:fatih@siosetech.com) · [Blog: GCP ACE notes](https://siosetech.github.io/siosetech/blog/gcp-ace-exam-notes/)
 
@@ -30,8 +30,6 @@ Java platforms, Kubernetes, observability, and the platform layer around them �
 | [GCP ACE](https://www.credly.com/badges/107ab71c-44ee-4912-8499-9e3c8d165dce/public_url) | Google Cloud |
 | [KCNA](https://www.credly.com/badges/0bd97d70-9a88-4992-8324-ef5649b5bbd7/public_url) · [KCSA](https://www.credly.com/badges/ba527563-4239-4ee8-a81e-c0a385736587/public_url) | Linux Foundation |
 | [Terraform Associate](https://www.credly.com/badges/74a6acc9-87ed-4594-9657-b97495828a71/public_url) · [Vault Associate](https://www.credly.com/badges/bebecf80-5a36-46d9-b813-a9218db3a6c1/public_url) | HashiCorp |
-
-[15+ GCP Skill Badges](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) · [Microsoft Learn](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7)
 
 ---
 

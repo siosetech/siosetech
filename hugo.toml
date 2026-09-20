@@ -1,5 +1,5 @@
 baseURL = "https://siosetech.github.io/siosetech/"
-title = "Fatih Şahin — Software Architect Portfolio"
+title = "Fatih Şahin — Senior Java Developer"
 publishDir = "public"
 defaultContentLanguage = "en"
 
@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 
 [params]
   author = "Fatih Şahin"
-  description = "Fatih Şahin — Software Architect | Cloud-Native Systems | 15+ Years Experience."
+  description = "Fatih Şahin — Senior Java Developer. Payments, backend, 15+ years."
   linkedin_url = "https://www.linkedin.com/in/siosetech/"
   gcp_skills_url = "https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060"
   microsoft_transcript_url = "https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7"

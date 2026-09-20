@@ -5,7 +5,7 @@ title: "Experience"
 <section class="page-hero" aria-labelledby="exp-heading">
 <div class="container">
 <h1 id="exp-heading">Career Timeline</h1>
-<p>15+ years of software engineering and architecture — from Enterprise Java developer to Cloud-Native Systems Architect.</p>
+<p>15+ years on enterprise Java — telecom OSS/BSS, payments, then identity and observability on top of that stack.</p>
 </div>
 </section>
 
@@ -104,17 +104,14 @@ title: "Experience"
 <!-- Phase 4 -->
 <div class="timeline-item" role="listitem">
 <div class="timeline-dot current" aria-hidden="true"></div>
-<div class="timeline-date">2024 — Present</div>
+<div class="timeline-date">2024 — 2025</div>
 <div class="timeline-content">
-<h3>Phase 4 — Software Architect (Cloud-Native Focus)</h3>
-<p class="phase-subtitle">Focus: Kubernetes, identity, observability, open-source (Sioseforge)</p>
+<h3>Phase 4 — Identity, observability, delivery</h3>
+<p class="phase-subtitle">Geovision and labs — Keycloak, Grafana, OpenTelemetry</p>
 <ul>
-<li>Self-directed transition into cloud-native engineering — certifications, public labs, and selected contract contributions</li>
-<li>Contributed to Keycloak-based authentication systems for secure, multi-tenant user management</li>
-<li>Integrated identity management with Grafana via auth proxy to enable secure observability access</li>
-<li>Applying Kubernetes application design and deployment concepts in hands-on scenarios</li>
-<li>Focus on security-aware application design and modern containerized workloads</li>
-<li>Extending into Azure identity, security and networking — preparing SC-300, SC-500 and AZ-700</li>
+<li>Integrated Keycloak with Grafana through an auth proxy so multi-tenant users sign in centrally</li>
+<li>Public labs: Spring Boot and Quarkus exporting OpenTelemetry to Datadog APM; monitors as Terraform</li>
+<li>Kubernetes, Terraform and Vault on those same delivery paths</li>
 </ul>
 <div class="tech-stack-line">
 <strong>Key Technologies:</strong> Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana, ArgoCD
@@ -220,7 +217,7 @@ title: "Experience"
 <div class="card-grid">
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Formal Education</h3>
-<p style="font-size:0.9rem">Computer Science / Software Engineering degree</p>
+<p style="font-size:0.9rem">BSc, Electrical &amp; Electronics Engineering — Çukurova University</p>
 </div>
 <div class="card">
 <h3 style="font-size:1.05rem;margin-bottom:0.75rem">Certifications</h3>

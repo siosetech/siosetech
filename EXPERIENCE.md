@@ -68,30 +68,23 @@
 
 ---
 
-### Phase 4 — Cloud-Native Focus (2024–Present)
+### Phase 4 — Identity, observability, delivery (2024–2025)
 
-**Focus:** Kubernetes, identity, observability, self-directed transition
+**Focus:** Geovision and labs — Keycloak, Grafana, OpenTelemetry
 
-- Self-directed transition into cloud-native engineering — certifications, public labs, and selected contract contributions
-- Contributed to Keycloak-based authentication systems for secure, multi-tenant user management
-- Integrated identity management with Grafana via auth proxy to enable secure observability access
-- Applying Kubernetes application design and deployment concepts in hands-on scenarios
-- Building public observability labs (`spring-datadog-lab`, `quarkus-datadog-lab`)
-- Focus on security-aware application design and containerised workloads
-- Extending into Azure identity, security and networking — preparing SC-300, SC-500 and AZ-700
+- Integrated Keycloak with Grafana through an auth proxy for multi-tenant sign-in
+- Public labs: Spring Boot and Quarkus exporting OpenTelemetry to Datadog APM; monitors as Terraform
+- Kubernetes, Terraform and Vault on those delivery paths
 
-**Key Technologies:** Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana, ArgoCD
+**Key Technologies:** Kubernetes, Terraform, Keycloak, Spring Boot, OpenTelemetry, Datadog, Grafana
 
-**Certifications earned in this period:**
+**Certifications from this period:**
 
-- 🏆 Kubernetes and Cloud Native Associate (KCNA)
-- 🏆 Kubernetes and Cloud Native Security Associate (KCSA)
-- 🏆 HashiCorp Certified: Terraform Associate
-- 🏆 HashiCorp Certified: Vault Associate
-- 🏆 Google Cloud Associate Cloud Engineer (ACE)
-- ☁️ 15+ Google Cloud Skill Badges
-
-**In progress:** SC-300 · SC-500 · AZ-700 ([Microsoft Learn transcript](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7))
+- Kubernetes and Cloud Native Associate (KCNA)
+- Kubernetes and Cloud Native Security Associate (KCSA)
+- HashiCorp Certified: Terraform Associate
+- HashiCorp Certified: Vault Associate
+- Google Cloud Associate Cloud Engineer (ACE)
 
 ---
 
