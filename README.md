@@ -33,8 +33,6 @@ Java platforms, Kubernetes, observability, and the platform layer around them �
 
 [15+ GCP Skill Badges](https://www.skills.google/public_profiles/eadaba40-b8ee-428a-9ebf-0a49eb265060) · [Microsoft Learn](https://learn.microsoft.com/en-us/users/siosetech/transcript/vnolcy590ro4zr7)
 
-**In progress:** SC-300 (Identity & Access Admin) · SC-500 (Cloud & AI Security Engineer) · AZ-700 (Azure Network Engineer) — then CKA
-
 ---
 
 ### Projects
